@@ -6,18 +6,28 @@ source ("./UniprotIDMapping.R")
 ### Data Processing Functions ###
 ###
 
-formatResults <- function(results, dataType){
+formatResults <- function(results, dataType, spc){
   
   # name PhSite and Protein columns appropriately
   if (dataType != "Abundance"){
     results<- setnames(results, "Protein", "Site")
     results[, Protein := tstrsplit(Site, "_")[[1]]]
-    results[, gene := multiUniprots2multiGenes(results$Protein)]
-    results[, geneSite := multiUniprotSites2multiGeneSites(results$Site)] 
+    if (spc == "OTHER"){
+      results[, gene := Protein]
+      results[, geneSite := Site]
+    } else {
+      results[, gene := multiUniprots2multiGenes(results$Protein, species = spc)]
+      results[, geneSite := multiUniprotSites2multiGeneSites(results$Site, species = spc)] 
+    }
     results[, dataID := Site]
     results[, dataGene := geneSite]
   } else{
-    results[, gene := multiUniprots2multiGenes(results$Protein)]
+    if (spc == "OTHER"){
+      results[, gene := Protein]
+    } else {
+      results[, gene := multiUniprots2multiGenes(results$Protein, species = spc)]
+      
+    }
     results[, dataID := Protein]
     results[, dataGene :=  gene]
   }
@@ -38,19 +48,29 @@ threshResults <- function(results, pThresh, fcThresh){
   return(results)
 }
 
-formatIntensities <- function(intensities, dataType){
+formatIntensities <- function(intensities, dataType, spc){
   # Pull out replicate numbers
   intensities[, REPLICATE := tstrsplit(SUBJECT, split = "\\.")[[2]]]
   # Convert UPIDs to gene names
   if (dataType != "Abundance"){
     intensities<- setnames(intensities, "Protein", "Site")
     intensities[, Protein := tstrsplit(Site, "_")[[1]]]
-    intensities[, gene := multiUniprots2multiGenes(intensities$Protein)]
-    intensities[, geneSite := multiUniprotSites2multiGeneSites(intensities$Site)] 
+    if (spc == "OTHER"){
+      intensities[, gene := Protein]
+      intensities[, geneSite := ]
+    } else{
+      intensities[, gene := multiUniprots2multiGenes(intensities$Protein, species = spc)]
+      intensities[, geneSite := multiUniprotSites2multiGeneSites(intensities$Site, species = spc)] 
+    }
     intensities[, dataID := Site]
     intensities[, dataGene := geneSite]
   } else{
-    intensities[, gene := multiUniprots2multiGenes(intensities$Protein)]
+    if (spc == "OTHER"){
+      intensities[, gene := Protein]
+      
+    } else{
+      intensities[, gene := multiUniprots2multiGenes(intensities$Protein, species = spc)]
+    }
     intensities[, dataID := Protein]
     intensities[, dataGene :=  gene]
   }
@@ -118,7 +138,7 @@ threshResultsPlus <- function(results, intensities, pThresh, fcThresh){
 }  
 
 filterSigIntensities <- function(intensitiesMat, results){
-  return(intensities[rownames(intensities) %in%  results[!effectType %in% c("missing","notSig"), dataID],])
+  return(intensitiesMat[rownames(intensitiesMat) %in%  results[!effectType %in% c("missing","notSig"), dataID],])
 }
 
 

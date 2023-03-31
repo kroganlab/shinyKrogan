@@ -26,6 +26,8 @@ ui <- fluidPage(
                   fileInput("results", "Upload MSStats group comparison results file here."),
                   fileInput("intensities", "Upload MSStats protein level data file here."),
                   
+                  selectInput("species", "Select Species", c("HUMAN", "MOUSE", "RAT", "OTHER"), selected = "HUMAN"),
+                  
                   numericInput("fdr", 
                                label = "FDR adjusted p value threshold:",
                                min = 0, max = 1, value = 0.05, step = 0.01),
@@ -33,7 +35,7 @@ ui <- fluidPage(
                   numericInput("foldchange", 
                                label = "Absolute log2 fold change threshold:",
                                min = 0.001, max = 5, value = 1.0, step = 0.5),
-                  
+                
                   div(style="display:inline-block", colourInput("pcol", "Select positive color", "#DB4F4F")),
                   div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ),
                   div(style="display:inline-block",colourInput("ncol", "Select negative color", "#4E53D9")),
@@ -66,7 +68,7 @@ ui <- fluidPage(
                                        selectInput("selectMat", "Select normalization for heatmap:", 
                                                    c("Median Swept", "Normalized to Control", "No normalization"), selected = "Median Swept"),
                                        checkboxInput("hmcluster", "Order heatmap columns by hierarchical clustering?"),
-                                       checkboxInput("hmsignificant", "Exclude insignificant proteins/sites?"),
+                                       checkboxInput("hmsignificant", "Exclude insignificant proteins/sites from heatmap?"),
                                        checkboxInput("hmsample", "Render entire heatmap instead of randomly sampling 1000 rows? \n(this may take a few minutes depending on the size of your data)"),
                                        downloadButton("dlheatmap", "Download")
                               ))
@@ -126,7 +128,7 @@ server <- function(input, output) {
     if (is.null(inFile())){
       data.table(log2FC = c(0), adj.pvalue = c(0.99), posGROUP = c("Waiting For Input Data"), effectSign = c("notSig"))
     } else {
-      formatResults( fread(inFile()$datapath),  dataType())
+      formatResults( fread(inFile()$datapath),  dataType(), input$species)
     }
   })
   
@@ -144,7 +146,7 @@ server <- function(input, output) {
            "int.mat" =  matrix(rep(c(1,-1), 5000), nrow = 1000, ncol = 10, dimnames = list(rep(".Waiting For Input Data",1000),rep(".Waiting For Input Data",10))),
            "swept.mat" =  matrix(rep(c(1,-1), 5000), nrow = 1000, ncol = 10, dimnames = list(rep("Waiting For Input Data",1000),rep("Waiting For Input Data",10))))
     } else {
-      formatIntensities( fread(inFile2()$datapath), dataType())   #"$data" = intensities, "$int.mat" = intensity.mat, "$norm.mat" = normIntensity.mat, 
+      formatIntensities( fread(inFile2()$datapath), dataType(), input$species)   #"$data" = intensities, "$int.mat" = intensity.mat, "$norm.mat" = normIntensity.mat, 
       #"$swept.mat" = sweptIntensity.mat, "$ctlGroups" = c("ctl group names")
     }
   })

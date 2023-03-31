@@ -3,6 +3,7 @@ library(shinyWidgets)
 library(shinyjs)
 library(colourpicker)
 library (data.table)
+if (require(R.utils)){ warning("\nWARNING: R.utils is not installed. R.utils is required by data.table to read zipped files (ex. \".gz\" extensions).\n")}
 library (ComplexHeatmap)
 library (ggplot2)
 source("./helpers.R")

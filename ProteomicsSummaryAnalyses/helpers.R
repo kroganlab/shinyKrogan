@@ -57,7 +57,7 @@ formatIntensities <- function(intensities, dataType, spc){
     intensities[, Protein := tstrsplit(Site, "_")[[1]]]
     if (spc == "OTHER"){
       intensities[, gene := Protein]
-      intensities[, geneSite := ]
+      intensities[, geneSite := Site]
     } else{
       intensities[, gene := multiUniprots2multiGenes(intensities$Protein, species = spc)]
       intensities[, geneSite := multiUniprotSites2multiGeneSites(intensities$Site, species = spc)] 

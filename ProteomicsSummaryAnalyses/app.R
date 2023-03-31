@@ -66,7 +66,7 @@ ui <- fluidPage(
                                        selectInput("selectMat", "Select normalization for heatmap:", 
                                                    c("Median Swept", "Normalized to Control", "No normalization"), selected = "Median Swept"),
                                        checkboxInput("hmcluster", "Order heatmap columns by hierarchical clustering?"),
-                                       checkboxInput("hmsignificant", "Exclude insignificant proteins/sites heatmap?"),
+                                       checkboxInput("hmsignificant", "Exclude insignificant proteins/sites from heatmap?"),
                                        checkboxInput("hmsample", "Render entire heatmap instead of randomly sampling 1000 rows? \n(this may take a few minutes depending on the size of your data)"),
                                        downloadButton("dlheatmap", "Download")
                               ))

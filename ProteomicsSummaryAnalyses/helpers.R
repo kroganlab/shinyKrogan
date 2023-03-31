@@ -138,7 +138,7 @@ threshResultsPlus <- function(results, intensities, pThresh, fcThresh){
 }  
 
 filterSigIntensities <- function(intensitiesMat, results){
-  return(intensitiesMat[rownames(intensitiesMat) %in%  results[!effectType %in% c("missing","notSig"), dataID],])
+  return(intensitiesMat[rownames(intensitiesMat) %in%  results[!effectType %in% c("missing","notSig"), dataGene],])
 }
 
 
@@ -264,7 +264,7 @@ rowClusterWithNA <- function(mat, corr = FALSE, na.value = 0, ...){
 
 
 plotHeatmap <- function(mat, sampleSize, clusterBool){
-  if (!is.null(sampleSize) & nrow(mat) > sampleSize){
+  if (!is.null(sampleSize) && nrow(mat) > sampleSize){
     mat <- mat[sample(nrow(mat), sampleSize, replace = FALSE), ] 
   }
   showrn <- FALSE

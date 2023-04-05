@@ -23,11 +23,11 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel( id = "sidebar",
                   strong("Render and download a Volcano Plot, PCA Plot, Effect Summary Stacked Bar Chart, and Complex Heatmap from your MSStats output files."),
-                  
-                  hr(),
-                  h3("General Settings"),
+                  h3(""),
                   fileInput("results", "Upload MSStats group comparison results file here."),
                   fileInput("intensities", "Upload MSStats protein level data file here."),
+                  hr(),
+                  h3("General Settings"),
                   
                   textInput("experimentName", "Experiment/data name for figure title and download name."),
                   

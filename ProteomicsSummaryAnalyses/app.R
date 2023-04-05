@@ -1,9 +1,10 @@
 library(shiny)
 library(shinyWidgets)
 library(shinyjs)
+library(shinybrowser)
 library(colourpicker)
 library (data.table)
-if (require(R.utils)){ warning("\nWARNING: R.utils is not installed. R.utils is required by data.table to read zipped files (ex. \".gz\" extensions).\n")}
+if (!require(R.utils)){ warning("\nWARNING: R.utils is not installed. R.utils is required by data.table to read zipped files (ex. \".gz\" extensions).\n")}
 library (ComplexHeatmap)
 library (ggplot2)
 source("./helpers.R")
@@ -11,7 +12,8 @@ options(shiny.maxRequestSize = 1000 * 1024^2)
 
 
 ui <- fluidPage(
-  
+  shinybrowser::detect(),
+  "Window size:",
   useShinyjs(),
   tags$head(
     tags$style(HTML("hr {border-top: 1px solid #000000;}"))
@@ -27,6 +29,8 @@ ui <- fluidPage(
                   fileInput("results", "Upload MSStats group comparison results file here."),
                   fileInput("intensities", "Upload MSStats protein level data file here."),
                   
+                  textInput("experimentName", "Experiment/data name for figure title and download name."),
+                  
                   selectInput("species", "Select Species", c("HUMAN", "MOUSE", "RAT", "OTHER"), selected = "HUMAN"),
                   
                   numericInput("fdr", 
@@ -41,8 +45,6 @@ ui <- fluidPage(
                   div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ),
                   div(style="display:inline-block",colourInput("ncol", "Select negative color", "#4E53D9")),
                   div(style= "display:block", helpText(" ")),
-                  
-                  textInput("dlprepend", "Label for plot downloads."),
                   
                   hr(),
                   h3("Plot Settings"),
@@ -101,12 +103,31 @@ server <- function(input, output) {
       hideElement(selector = "#sidebar")
       removeCssClass("main", "col-sm-8")
       addCssClass("main", "col-sm-12")
-    }else{
+      }else{
       showElement(selector = "#sidebar")
       removeCssClass("main", "col-sm-12")
       addCssClass("main", "col-sm-8")
+      }
+  })
+  
+  
+  dimensionh <- reactive({
+    if (input$tglSide == T| is.null(input$tglSide) == T){
+      0.6 * shinybrowser::get_height()
+    } else{
+      0.9 * shinybrowser::get_height()
+    }
+      })
+  
+  dimensionw <-  reactive({
+    if (input$tglSide == T| is.null(input$tglSide) == T){
+      0.6 * shinybrowser::get_width()
+    } else{
+      0.9 * shinybrowser::get_width()
     }
   })
+  
+  
   
   # DATA PROCESSING
   inFile <- reactive({
@@ -122,6 +143,28 @@ server <- function(input, output) {
       "Abundance"
     } else{
       checkDataType(fread(inFile()$datapath))
+    }
+  })
+  
+  dataName <- reactive({
+    if(is.null( inFile() )){
+      if(is.null( inFile2() )){
+        ""
+      } else{
+        temp <- gsub("_ProteinLevelData.csv.gz", " ", inFile2()$name)
+        return(substr(temp, 12, nchar(temp)))
+        }
+    } else {
+      temp <- gsub("_GroupComparisonResult.csv", " ", inFile()$name)
+      return(substr(temp, 12, nchar(temp)))
+      }
+  })
+  
+  titleName <- reactive({
+    if (input$experimentName == ""){
+      dataName()
+    } else{
+      input$experimentName
     }
   })
   
@@ -180,39 +223,39 @@ server <- function(input, output) {
   
   # Volcano Tab
   output$volcanoPlot <- renderPlot({
-    plotProteomicsVolcano(resultsData(), input$pcol, input$ncol, input$separate, input$volcLabel)
-  }, height = 700)
+    plotProteomicsVolcano(resultsData(), input$pcol, input$ncol, input$separate, input$volcLabel, titleName())
+  }, width = dimensionw, height = dimensionh)
   
   output$dlvolcano <- downloadHandler(
     filename = function(){
-      paste(input$dlprepend, "_volcanoPlot_", Sys.Date() , ".pdf", sep="")
+      paste(titleName(), "_volcanoPlot_", Sys.Date() , ".pdf", sep="")
     },
     content = function(file) {
-      makePdf(plotProteomicsVolcano(resultsData(), input$pcol, input$ncol, input$separate, input$volcLabel), file)
+      makePdf(plotProteomicsVolcano(resultsData(), input$pcol, input$ncol, input$separate, input$volcLabel, titleName()), file, c(dimensionw, dimensionh))
     }
   )
   
   # Bar Chart Tab
   output$stackedBarPlot <- renderPlot({
-    plotStackedBarChart(resultsDataPlus(), dataType(), input$pcol, input$ncol, input$ipcol, input$incol)
-  }, height = 700)
+    plotStackedBarChart(resultsDataPlus(), dataType(), input$pcol, input$ncol, input$ipcol, input$incol, titleName = titleName())
+  }, width = dimensionw, height = dimensionh)
   
   output$dlbarchart <- downloadHandler(
-    filename = paste(input$dlprepend, "_effectBarChart_", Sys.Date(), ".pdf", sep=""),
+    filename = paste(titleName(), "_effectBarChart_", Sys.Date(), ".pdf", sep=""),
     content = function(file) {
-      makePdf(plotStackedBarChart(resultsDataPlus(), dataType(), input$pcol, input$ncol, input$ipcol, input$incol), file)
+      makePdf(plotStackedBarChart(resultsDataPlus(), dataType(), input$pcol, input$ncol, input$ipcol, input$incol, titleName = titleName()), file, c(dimensionw, dimensionh))
     }
   )
   
   # PCA Tab
   output$pcaPlot <- renderPlot({
-    plotPCA(intensitiesData()$int.mat, dataType(), input$pcaCircleConditions, input$pcaNoLabel, input$pcaNoLegend)
-  }, height = 700)
+    plotPCA(intensitiesData()$int.mat, dataType(), input$pcaCircleConditions, input$pcaNoLabel, input$pcaNoLegend, titleName = titleName ())
+  }, width = dimensionw, height = dimensionh)
   
   output$dlpca <- downloadHandler(
-    filename = paste(input$dlprepend, "_PCA_", Sys.Date(), ".pdf", sep=""),
+    filename = paste(titleName(), "_PCA_", Sys.Date(), ".pdf", sep=""),
     content = function(file) {
-      makePdf(plotPCA(intensitiesData()$int.mat, dataType(), input$pcaCircleConditions, input$pcaNoLabel, input$pcaNoLegend), file)
+      makePdf(plotPCA(intensitiesData()$int.mat, dataType(), input$pcaCircleConditions, input$pcaNoLabel, input$pcaNoLegend, titleName = titleName ()), file, c(dimensionw, dimensionh))
     }
   )
   
@@ -233,13 +276,13 @@ server <- function(input, output) {
   } else {1000}})
   
   output$heatmapPlot <- renderPlot({
-    plotHeatmap(mat(), sample(), input$hmcluster )
-  }, height = 700)
+    plotHeatmap(mat(), sample(), input$hmcluster, titleName() )
+  }, width = dimensionw, height = dimensionh)
   
   output$dlheatmap <- downloadHandler(
-    filename = paste(input$dlprepend, "_Heatmap_", Sys.Date(), ".pdf", sep=""),
+    filename = paste(titleName(), "_Heatmap_", Sys.Date(), ".pdf", sep=""),
     content = function(file) {
-      makePdf(plotHeatmap(mat(), sample(), input$hmcluster), file)
+      makePdf(plotHeatmap(mat(), sample(), input$hmcluster, titleName()), file, c(dimensionw, dimensionh))
     }
   )
   

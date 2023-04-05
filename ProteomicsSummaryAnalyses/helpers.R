@@ -44,7 +44,6 @@ threshResults <- function(results, pThresh, fcThresh){
   results[log2FC > fcThresh & adj.pvalue < pThresh, effectSign := "sigUp"]
   results[log2FC < -1*fcThresh & adj.pvalue < pThresh, effectSign := "sigDown"]
   
-  results[effectSign %in% c("missing","notSig"), dataGene := NA]
   return(results)
 }
 
@@ -147,29 +146,39 @@ filterSigIntensities <- function(intensitiesMat, results){
 ### Plotting Functions ###
 ###
 
-plotProteomicsVolcano <- function(results, posColor, negColor, separate, showLabel){
+plotProteomicsVolcano <- function(results, posColor, negColor, separate, showLabel, titleName){
   
   if (separate == T){
   volcPlotData <- results[, .(negLog10Adj.PValue=-log10(adj.pvalue), log2FC, posGROUP, effectSign, dataGene)]
   } else{
     volcPlotData <- results[, .(negLog10Adj.PValue=-log10(adj.pvalue), log2FC, effectSign, dataGene)]
   }
+  
+  volcPlotData[, repelLabel := dataGene]
+  volcPlotData[effectSign == "notSig", repelLabel := NA ]
   volcPlotData <- volcPlotData[!is.na(log2FC)]
   d <- volcPlotData[is.finite(log2FC),]
-
+  
   v <- ggplot (d) +
     geom_point(mapping = aes( x = log2FC, y = negLog10Adj.PValue, color = effectSign), alpha=0.5)+
     scale_shape_manual(values = c("TRUE" = 1, "FALSE" = 20)) +
     scale_size_manual(values = c("TRUE" = 3, "FALSE" = 2))+
     theme_classic() +
-    theme(legend.position = "none")
+    theme(legend.position = "none") +
+    theme(axis.text=element_text(size=14),
+          axis.title=element_text(size=20,face="bold"),
+          title =element_text(size=20, face='bold'),
+          legend.text = element_text(size = 14),
+          strip.text.x = element_text(size = 20, face = "bold")) +
+    ylab("-log10( adjusted p value )") +
+    ggtitle(paste0("Volcano Plot of ", titleName, "Data"))
   
   if (showLabel == T){
-    v <- v + ggrepel::geom_text_repel( aes( x = log2FC, y = negLog10Adj.PValue, color = effectSign, label = dataGene)) 
+    v <- v + ggrepel::geom_text_repel( aes( x = log2FC, y = negLog10Adj.PValue, color = effectSign, label = repelLabel)) 
   }
   
   if (separate == T){
-    v <- v +  facet_wrap(~posGROUP) 
+    v <- v +  facet_wrap(~posGROUP)  
   }
   
   v = v + scale_color_manual( values = c(sigUp = posColor,
@@ -180,7 +189,7 @@ plotProteomicsVolcano <- function(results, posColor, negColor, separate, showLab
 }
 
 
-plotStackedBarChart <- function(results, dataType, posColor = "red", negColor = "blue", infposColor = "firebrick", infnegColor = "navy", poscond = "Treated"){
+plotStackedBarChart <- function(results, dataType, posColor = "red", negColor = "blue", infposColor = "firebrick", infnegColor = "navy", poscond = "Treated", titleName){
   results <- data.table(results)
   # count how many of each effect per condition and make a new DT 
   barChartData <- results[,.(Sum=.N), by=list(effectType, Label)]
@@ -193,12 +202,23 @@ plotStackedBarChart <- function(results, dataType, posColor = "red", negColor = 
   # Better Labels if Contrast is infected - mock
   levels(barChartData$Effect) <- list(Only_In_Treated = "infUp", Upregulated = "sigUp", Not_In_Treated = "infDown", Downregulated = "sigDown")
   
+  xLabel <- "Contrast"
+  if (dataType != "Abundance"){
+    yLabel <- paste0("Significantly Affected", dataType, "Sites")
+  } else {
+    yLabel <- "Significantly Affected Proteins"
+  }
+  
   # Plot as a stacked bar chart w ggplot
   b<-ggplot(data= barChartData, aes(x=Contrast, y=Affected_Proteins,fill=Effect)) +
     geom_bar(stat="identity")+
-    theme_classic() #+ 
-    # ylab("Abundance \n Proteins") +
-    # ggtitle("Phospho Site Effect by Treatment")
+    theme_classic() +
+    theme(axis.text=element_text(size=14),
+          axis.title=element_text(size=20,face="bold"),
+          title =element_text(size=20, face='bold'),
+          legend.text = element_text(size = 14)) + 
+    ylab(yLabel) +
+    ggtitle(paste0("Significant Effects in ", titleName, "Data"))
   
   # Recolor
   b = b + scale_fill_manual( values = c(Only_In_Treated = infposColor,
@@ -209,7 +229,7 @@ plotStackedBarChart <- function(results, dataType, posColor = "red", negColor = 
 }
 
 
-plotPCA <- function(intensity.mat, dataType, showEllipse, rmvLabel, rmvLegend){
+plotPCA <- function(intensity.mat, dataType, showEllipse, rmvLabel, rmvLegend, titleName){
   complete.mat <- intensity.mat[complete.cases(intensity.mat),]
   # Run principal component analysis on the transposed (flipped rows and cols) matrix
   pcaOut <- prcomp(t(complete.mat))
@@ -221,26 +241,40 @@ plotPCA <- function(intensity.mat, dataType, showEllipse, rmvLabel, rmvLegend){
   pcaPercentVar <- round(100 * (pcaOut$sdev^2)/sum(pcaOut$sdev^2), 1)
   
   o <-  ggplot (pcaDT, aes(x=PC1, y=PC2, color = Condition, shape = Replicate, label = rn)) + 
-    geom_point(alpha=1.0, size=4) + 
+    geom_point(alpha=1.0, size=6) + 
     theme_bw() + 
     xlab (sprintf ("PC1, %.1f%%", pcaPercentVar[1])) + 
-    ylab (sprintf ("PC2, %.1f%%", pcaPercentVar[2])) #+ 
+    ylab (sprintf ("PC2, %.1f%%", pcaPercentVar[2])) +
+    ggtitle(paste0("PCA of Individual Runs in ", titleName, "Data")) +
+    theme(axis.text=element_text(size=14),
+          axis.title=element_text(size=20,face="bold"),
+          title =element_text(size=20, face='bold'),
+          legend.text = element_text(size = 14))#+ 
     #ggtitle (sprintf ("PCA using %d phosphosites (log intensity)", nrow(complete.mat))) 
   
   if (showEllipse){
     o <-  ggplot (pcaDT, aes(x=PC1, y=PC2, color = Condition, label = rn)) + 
-      geom_point(alpha=1.0, size=4) + 
+      geom_point(alpha=1.0, size=6) + 
       theme_bw() + 
       xlab (sprintf ("PC1, %.1f%%", pcaPercentVar[1])) + 
-      ylab (sprintf ("PC2, %.1f%%", pcaPercentVar[2]))
-    o <- o + ggforce::geom_mark_ellipse(aes(fill = Condition, color = Condition, label = Condition))
+      ylab (sprintf ("PC2, %.1f%%", pcaPercentVar[2])) +
+      ggtitle(paste0("PCA of Individual Runs in", titleName, "Data")) +
+      theme(axis.text=element_text(size=14),
+            axis.title=element_text(size=20,face="bold"),
+            title =element_text(size=20, face='bold'),
+            legend.text = element_text(size = 14))
+    o <- o + ggforce::geom_mark_ellipse(aes(fill = Condition, color = Condition, label = Condition, label.fontsize = 14))
   }
   if(!rmvLabel){
-    o <- o + ggrepel::geom_text_repel()
+    o <- o + ggrepel::geom_text_repel(nudge_x = 4, nudge_y = 1, size = 6)
   }
   if(rmvLegend){
     o <- o + guides(color = "none", shape = "none")
+    if (showEllipse){
+      o <- o + guides(fill = "none")
+    }
   }
+  
   
   return(o)
 }
@@ -263,11 +297,10 @@ rowClusterWithNA <- function(mat, corr = FALSE, na.value = 0, ...){
 }
 
 
-plotHeatmap <- function(mat, sampleSize, clusterBool){
+plotHeatmap <- function(mat, sampleSize, clusterBool, titleName){
   if (!is.null(sampleSize) && nrow(mat) > sampleSize){
     mat <- mat[sample(nrow(mat), sampleSize, replace = FALSE), ] 
   }
-  showrn <- FALSE
   #title <- "Intensity (Normalized to Ctrl) - Per Run View"
   #filepre <- "Heatmap_SweptIntensity_"
   hclustObject <- rowClusterWithNA(mat)
@@ -279,8 +312,15 @@ plotHeatmap <- function(mat, sampleSize, clusterBool){
                column_gap = unit(2, "mm"),
                cluster_columns = clusterBool,
                column_split = colnames(mat),
-               #column_title = title,
-               show_row_names = showrn) 
+               column_names_gp = gpar(fontsize = 14),
+               show_row_names = FALSE,
+               column_title = paste0("Heatmap of Individual Runs in ", titleName, "Data"),
+               column_title_gp = gpar(fontsize = 20, fontface = "bold"),
+               heatmap_legend_param = list(title = "Log Intensity\n", 
+                                           title_gp = gpar(fontsize = 14, fontface = "bold"),
+                                           labels_gp = gpar(fontsize = 14),
+                                           legend_height = unit(50, "mm"),
+                                           param = list(title_gap = unit(10, "mm")) )) 
   return(h)
 }
 
@@ -315,7 +355,7 @@ SaveAsPDF <- function(graphics, prefix = "", dimensions = NULL){
 makePdf <- function(x, file, dimensions = NULL){
   if (is.null(dimensions)){
     dimensions <- dev.size(units = "in")}
-  pdf(file = file, width = dimensions[1], height = dimensions[2])
+  pdf(file = file, width = 2*dimensions[1], height = 2*dimensions[2])
   plot(x)
   dev.off()
 }

@@ -21,10 +21,11 @@ ui <- fluidPage(
   titlePanel("Proteomics Summary Analyses"),
   sidebarLayout(
     sidebarPanel( id = "sidebar",
-                  strong("Render and download a Volcano Plot, PCA Plot, Effect Summary Stacked Bar Chart, and Complex Heatmap from your MSStats output files."),
+                  strong("Render and download a Volcano Plot, PCA Plot, Effect Summary Stacked Bar Chart, and Complex Heatmap from your MSStats output files. Both files must be uploaded."),
                   h3(""),
                   fileInput("results", "Upload MSStats group comparison results file here."),
                   fileInput("intensities", "Upload MSStats protein level data file here."),
+                  actionButton("loadSampleData", "Load Sample Data"), 
                   hr(),
                   h3("General Settings"),
                   
@@ -32,16 +33,17 @@ ui <- fluidPage(
                   
                   selectInput("species", "Select Species", c("HUMAN", "MOUSE", "RAT", "OTHER"), selected = "HUMAN"),
                   
-                  numericInput("fdr", 
+                  div(style="display:inline-block", numericInput("fdr", 
                                label = "FDR adjusted p value threshold:",
-                               min = 0, max = 1, value = 0.05, step = 0.01),
-                  
-                  numericInput("foldchange", 
+                               min = 0, max = 1, value = 0.05, step = 0.01)),
+                  div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ),
+                  div(style="display:inline-block",numericInput("foldchange", 
                                label = "Absolute log2 fold change threshold:",
-                               min = 0.001, max = 5, value = 1.0, step = 0.5),
+                               min = 0.001, max = 5, value = 1.0, step = 0.5)),
+                  div(style= "display:block", helpText(" ")),
                 
                   div(style="display:inline-block", colourInput("pcol", "Select positive color", "#DB4F4F")),
-                  div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ),
+                  div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ),
                   div(style="display:inline-block",colourInput("ncol", "Select negative color", "#4E53D9")),
                   div(style= "display:block", helpText(" ")),
                   
@@ -79,16 +81,23 @@ ui <- fluidPage(
     ),
     
     mainPanel(
-      materialSwitch("tglSide", label = "Toggle Sidebar", value = TRUE, status = "danger"), 
+      div(style="display:inline-block", materialSwitch("tglSide", label = "Toggle Sidebar", value = TRUE, status = "danger")), 
+      div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ),
+      div(style="display:inline-block; color:red", textOutput("errorMsg")),
+      div(style="display:block", helpText("")),
       #textOutput("selected_fdr"),
       #textOutput("selected_l2fc"),
       #textOutput("intMatText"),
       hr(),
       tabsetPanel(type = "tabs", id = "tabset",
-                  tabPanel("Volcano Plot", plotOutput("volcanoPlot")),
-                  tabPanel("Effect Summary Bar Chart", plotOutput("stackedBarPlot")),
-                  tabPanel("PCA Plot", plotOutput("pcaPlot")),
-                  tabPanel("Heatmap Plot", plotOutput("heatmapPlot"))
+                  tabPanel("Volcano Plot",       div(style="display:block", helpText("")),
+                                                 plotOutput("volcanoPlot")),
+                  tabPanel("Effect Summary Bar Chart", div(style="display:block", helpText("")),
+                                                       plotOutput("stackedBarPlot")),
+                  tabPanel("PCA Plot", div(style="display:block", helpText("")),
+                                                       plotOutput("pcaPlot")),
+                  tabPanel("Heatmap Plot", div(style="display:block", helpText("")),
+                                                       plotOutput("heatmapPlot"))
       ), id="main"
     )
     
@@ -131,16 +140,41 @@ server <- function(input, output) {
   
   # DATA PROCESSING
   inFile <- reactive({
-    input$results
+    if (is.null(input$results)){
+      if (input$loadSampleData == 0){
+        NULL
+      } else{
+        list(datapath = "./sample_data/2022_12_27_Sample_Phospho_GroupComparisonResult.csv", name = "2022_12_17_Sample Phospho ")
+      }
+    } else {
+      input$results
+    }
   })
   
   inFile2 <- reactive({
-    input$intensities
+    if (is.null(input$intensities)){
+      if (input$loadSampleData == 0){
+        NULL
+      } else{
+        list(datapath = "./sample_data/2022_12_27_Sample_Phospho_ProteinLevelData.csv.gz", name = "2022_12_17_Sample Phospho ")
+      }
+    } else {
+      input$intensities
+    }
   })
   
+  #inFile2 <- reactive({
+  #  input$intensities
+  #})
+  
   dataType <- reactive({
-    if(is.null(input$results)){
-      "Abundance"
+    if(is.null(inFile())){
+      if(is.null(inFile2())){
+        "Abundance"
+        
+      } else{
+      checkDataType(fread(inFile2()$datapath))
+      }
     } else{
       checkDataType(fread(inFile()$datapath))
     }
@@ -204,6 +238,14 @@ server <- function(input, output) {
   })
   
   # OUTPUT RENDERING
+  
+  # Text 
+  output$errorMsg <- renderText({
+    if ( sum(unique(resultsData()$posGROUP) %in% unique(intensitiesData()$data$GROUP)) < length(unique(resultsData()$posGROUP)) ){
+      "ERROR: Condition names in data files do not match! Make sure you're uploading BOTH correct files!"
+    } else{ "" }
+  })
+  
   output$selected_fdr <- renderText({ 
     paste("FSR Adjusted p Values Less than", input$fdr) 
   })
@@ -293,9 +335,6 @@ server <- function(input, output) {
       makePdf(plotHeatmap(mat(), sample(), input$hmcluster, titleName()), file)
     }
   )
-  
-  
-  
   
 }
 

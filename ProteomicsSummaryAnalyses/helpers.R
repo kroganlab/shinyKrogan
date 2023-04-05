@@ -96,7 +96,6 @@ formatIntensities <- function(intensities, dataType, spc){
   }
   
   x <- dcast(intensities, dataGene ~ SUBJECT, fun.aggregate = mean, value.var = "LogIntensities")
-  str(x)
   intensity.mat <- as.matrix(x[,2:(ncol(x)-1)], rownames = x$dataGene)
   
   sweptIntensity.mat <- sweep (intensity.mat, 1, apply (intensity.mat, 1, median, na.rm = TRUE))
@@ -166,10 +165,11 @@ plotProteomicsVolcano <- function(results, posColor, negColor, separate, showLab
     theme_classic() +
     theme(legend.position = "none") +
     theme(axis.text=element_text(size=14),
-          axis.title=element_text(size=20,face="bold"),
+          axis.title=element_text(size=18,face="bold"),
           title =element_text(size=20, face='bold'),
           legend.text = element_text(size = 14),
-          strip.text.x = element_text(size = 20, face = "bold")) +
+          strip.text.x = element_text(size = 18, face = "bold"),
+          panel.spacing.x = unit(15, "pt")) +
     ylab("-log10( adjusted p value )") +
     ggtitle(paste0("Volcano Plot of ", titleName, "Data"))
   
@@ -222,9 +222,10 @@ plotStackedBarChart <- function(results, dataType, posColor = "red", negColor = 
     geom_bar(stat="identity")+
     theme_classic() +
     theme(axis.text=element_text(size=14),
-          axis.title=element_text(size=20,face="bold"),
+          axis.title=element_text(size=18,face="bold"),
           title =element_text(size=20, face='bold'),
-          legend.text = element_text(size = 14)) + 
+          legend.text = element_text(size = 14),
+          axis.text.x = element_text(angle = 30, vjust = 1, hjust=1)) + 
     ylab(yLabel) +
     ggtitle(paste0("Significant Effects in ", titleName, "Data"))
   
@@ -255,7 +256,7 @@ plotPCA <- function(intensity.mat, dataType, showEllipse, rmvLabel, rmvLegend, t
     ylab (sprintf ("PC2, %.1f%%", pcaPercentVar[2])) +
     ggtitle(paste0("PCA of Individual Runs in ", titleName, "Data")) +
     theme(axis.text=element_text(size=14),
-          axis.title=element_text(size=20,face="bold"),
+          axis.title=element_text(size=18,face="bold"),
           title =element_text(size=20, face='bold'),
           legend.text = element_text(size = 14))#+ 
     #ggtitle (sprintf ("PCA using %d phosphosites (log intensity)", nrow(complete.mat))) 
@@ -268,10 +269,10 @@ plotPCA <- function(intensity.mat, dataType, showEllipse, rmvLabel, rmvLegend, t
       ylab (sprintf ("PC2, %.1f%%", pcaPercentVar[2])) +
       ggtitle(paste0("PCA of Individual Runs in", titleName, "Data")) +
       theme(axis.text=element_text(size=14),
-            axis.title=element_text(size=20,face="bold"),
+            axis.title=element_text(size=18,face="bold"),
             title =element_text(size=20, face='bold'),
             legend.text = element_text(size = 14))
-    o <- o + ggforce::geom_mark_ellipse(aes(fill = Condition, color = Condition, label = Condition, label.fontsize = 14))
+    o <- o + ggforce::geom_mark_ellipse(aes(fill = Condition, color = Condition, label = Condition), label.fontsize = 14)
   }
   if(!rmvLabel){
     o <- o + ggrepel::geom_text_repel(nudge_x = 4, nudge_y = 1, size = 6)
@@ -370,3 +371,11 @@ makePdf <- function(x, file, dimensions = NULL){
   plot(x)
   dev.off()
 }
+
+
+### Scratch Space to format sample data 
+#results <- fread("sample_data\\2022_12_27_Sample_Phospho_ProteinLevelData.csv")
+#results[, GROUP := moreGsub(c("_A549", "MOI5", "USA", "Mock", "_2h", "_6h"), c("", "", "", "Ctl", "_02h", "_06h" ), results$GROUP) ]
+#results[, SUBJECT := paste0(GROUP, ".", SUBJECT) ]
+#results <- results[!grepl("THP1", GROUP)]
+#fwrite( results,"sample_data\\2022_12_27_Sample_Phospho_ProteinLevelData.csv.gz" )

@@ -1,0 +1,13 @@
+Functionalities to add:
+
+1) Better differentiate summary and quality control measures.
+
+2) Add Peptide/Protein Count Plots
+
+3) Add Correlation Matrix
+
+4) Add dashboard that shows important summary info and statistics spelled out with numbers and text
+
+4) Add interactive functions to volcano plot and bar plot with plotly (ex hover to see gene names)
+
+5) Try adding Interactive Heatmap Functionality (might be too bloated and better saved for a separate app)

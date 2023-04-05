@@ -13,7 +13,6 @@ options(shiny.maxRequestSize = 1000 * 1024^2)
 
 ui <- fluidPage(
   shinybrowser::detect(),
-  "Window size:",
   useShinyjs(),
   tags$head(
     tags$style(HTML("hr {border-top: 1px solid #000000;}"))
@@ -29,7 +28,7 @@ ui <- fluidPage(
                   hr(),
                   h3("General Settings"),
                   
-                  textInput("experimentName", "Experiment/data name for figure title and download name."),
+                  textInput("experimentName", "Experiment/data name for figure title and download."),
                   
                   selectInput("species", "Select Species", c("HUMAN", "MOUSE", "RAT", "OTHER"), selected = "HUMAN"),
                   
@@ -52,6 +51,7 @@ ui <- fluidPage(
                               tabPanel("Volcano Plot",
                                        checkboxInput("separate", "Separate volcano plots by contrast?", value = TRUE),
                                        checkboxInput("volcLabel", "Label Significant Outliers?"),
+                                       checkboxInput("volcLines", "Show log2FC and pValue cutoffs?"),
                                        downloadButton("dlvolcano", "Download")),
                               tabPanel("Effect Summary Bar Chart", 
                                        #textInput("barchartCondLabel", "Positive Condition Label (ex. 'Infected')"),
@@ -222,8 +222,16 @@ server <- function(input, output) {
   })
   
   # Volcano Tab
+  threshs <- reactive({
+    if (input$volcLines == T){
+      c(input$foldchange, input$fdr)
+    }else{
+      NULL
+    }
+  })
+  
   output$volcanoPlot <- renderPlot({
-    plotProteomicsVolcano(resultsData(), input$pcol, input$ncol, input$separate, input$volcLabel, titleName())
+    plotProteomicsVolcano(resultsData(), input$pcol, input$ncol, input$separate, input$volcLabel, titleName(), thresholds = threshs())
   }, width = dimensionw, height = dimensionh)
   
   output$dlvolcano <- downloadHandler(
@@ -231,7 +239,7 @@ server <- function(input, output) {
       paste(titleName(), "_volcanoPlot_", Sys.Date() , ".pdf", sep="")
     },
     content = function(file) {
-      makePdf(plotProteomicsVolcano(resultsData(), input$pcol, input$ncol, input$separate, input$volcLabel, titleName()), file, c(dimensionw, dimensionh))
+      makePdf(plotProteomicsVolcano(resultsData(), input$pcol, input$ncol, input$separate, input$volcLabel, titleName(), thresholds = threshs()), file)
     }
   )
   
@@ -243,7 +251,7 @@ server <- function(input, output) {
   output$dlbarchart <- downloadHandler(
     filename = paste(titleName(), "_effectBarChart_", Sys.Date(), ".pdf", sep=""),
     content = function(file) {
-      makePdf(plotStackedBarChart(resultsDataPlus(), dataType(), input$pcol, input$ncol, input$ipcol, input$incol, titleName = titleName()), file, c(dimensionw, dimensionh))
+      makePdf(plotStackedBarChart(resultsDataPlus(), dataType(), input$pcol, input$ncol, input$ipcol, input$incol, titleName = titleName()), file)
     }
   )
   
@@ -255,7 +263,7 @@ server <- function(input, output) {
   output$dlpca <- downloadHandler(
     filename = paste(titleName(), "_PCA_", Sys.Date(), ".pdf", sep=""),
     content = function(file) {
-      makePdf(plotPCA(intensitiesData()$int.mat, dataType(), input$pcaCircleConditions, input$pcaNoLabel, input$pcaNoLegend, titleName = titleName ()), file, c(dimensionw, dimensionh))
+      makePdf(plotPCA(intensitiesData()$int.mat, dataType(), input$pcaCircleConditions, input$pcaNoLabel, input$pcaNoLegend, titleName = titleName ()), file)
     }
   )
   
@@ -282,7 +290,7 @@ server <- function(input, output) {
   output$dlheatmap <- downloadHandler(
     filename = paste(titleName(), "_Heatmap_", Sys.Date(), ".pdf", sep=""),
     content = function(file) {
-      makePdf(plotHeatmap(mat(), sample(), input$hmcluster, titleName()), file, c(dimensionw, dimensionh))
+      makePdf(plotHeatmap(mat(), sample(), input$hmcluster, titleName()), file)
     }
   )
   

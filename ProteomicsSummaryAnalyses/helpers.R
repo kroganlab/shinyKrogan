@@ -146,7 +146,7 @@ filterSigIntensities <- function(intensitiesMat, results){
 ### Plotting Functions ###
 ###
 
-plotProteomicsVolcano <- function(results, posColor, negColor, separate, showLabel, titleName){
+plotProteomicsVolcano <- function(results, posColor, negColor, separate, showLabel, titleName, thresholds = NULL){
   
   if (separate == T){
   volcPlotData <- results[, .(negLog10Adj.PValue=-log10(adj.pvalue), log2FC, posGROUP, effectSign, dataGene)]
@@ -179,6 +179,14 @@ plotProteomicsVolcano <- function(results, posColor, negColor, separate, showLab
   
   if (separate == T){
     v <- v +  facet_wrap(~posGROUP)  
+  }
+  if (!is.null(thresholds)){     # thresholds is c()
+    v <- v + geom_vline(xintercept = thresholds[1], linetype="dashed", 
+                        color = posColor) +
+             geom_vline(xintercept = -thresholds[1], linetype="dashed", 
+                        color = negColor) +
+             geom_hline(yintercept = -log10(thresholds[2]), linetype="dashed", 
+                        color = "black")
   }
   
   v = v + scale_color_manual( values = c(sigUp = posColor,
@@ -354,8 +362,11 @@ SaveAsPDF <- function(graphics, prefix = "", dimensions = NULL){
 
 makePdf <- function(x, file, dimensions = NULL){
   if (is.null(dimensions)){
-    dimensions <- dev.size(units = "in")}
-  pdf(file = file, width = 2*dimensions[1], height = 2*dimensions[2])
+    dimensions <- 2*dev.size(units = "in")
+  } else{
+    dimensions <- dimensions / 75
+    }
+  pdf(file = file, width = dimensions[1], height = dimensions[2])
   plot(x)
   dev.off()
 }

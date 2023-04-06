@@ -23,9 +23,15 @@ ui <- fluidPage(
     sidebarPanel( id = "sidebar",
                   strong("Render and download a Volcano Plot, PCA Plot, Effect Summary Stacked Bar Chart, and Complex Heatmap from your MSStats output files. Both files must be uploaded."),
                   h3(""),
+                  
                   fileInput("results", "Upload MSStats group comparison results file here."),
                   fileInput("intensities", "Upload MSStats protein level data file here."),
-                  actionButton("loadSampleData", "Load Sample Data"), 
+                  
+                  div(style="display:inline-block", actionButton("loadSampleData", "Load Sample Data")), 
+                  div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ),
+                  div(style="display:inline-block", downloadButton("dlSample", "Download Sample Data")),
+                  div(style= "display:block", helpText(" ")),
+                  
                   hr(),
                   h3("General Settings"),
                   
@@ -54,28 +60,28 @@ ui <- fluidPage(
                                        checkboxInput("separate", "Separate volcano plots by contrast?", value = TRUE),
                                        checkboxInput("volcLabel", "Label Significant Outliers?"),
                                        checkboxInput("volcLines", "Show log2FC and pValue cutoffs?"),
-                                       downloadButton("dlvolcano", "Download")),
+                                       downloadButton("dlvolcano", "Download Volcano")),
                               tabPanel("Effect Summary Bar Chart", 
                                        #textInput("barchartCondLabel", "Positive Condition Label (ex. 'Infected')"),
                                        div(style="display:inline-block", colourInput("ipcol", "Infinite positive color", "#9E0000")),
                                        div(style="display:inline-block", helpText(" ") ), div(style="display:inline-block", helpText(" ") ),
                                        div(style="display:inline-block",colourInput("incol", "Infinite negative color", "#000294")),
                                        div(style="display:block", helpText(" ") ),
-                                       downloadButton("dlbarchart", "Download")),
+                                       downloadButton("dlbarchart", "Download Bar Chart")),
                               tabPanel("PCA Plot", 
                                        checkboxInput("pcaCircleConditions", "Circle replicates in same condition?"),
                                        #checkboxInput("pcaLines", "Draw lines between time points for each condition?"),
                                        #helpText("(requires time series formatted as 'conditionxyz-01h')"),
                                        checkboxInput("pcaNoLabel", "Remove Labels?"),
                                        checkboxInput("pcaNoLegend", "Remove Legend?"),
-                                       downloadButton("dlpca", "Download")),
+                                       downloadButton("dlpca", "Download PCA")),
                               tabPanel("Heatmap Plot",
                                        selectInput("selectMat", "Select normalization for heatmap:", 
                                                    c("Median Swept", "Normalized to Control", "No normalization"), selected = "Median Swept"),
                                        checkboxInput("hmcluster", "Order heatmap columns by hierarchical clustering?"),
                                        checkboxInput("hmsignificant", "Exclude insignificant proteins/sites from heatmap?"),
                                        checkboxInput("hmsample", "Render entire heatmap instead of randomly sampling 1000 rows? \n(this may take a few minutes depending on the size of your data)"),
-                                       downloadButton("dlheatmap", "Download")
+                                       downloadButton("dlheatmap", "Download Heatmap")
                               ))
                   
     ),
@@ -262,6 +268,27 @@ server <- function(input, output) {
              "No normalization" = "No Normalization Used for Heatmap Intensity Data.")
     }
   })
+  
+  # Sample Data Download 
+  output$dlSample <- downloadHandler(
+    filename = "shinyProteomicsAnalysis_SamplePhosphoData.zip",
+    content = function(file) {
+      temp_directory <- file.path(tempdir(), as.integer(Sys.time()))
+      dir.create(temp_directory)
+      
+      write.csv(fread("./sample_data/2022_12_27_Sample_Phospho_ProteinLevelData.csv.gz"),
+                file.path(temp_directory, "Sample_Phospho_ProteinLevelData.csv"))
+      write.csv(fread("./sample_data/2022_12_27_Sample_Phospho_GroupComparisonResult.csv"),
+                file.path(temp_directory, "Sample_Phospho_GroupComparisonResult.csv"))
+      
+      zip::zip(
+        zipfile = file,
+        files = dir(temp_directory),
+        root = temp_directory
+    )
+    
+    }
+  )
   
   # Volcano Tab
   threshs <- reactive({

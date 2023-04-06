@@ -1,0 +1,11 @@
+N-01	N	T
+N-02	N	T
+N-03	N	T
+EGFP-03	EGFP	C
+orf3a-03	orf3a	T
+orf3a-02	orf3a	T
+orf3a-01	orf3a	T
+orf8-01	orf8	T
+orf8-02	orf8	T
+orf8-03	orf8	T
+EV-03	EV	C

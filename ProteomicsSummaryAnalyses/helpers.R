@@ -267,7 +267,7 @@ plotPCA <- function(intensity.mat, dataType, showEllipse, rmvLabel, rmvLegend, t
       theme_bw() + 
       xlab (sprintf ("PC1, %.1f%%", pcaPercentVar[1])) + 
       ylab (sprintf ("PC2, %.1f%%", pcaPercentVar[2])) +
-      ggtitle(paste0("PCA of Individual Runs in", titleName, "Data")) +
+      ggtitle(paste0("PCA of Individual Runs in ", titleName, "Data")) +
       theme(axis.text=element_text(size=14),
             axis.title=element_text(size=18,face="bold"),
             title =element_text(size=20, face='bold'),

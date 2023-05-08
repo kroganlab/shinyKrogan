@@ -1,0 +1,40 @@
+files:
+  data: /Users/yzhou/Downloads/private.mist/JyotiBatra/MARV02_03_04/mist/spc/mist-data.spc.txt
+  keys: /Users/yzhou/Downloads/private.mist/JyotiBatra/MARV02_03_04/mist/spc/mist-key.spc.txt
+  output_dir: /Users/yzhou/Downloads/private.mist/JyotiBatra/MARV02_03_04/mist/spc/result
+  remove: /Users/yzhou/Downloads/private.mist/JyotiBatra/MARV02_03_04/mist/spc/a.txt
+  collapse: /Users/yzhou/Downloads/private.mist/JyotiBatra/MARV02_03_04/mist/spc/a.txt
+  specificity_exclusions: /Users/yzhou/Downloads/private.mist/JyotiBatra/MARV02_03_04/mist/spc/a.txt
+preprocess:
+  enabled: 1
+  remove_carryover: 1
+  filter_contaminants: 0.0
+  id_colname: id
+  prey_colname: ms_uniprot_ac
+  pepcount_colname: ms_spectral_counts
+  mw_colname: Mass
+qc:
+  enabled: 1
+  cluster: 1
+  cluster_font_scale: 5
+  ip_distributions: 1
+mist:
+  enabled: 1
+  weights: fixed
+  training_file: ~
+  reproducibility: 0.30853
+  specificity: 0.68551
+  abundance: 0.00596
+comppass:
+  enabled: 1
+annotate:
+  enabled: 1.0
+  species: HUMAN
+  uniprot_dir: /Users/yzhou/Downloads/uniprot-human-filtered-organism__Homo.tab
+enrichment:
+  enabled: 0.0
+  hyperg: 0
+  resampling: 1
+  enrichment_p_cutoff: 1
+  score_threshold: 0.7
+  id_type: UNIPROT

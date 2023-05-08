@@ -1,0 +1,160 @@
+---
+title: "Mist Code Testing - Run Tests on new code"
+author: "Doug Sanders"
+date: "March 17, 2015"
+output: html_document
+---
+
+Quick instructions: 
+
+"eval_top" must be TRUE for any testing to be done.  Each part of the mist pipeline can be tested selectively by setting the appropriate code chunk to TRUE.    Set FULL_TEST = F to avoid possible path errors.  This however will only test the subfunctions and not the main functions (preprocessing.main, mist.main etc)  Currently there are 5 scripts used for testing parts of the mist pipeline: test_preprocess.R, test_qc.R, test_mist.R, test_COMPASS.R, and test_annotate.R.  To run the tests, set "eval_top" and any (can be all) of the other 5 scripts to "T" to run tests on those portions of the mist pipeline. Set no_Halt_on_error = T to keep script running if either an error or testthat inequality is found - presumably to check other functions.
+
+```{r,eval=T }
+FULL_TEST = F; no_Halt_on_error = F
+
+eval_top <- T; preprocess_test <- F; qc_test <- F ; mist_test <- F ; 
+compass_test <- T ; annotate_test <- F
+
+```
+
+
+This document describes the Mist pipeline code testing using the testthat R package developed by Hadley Wickham.  The base test checks a function's return value against the correct answer and tests for equality. A separate Rmd document (Readme_generate_mist_test_objects.Rmd) sources in R scripts which generate the "correct answers" for which testing comparisons are be made.  This Rmd document does the actual testing (presumably of new / edited code) against the intermediate objects which are presumably already created. 
+
+**General Description of MIST testing**
+
+The mist pipeline consists of a main script which sources in several files each of which in turn contain more functions.  The functions are most often called in a way such that the intermediate inputs and outputs for those functions created during run time and not saved.   Because of this and the desire to test each function in the mist pipeline separately, R scripts were written that save these R objects from the pipeline run.  These objects (mostly dataframes, character strings, vectors etc) can then be used to do a test by providing the input and the output used for equality comparison.   
+
+The testing code thus has two main parts, one for generating the input and comparable outputs for the tests (a separate Rscript / document: Readme_generate_mist_test_objects.Rmd) and this one for doing the actual testing of the code using the input and comparable output objects used from the first.  
+
+
+**Conducting the testing**
+
+Normally, it is intended that the code testing be done using only this document where the inputs and outputs used for testing have already been generated and the tester is only interested in seeing if changes he or she has made to the mist pipeline functions (presumably to fix bugs) has created any unintentional errors / bugs.  
+
+The "Root_Path" should be specified to where this document is located such that all of the subdirectories can be located.   "Path_to_new_Code" is simply that - the location of the code you want to test.  In this case it has been made a subdirectory of the working directory (Root_Path)
+
+"eval_top" must be TRUE for any testing to be done.  Each part of the mist pipeline can be tested selectively by setting the appropriate code chunk to TRUE.
+
+Set FULL_TEST = F to avoid possible path errors.  This however will only test the subfunctions and not the main functions (preprocessing.main, mist.main etc)
+
+
+Currently there are 5 scripts used for testing parts of the mist pipeline: test_preprocess.R, test_qc.R, test_mist.R, test_COMPASS.R, and test_annotate.R.  To run the tests, set "eval_top" and any (can be all) of the other 5 scripts to "T" to run tests on those portions of the mist pipeline.
+
+
+```{r,eval=eval_top, echo=FALSE }
+
+Root_path <- ""
+Path_to_new_Code <- "src_test/"
+
+pio1 <- "input_1/input_1_objects/"
+p1 <- "input_1/"
+pio2 <- "input_2/input_2_objects/"
+p2 <- "input_2/"
+pio3 <- "input_3/input_3_objects/"
+p3 <- "input_3/"
+
+PATH_to_object_inputs <- c(pio1,pio2,pio3)
+#PATH_to_object_inputs <- c(pio1,pio2)
+PATH_to_inputs <- c(p1,p2,p3)
+#PATH_to_inputs <- c(p1,p2)
+```
+
+```{r,eval=eval_top, echo=FALSE, error=no_Halt_on_error }
+path_fixer <- function(config_object_in, config_object_out ,root_path, 
+                       output_object_paths, filevar, datavar){
+        filename <- strsplit(config_object_in[[filevar]][[datavar]], 
+                             "/")[[1]][length(strsplit(config_object_in[[filevar]][[datavar]], "/")[[1]])]
+        config_object_out[[filevar]][[datavar]] <- paste0(root_path,output_object_paths,filename)
+        return(config_object_out)
+}
+
+
+path_all <- function(Root_Path , PATHs, PATH_obj){
+        for(i in 1:length(PATHs)){
+                load(paste0(Root_Path, PATH_obj[i], "config"))
+                object_in <- config
+                object_out <- config
+                root_path <- Root_Path
+                                object_out <- path_fixer(object_in, object_out, 
+                                                         root_path, PATHs[i], "files", "data" )
+                                object_out <- path_fixer(object_in, object_out, 
+                                                         root_path, PATHs[i], "files", "keys" )
+                                object_out <- path_fixer(object_in, object_out, 
+                                                         root_path, PATHs[i], "files", "remove" )
+                                object_out <- path_fixer(object_in, object_out, 
+                                                         root_path, PATHs[i], "files", "collapse" )
+                                object_out <- path_fixer(object_in, object_out, 
+                                                         root_path, PATHs[i], "files", "specificity_exclusions" )
+                                object_out <- path_fixer(object_in, object_out, 
+                                                         root_path, "", "files", "output_dir" )
+                                object_out[["files"]][["output_dir"]] <- 
+                        paste0(object_out[["files"]][["output_dir"]], "/")
+                                name <- path_fixer(object_in, object_out, "", "", "mist", 
+                                                   "matrix_file")[["mist"]][["matrix_file"]]
+                                object_out[["mist"]][["matrix_file"]] <- 
+                        paste0(object_out[["files"]][["output_dir"]], name )
+                                object_out <- path_fixer(object_in, object_out, 
+                                                         root_path, PATHs[i], "mist", "training_file" )
+                object_out <- path_fixer(object_in, object_out, 
+                                         root_path, "files/", "preprocess", "contaminants_file" )
+                object_out <- path_fixer(object_in, object_out, 
+                                         root_path, "", "annotate", "uniprot_dir" )
+                object_out[["annotate"]][["uniprot_dir"]] <- 
+                        paste0(object_out[["annotate"]][["uniprot_dir"]], "/")
+                config <- object_out
+                save(config, file = paste0( PATH_obj[i], "config"), ascii = T)
+                matrix_file <- object_out[["mist"]][["matrix_file"]]
+                save(matrix_file, file = paste0( PATH_obj[i], "matrix_file"), ascii = T)
+                }
+}
+
+path_all(Root_path, PATH_to_inputs, PATH_to_object_inputs)
+
+```
+
+The function below is simply a wrapper function which passes paths (Path_to_object_inputs) to the mist example input / output for the scripts to use in comparison equality testing.  
+
+```{r,eval=eval_top, echo=T, error=no_Halt_on_error}
+Execute_test <- function( root_path, input_path, FUN = test_shell, ...){
+                for (i in 1:length(input_path)){
+                                 FUN(paste0(root_path, input_path[i]))
+                }
+}
+```
+
+
+```{r, preprocess, message=T, comment=T, eval=preprocess_test, error=no_Halt_on_error, message=T}
+
+source("test_preprocess.R")
+
+Execute_test(Root_path, PATH_to_object_inputs, FUN = RUN_TEST_on_preprocess) 
+```
+
+
+```{r, QC, message=T, comment=T, eval=qc_test, error=no_Halt_on_error}
+
+source("test_QC.R")
+
+Execute_test(Root_path, PATH_to_object_inputs, FUN = RUN_TEST_on_qc) 
+```
+
+```{r, MIST, message=T, comment=T, eval=mist_test, error=no_Halt_on_error}
+
+source("test_mist.R")
+
+Execute_test(Root_path, PATH_to_object_inputs, FUN = RUN_TEST_on_mist) 
+```
+
+```{r, COMPASS, message=T, comment=T, eval=compass_test, error=no_Halt_on_error}
+
+source("test_COMPASS.R")
+
+Execute_test(Root_path, PATH_to_object_inputs, FUN = RUN_TEST_on_compass) 
+```
+
+```{r, ANNOTATE, message=T, comment=T, eval=annotate_test, error=no_Halt_on_error}
+
+source("test_annotate.R")
+
+Execute_test(Root_path, PATH_to_object_inputs, FUN = RUN_TEST_on_annotate) 
+```

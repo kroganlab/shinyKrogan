@@ -1,0 +1,115 @@
+---
+title: "Mist Code Testing - Generate inputs and outputs"
+author: "Doug Sanders"
+date: "March 17, 2015"
+output: html_document
+---
+
+This document describes the Mist pipeline code testing using the testthat R package developed by Hadley Wickham.  The base test checks a function's return value against the correct answer and tests for equality. This "live" document sources in R scripts which generate the "correct answers" for which testing comparisons can be made.  A separate Rmd document does the actual testing (presumably of new / edited code) against the intermediate objects generated here.
+
+**General Description of MIST testing**
+
+The mist pipeline consists of a main script which sources in several files each of which in turn contain many functions.  The functions are most often called in a way such that the intermediate inputs and outputs for those functions created during run time and not saved.   Because of this and the desire to test each function in the mist pipeline separately, R scripts were written that save these R objects from the pipeline run.  These objects (mostly dataframes, character strings, vectors etc) can then be used to do a test by providing the input and the output used for equality comparison.   
+
+The testing code thus has two main parts, one for generating the input and comparable outputs for the tests (This document) and another (main file = Test_source_all.R) for doing the actual testing of the code using the input and comparable output objects used from the first.  
+
+
+**Setting up generating inputs / outputs for Testing**
+
+Generate_test_inputs_source_all.R sources in R scripts which . 'Root_path' is the path to the general working directory.  'Code_Path' below sets the path to the base or unchanged code.  This is the code that is used to generate the inputs and objects that you would like to compare against the new code.  
+
+Yaml files should be placed in the Root_path which is also the working directory for this markdown document.  The names of the yaml files for each example MIST pipeline are collectected here as are the paths to the directories for the inputs and comparable outputs that will be generated for testing.  To add an additional mist input to be used for testing include the yaml filename in the character vector yaml_filenames and path to where the inputs used for the testing in PATH_to_object_inputs. The directory for these test inputs could be a sub directory of the normal mist pipeline input for clarity.  Note that the file paths in the Yaml file should be set up the same way as though the mist pipleline were going to be run.  This document/R script along with the R scripts it sources in, essentially replaces "main.R" from a normal mist pipeline run.  
+
+```{r,eval=T }
+eval_top <- F; eval_preprocess <- F; eval_qc <- F; eval_mist <- F; eval_compass <- F; eval_annotate <- F
+```
+
+eval_top needs to be = T for any of the other code chunks to work (so long as they are also "T")
+
+```{r,eval=eval_top }
+Root_path <- "/Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/"
+setwd(Root_path)
+#Code_Path <- "/Users/dsanders/mist/src/"
+Code_Path <- "/Users/dsanders/Source_Tree_Github/Private_Mist/src/"
+
+
+yaml_filename1 <- "Influenza_kshv_weights_1.yml"
+pio1 <- "input_1/input_1_objects/"
+
+yaml_filename2 <- "Influenza_mist_weights_2.yml"
+pio2 <- "input_2/input_2_objects/"
+
+yaml_filename3 <- "Influenza_trained_2_11_3.yml"
+pio3 <- "input_3/input_3_objects/"
+
+PATH_to_object_inputs <- c(pio1,pio2,pio3)
+#PATH_to_object_inputs <- c(pio1,pio2)
+
+yaml_filenames <- c(yaml_filename1, yaml_filename2, yaml_filename3)
+#yaml_filenames <- c(yaml_filename1, yaml_filename2) 
+
+```
+
+The function below is simply a wrapper function which passes the mist example paths (Path_to_object_inputs) to the sourced in scripts which generate the inputs and comparables.  For "preprocess_create_inputs_and_comparables.R" it passes in the yaml filenames as well.  
+
+```{r,eval=eval_top, echo=T}
+Vary_Length_execute1 <- function( root_path, input_path, yml_files, FUN = execute_shell, ...){
+        for (i in 1:length(input_path)){
+                if(yml_files != "yaml not needed") {
+                                 FUN(yml_files[i], paste0(root_path, input_path[i]))       
+                }
+                 if(yml_files == "yaml not needed"){
+                                  FUN(paste0(root_path, input_path[i]))       
+                 }
+        }
+}
+```
+"preprocess_create_inputs_and_comparables.R" includes the initial portion of main.R which creates the config object with all of the filenames and paths. It saves the config object as well as preprocessdf (a list of objects) in the "Path_to_object_inputs" directory for use in code testing.  
+
+```{r, preprocess, message=FALSE, comment=FALSE, eval=eval_preprocess}
+source(paste0(Code_Path, "preprocess.R"))
+source("preprocess_create_inputs_and_comparables.R")
+
+Vary_Length_execute1(Root_path , PATH_to_object_inputs, yaml_filenames, 
+                     FUN = Generate_comparables_inputs) 
+```
+'Generate_comparables_and_inputs_qc.R' uses the config object generated above and produces more comparable inputs to be used for testing.
+
+```{r, QualityControl, message=FALSE, eval=eval_qc}
+source("qc_create_inputs_and_comparables.R")
+source(paste(Code_Path,"qc.R",sep=""))
+
+Vary_Length_execute1(Root_path, PATH_to_object_inputs, "yaml not needed",
+                     FUN = Generate_comparables_inputs_qc) 
+```
+
+```{r, MIST, message=FALSE, eval=eval_mist}
+source("MIST_create_inputs_and_comparables.R")
+source(paste(Code_Path,"mist.R",sep=""))
+source(paste(Code_Path,'training.R',sep=""))        
+
+
+Vary_Length_execute1(Root_path, PATH_to_object_inputs, "yaml not needed",
+                     FUN = Generate_comparables_inputs_MIST) 
+```
+
+```{r, COMPASS, message=FALSE, eval=eval_compass}
+source("COMPASS_create_inputs_and_comparables.R")
+source(paste0(Code_Path,'comppass.R'))
+
+Vary_Length_execute1(Root_path, PATH_to_object_inputs, "yaml not needed",
+                     FUN = Generate_comparables_inputs_COMPASS) 
+
+```
+
+```{r, Annotate, message=FALSE, eval=eval_annotate}
+source("Annotate_create_inputs_and_comparables.R")
+source(paste(Code_Path,'annotate.R',sep=""))
+
+Vary_Length_execute1(Root_path, PATH_to_object_inputs, "yaml not needed",
+                     FUN = Generate_comparables_inputs_Annotate) 
+
+
+#source("Enrichment_create_inputs_and_comparables.R")
+```
+

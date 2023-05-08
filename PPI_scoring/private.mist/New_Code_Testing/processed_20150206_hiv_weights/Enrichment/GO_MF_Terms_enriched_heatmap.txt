@@ -1,0 +1,212 @@
+	HA	M1	M2	NAp	negative	NEP	NP	NS1	PA	PB1	PB1F2	PB2
+1-acylglycerophosphocholine O-acyltransferase activity	4.15768309218036	0	0	0	0	0	0	0	0	0	0	0
+1-alkenylglycerophosphocholine O-acyltransferase activity	2.66815035473709	0	0	0	0	0	0	0	0	0	0	0
+1-alkylglycerophosphocholine O-acetyltransferase activity	2.66815035473709	0	0	0	0	0	0	0	0	0	0	0
+1-alkylglycerophosphocholine O-acyltransferase activity	2.66815035473709	0	0	0	0	0	0	0	0	0	0	0
+6-phosphofructokinase activity	0	0	4.28764133773957	0	0	0	0	0	0	0	0	0
+7S RNA binding	0	0	0	0	0	0	2.46347062064528	0	0	0	0	0
+actin binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+acyl-CoA dehydrogenase activity	0	0	5.32706238662576	0	0	0	0	0	0	0	0	0
+adenosylhomocysteinase activity	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+adenyl nucleotide binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+ADP binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+aldehyde dehydrogenase (NAD) activity	0	0	0	2.50198145024357	0	0	0	0	0	0	0	0
+aminoacyl-tRNA editing activity	0	0	4.70493919563517	0	0	0	0	0	0	0	0	0
+aminoacylase activity	0	0	2.91722884122074	0	0	0	0	0	0	0	0	0
+aminopeptidase activity	0	0	2.97199156038828	0	0	0	0	0	0	0	0	0
+antioxidant activity	0	0	0	0	0	0	0	0	0	0	2.78886460550058	0
+ARF guanyl-nucleotide exchange factor activity	0	0	2.34361867804889	0	0	0	0	0	0	0	0	0
+arginine binding	0	0	1.97604868453117	0	0	0	0	0	0	0	0	0
+arginine transmembrane transporter activity	2.24978246602368	0	0	0	0	0	0	0	0	0	0	0
+arginine-tRNA ligase activity	0	0	1.97604868453117	0	0	0	0	0	0	0	0	0
+armadillo repeat domain binding	0	4.7629828263268	0	0	0	0	0	0	0	0	0	0
+asparagine-tRNA ligase activity	0	0	0	0	0	0	3.03431760785735	0	0	0	0	0
+aspartate-tRNA ligase activity	0	0	2.91722884122074	0	0	0	0	0	0	0	0	0
+ATP binding	0	0	59.6681035812651	5.26495643290506	2.05693367523726	3.54930430843444	5.35953194505359	5.940064717529	7.7023194845523	0	2.35403541186433	0
+ATP-dependent helicase activity	0	0	0	0	0	0	0	5.16297809604564	0	0	0	0
+ATP-dependent RNA helicase activity	0	0	3.91437515527592	0	0	0	0	0	0	0	0	0
+ATPase activity	0	0	8.9296333267016	0	0	9.63834558829364	3.03431760785735	0	0	0	0	0
+beta-2-microglobulin binding	6.26276024868842	0	0	0	0	0	0	0	0	0	0	0
+beta-tubulin binding	0	0	2.5080085376778	0	0	0	0	0	0	0	0	0
+BH3 domain binding	0	0	0	0	0	0	0	0	0	0	3.15310889216294	0
+calcium ion binding	3.42913964582618	0	0	0	0	0	0	0	0	0	0	1.57509263884614
+calmodulin binding	0	6.20272442963191	2.99786361097575	0	0	0	0	0	0	0	0	0
+channel activity	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+chaperone binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+chromatin binding	0	0	6.97491167930014	0	2.05693367523726	0	0	2.86667222297241	0	2.59682551373919	0	0
+copper ion binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+CTP synthase activity	0	0	5.39294933300969	0	0	0	0	0	0	0	0	0
+cyclin-dependent protein serine/threonine kinase activity	0	0	2.44993798762043	0	0	0	0	0	0	0	0	0
+cytokine activity	0	0	3.02378118246532	0	0	0	0	0	0	0	0	0
+damaged DNA binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+dihydrolipoyllysine-residue (2-methylpropanoyl)transferase activity	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+dihydrolipoyllysine-residue succinyltransferase activity	0	0	0	0	0	0	0	0	0	0	1.98226497697025	0
+DNA binding	0	0	17.9869943850624	2.99200931926145	2.05693367523726	0	0	6.84049773011351	0	3.04439252418792	2.52759000713869	0
+DNA polymerase binding	0	0	7.91940959959159	0	0	0	0	0	0	0	0	0
+DNA-dependent ATPase activity	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+double-stranded DNA binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+double-stranded RNA adenosine deaminase activity	0	0	0	0	0	0	0	7.69298114713554	0	0	0	0
+double-stranded RNA binding	0	0	0	0	0	0	0	5.16297809604564	0	0	0	0
+dynein binding	0	0	1.85618296025508	0	0	0	0	0	0	0	0	0
+enzyme binding	0	0	0	0	2.05693367523726	0	0	0	0	3.04439252418792	2.90619059188226	0
+ephrin receptor binding	0	0	0	0	0	0	0	0	0	0	2.52759000713869	0
+epidermal growth factor receptor binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+estrogen receptor binding	0	2.53971633831317	2.50799772677565	0	0	0	0	0	0	0	0	0
+fatty-acyl-CoA binding	0	0	2.98461937767229	0	0	0	0	0	0	0	0	0
+flavin adenine dinucleotide binding	0	0	7.66936228485888	0	0	0	0	0	0	0	2.16488996545595	0
+four-way junction DNA binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+G-protein coupled receptor binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+galactokinase activity	0	0	0	0	0	0	0	0	4.36153061820465	0	0	0
+galactose binding	0	0	0	0	0	0	0	0	4.36153061820465	0	0	0
+glutamate-tRNA ligase activity	0	0	5.29777449769487	0	0	0	0	0	0	0	0	0
+glutamine-tRNA ligase activity	0	0	3.59615819424905	0	0	0	0	0	0	0	0	0
+glutaryl-CoA dehydrogenase activity	0	0	2.98461937767229	0	0	0	0	0	0	0	0	0
+GTP binding	4.15768309218036	0	3.02378118246532	0	0	0	3.03431760785735	0	0	0	1.94922650541246	1.57509263884614
+GTPase activator activity	0	0	3.02378118246532	0	0	0	0	0	0	3.61647411905183	0	0
+GTPase activity	3.42913964582618	0	0	0	0	0	0	0	0	0	1.94922650541246	1.57509263884614
+guanine/thymine mispair binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+guanyl-nucleotide exchange factor activity	2.83153188813603	0	17.7290063767814	0	0	0	0	0	0	0	0	0
+heat shock protein binding	0	0	0	0	0	0	0	0	0	3.38912064042557	0	0
+helicase activity	0	0	3.91695658827614	0	0	0	0	0	0	0	0	0
+heme binding	0	0	0	0	0	0	0	0	0	0	3.10617941773572	0
+histone acetyltransferase binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+histone binding	0	0	3.74560202182442	0	0	0	0	0	0	0	0	0
+histone deacetylase regulator activity	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+Hsp70 protein binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+Hsp90 protein binding	0	0	2.96076860178829	0	0	0	0	0	0	3.04439252418792	0	0
+hydrogen ion transmembrane transporter activity	0	0	0	0	0	4.17553222319735	0	0	0	0	0	0
+hydrolase activity	0	0	6.40847123543687	0	0	0	0	0	0	0	0	0
+identical protein binding	2.88739466377867	0	2.49135615001974	0	2.05693367523726	0	0	3.29361532046054	0	0	7.09442205292088	0
+importin-alpha export receptor activity	0	0	2.97199156038828	0	0	0	0	0	0	0	0	0
+insulin receptor substrate binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+interleukin-1 receptor binding	0	0	2.07495495489777	0	0	0	0	0	0	0	0	0
+ionotropic glutamate receptor binding	2.83153188813603	0	0	0	0	0	0	0	0	0	0	0
+isoleucine-tRNA ligase activity	0	0	3.42588394034118	0	0	0	0	0	0	0	0	0
+kinase activity	0	0	2.07495495489777	0	0	0	0	0	0	0	0	0
+kinase binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+leucine-tRNA ligase activity	0	0	2.24098232784437	0	0	0	0	0	0	0	0	0
+ligase activity	0	0	5.21803112920571	0	0	0	0	0	0	5.42919024882883	0	0
+lipid binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	2.91034046201824
+magnesium ion binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+MDM2/MDM4 family protein binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+mediator complex binding	0	0	1.85618296025508	0	0	0	0	0	0	0	0	0
+metal ion binding	0	0	3.22638506839448	0	0	0	5.14692576814401	5.20749098339805	4.36153061820465	0	5.46372031838826	0
+metalloendopeptidase activity	0	0	3.91437515527592	0	0	0	0	0	0	0	2.16488996545595	0
+metallopeptidase activity	0	0	2.97199156038828	0	0	0	0	0	0	0	0	0
+methionine adenosyltransferase activity	0	0	0	0	0	0	0	0	4.36153061820465	0	0	0
+methionine-tRNA ligase activity	0	0	2.31969097756154	0	0	0	0	0	0	0	0	0
+methylated histone binding	0	0	7.2762847079072	0	0	0	0	0	0	0	0	0
+MHC class I protein binding	0	0	0	0	0	2.43897853430041	0	0	0	0	0	0
+microtubule binding	0	0	3.46138228737495	0	0	0	0	0	0	0	0	0
+microtubule motor activity	0	0	3.91695658827614	5.22665275277928	0	0	0	0	0	0	0	0
+misfolded protein binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+mismatched DNA binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+molecular_function	0	0	3.20761434074006	0	0	0	0	0	0	0	0	0
+mRNA 3'-UTR binding	0	0	0	0	0	0	2.06978536313826	5.940064717529	0	0	0	0
+mRNA 5'-UTR binding	0	0	0	0	0	0	0	4.58832255330699	0	0	0	0
+mRNA binding	0	0	0	0	0	0	2.46347062064528	1.55686044990743	0	0	2.16101868161994	0
+MutLalpha complex binding	0	0	10.0585734040687	0	0	0	0	0	0	0	0	0
+MutSalpha complex binding	0	0	4.78239568143913	0	0	0	0	0	0	0	0	0
+myosin binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+NAD binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+neurotrophin TRKA receptor binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+NF-kappaB-inducing kinase activity	0	0	2.07495495489777	0	0	0	0	0	0	0	0	0
+nuclear localization sequence binding	0	0	3.63304963071614	0	0	0	0	0	0	0	0	2.91034046201824
+nucleic acid binding	0	0	0	0	0	0	3.03431760785735	0	0	0	0	0
+nucleocytoplasmic transporter activity	0	0	2.61156642577384	0	0	0	0	0	0	0	0	0
+nucleotide binding	0	0	3.55387890658489	0	0	0	11.8952357572029	9.14518057968047	0	0	0	1.57509263884614
+nucleotidyltransferase activity	0	0	2.99333875676454	0	0	0	0	0	0	0	0	0
+oxidized purine DNA binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+p53 binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+PDZ domain binding	0	0	2.98279258993511	0	0	0	0	0	0	0	0	0
+peptide antigen binding	10.5715510068912	0	0	0	0	0	0	0	0	0	0	0
+peroxidase activity	0	0	0	0	0	0	0	0	0	0	2.15915976425455	0
+phosphatidylinositol-4-phosphate binding	0	0	0	0	0	0	0	0	0	0	2.00149654039104	0
+phosphoribosylaminoimidazole carboxylase activity	0	0	0	0	0	0	0	0	0	0	1.69372469568306	0
+phosphoribosylaminoimidazolesuccinocarboxamide synthase activity	0	0	0	0	0	0	0	0	0	0	1.69372469568306	0
+phosphotyrosine binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+poly(A) RNA binding	4.36235326503845	0	11.229515447288	2.53721971010705	0	0	32.0567502518276	20.3861643072312	0	5.06069318452015	10.7720230990249	3.28178079397645
+proline-tRNA ligase activity	0	0	4.67971071497808	0	0	0	0	0	0	0	0	0
+protease binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+protein binding	18.9526638295341	4.7629828263268	126.611683866194	10.5114712178862	2.05693367523726	3.12404525257118	20.0650659529291	25.6812180673329	4.36153061820465	15.0217632185309	26.305345479195	15.3166368878272
+protein binding, bridging	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+protein C-terminus binding	0	0	0	0	0	0	0	0	0	0	0	2.91034046201824
+protein complex binding	0	4.7629828263268	5.72088409180442	0	0	0	0	0	0	0	2.41740436860908	0
+protein complex scaffold	2.83153188813603	0	2.96076860178829	0	0	0	0	0	0	0	0	0
+protein domain specific binding	0	0	5.94620620374046	0	0	0	0	0	0	0	1.94922650541246	0
+protein heterodimerization activity	0	0	5.61786166600435	0	2.05693367523726	0	0	0	0	0	2.87716196951186	0
+protein homodimerization activity	0	0	5.71692339945061	0	0	0	2.40215383305524	1.79546241478141	0	3.04439252418792	4.83328345067873	0
+protein kinase activity	0	0	7.74091252738933	0	0	0	0	0	0	0	0	0
+protein kinase binding	0	0	0	0	2.05693367523726	0	0	0	0	0	3.15310889216294	0
+protein N-terminus binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+protein phosphatase 2A binding	0	4.7629828263268	0	0	2.05693367523726	0	0	0	0	0	0	0
+protein phosphatase binding	0	0	0	0	2.05693367523726	0	0	0	0	0	2.16488996545595	0
+protein self-association	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+protein serine/threonine kinase activity	0	0	8.9296333267016	0	0	0	0	0	0	0	0	0
+protein serine/threonine phosphatase activity	0	0	0	0	0	0	0	0	0	0	2.11313978342249	0
+protein transporter activity	0	0	7.91940959959159	0	0	0	2.35423308718518	0	0	0	2.00149654039104	4.7685740112725
+protein tyrosine phosphatase activity	0	0	0	0	0	0	0	0	0	0	2.16101868161994	0
+proton-transporting ATP synthase activity, rotational mechanism	0	0	0	0	0	5.76792684644552	0	0	0	0	0	0
+proton-transporting ATPase activity, rotational mechanism	0	0	3.91695658827614	0	0	4.4024893949038	0	0	0	0	0	0
+pyridoxal phosphate binding	0	0	2.85757168000821	0	0	0	0	0	0	0	0	0
+Rab GTPase activator activity	0	0	0	0	0	0	0	0	0	0	2.16101868161994	0
+Ran GTPase binding	0	0	17.7290063767814	0	0	0	0	0	0	0	0	0
+receptor activity	0	0	3.01785089664646	0	0	0	0	0	0	0	2.33867318573494	0
+receptor binding	3.42913964582618	0	0	0	0	0	0	0	0	0	0	0
+receptor tyrosine kinase binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+ribosomal large subunit binding	0	0	0	0	0	0	3.03431760785735	0	0	0	0	0
+ribosomal small subunit binding	0	0	0	0	0	0	2.38074619979493	0	0	0	0	0
+ribosome binding	0	0	0	0	0	0	3.03431760785735	0	0	0	0	0
+RNA binding	0	0	10.7862266423734	0	0	0	13.4860746147057	5.42165711582462	0	3.04439252418792	0	1.77801176739264
+RNA cap binding	0	0	0	0	0	0	4.35667931416654	0	0	0	0	0
+RNA helicase activity	0	0	0	0	0	0	0	2.99563619388601	0	0	0	0
+RNA ligase (ATP) activity	0	0	0	0	0	0	0	2.99563619388601	0	0	0	0
+RNA polymerase II core promoter proximal region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+RNA polymerase II core promoter sequence-specific DNA binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+RNA polymerase II transcription factor binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+RNA polymerase II transcription regulatory region sequence-specific DNA binding transcription factor activity involved in positive regulation of transcription	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+RNA stem-loop binding	0	0	4.67971071497808	0	0	0	0	0	0	0	0	0
+rRNA binding	0	0	0	0	0	0	4.42964780494646	1.74195630232098	0	0	0	0
+sequence-specific DNA binding transcription factor activity	0	3.03499548077601	3.91695658827614	0	2.05693367523726	0	0	0	0	0	0	2.91034046201824
+SH3 domain binding	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+SH3/SH2 adaptor activity	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+single guanine insertion binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+single thymine insertion binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+SMAD binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+small GTPase regulator activity	0	0	3.1851456946736	0	0	0	0	0	0	0	0	0
+sphingosine N-acyltransferase activity	0	0	0	2.99200931926145	0	0	0	0	0	0	0	0
+steroid binding	0	0	0	0	0	0	0	0	0	0	2.15486002481453	0
+structural constituent of cytoskeleton	0	0	0	0	0	0	0	0	0	0	0	1.57509263884614
+structural constituent of nuclear pore	0	0	1.9226492736893	0	0	0	0	0	0	0	0	0
+structural constituent of ribosome	0	0	0	0	0	0	18.9961152660807	2.23029521507354	0	3.04439252418792	0	0
+succinate dehydrogenase (ubiquinone) activity	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+succinate dehydrogenase activity	0	0	0	0	0	0	0	0	0	0	2.16488996545595	0
+syndecan binding	2.95955923797561	0	0	0	0	0	0	0	0	0	0	0
+T cell receptor binding	3.42913964582618	0	0	0	0	0	0	0	0	0	0	0
+TAP binding	5.61868245161518	0	0	0	0	0	0	0	0	0	0	0
+Tat protein binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+TBP-class protein binding	0	0	2.80719224217094	0	0	0	0	0	0	0	0	0
+telomeric DNA binding	0	0	0	0	0	0	0	1.55686044990743	0	0	0	0
+thioredoxin peroxidase activity	0	0	0	0	0	0	0	0	0	0	4.30255682537884	0
+threonine-type endopeptidase activity	0	0	0	0	0	0	0	0	0	0	0	2.21967956314839
+TPR domain binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+transcription coactivator activity	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+transcription corepressor activity	0	0	0	0	0	0	0	2.77552102810813	0	0	0	0
+transcription factor binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+transcription regulatory region DNA binding	0	0	0	0	2.05693367523726	0	0	0	0	0	0	0
+transferase activity, transferring phosphorus-containing groups	0	0	5.32706238662576	0	0	0	0	0	0	0	0	0
+translation factor activity, nucleic acid binding	0	0	3.96520597211008	0	0	0	0	0	0	0	0	0
+translation initiation factor activity	0	0	10.3399881763462	0	0	0	0	0	0	0	0	2.91034046201824
+translation initiation factor binding	0	0	4.03222069026867	0	0	0	0	0	0	3.04439252418792	0	0
+translation regulator activity	0	0	0	0	0	0	0	4.58832255330699	0	0	0	0
+transmembrane transporter activity	0	0	0	0	0	9.63834558829364	0	0	0	0	0	0
+transporter activity	0	0	5.29777449769487	0	0	5.76792684644552	0	0	0	0	0	0
+tRNA binding	0	0	6.3647786356994	0	0	0	0	0	0	0	0	0
+U2 snRNA binding	0	0	0	0	0	0	3.03431760785735	0	0	0	0	0
+ubiquinol-cytochrome-c reductase activity	0	0	0	0	0	0	0	0	0	0	2.10047192258381	0
+ubiquitin binding	0	0	0	0	0	0	0	0	0	3.04439252418792	0	0
+ubiquitin protein ligase binding	0	0	0	0	2.05693367523726	0	0	0	0	3.61647411905183	0	0
+ubiquitin-protein transferase activity	0	0	5.09859813011214	0	0	0	0	2.86667222297241	0	10.1657887973348	0	0
+ubiquitin-ubiquitin ligase activity	0	0	0	0	0	0	0	2.86667222297241	0	3.04439252418792	0	0
+unfolded protein binding	0	0	5.02601455563648	2.32356692988475	0	0	0	0	0	0	1.77307177428471	0
+zinc ion binding	0	0	10.0585734040687	0	2.05693367523726	0	2.00785807849879	0	0	3.55536413804425	2.16101868161994	0

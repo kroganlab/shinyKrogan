@@ -1,0 +1,455 @@
+Entry	yourlist:M201502062EW75F3AHW	Entry name	Status	Protein names	Gene names  (primary )
+P35606	9276	COPB2_HUMAN	reviewed	Coatomer subunit beta' (Beta'-coat protein) (Beta'-COP) (p102)	COPB2
+Q9UBU9	10482	NXF1_HUMAN	reviewed	Nuclear RNA export factor 1 (Tip-associated protein) (Tip-associating protein) (mRNA export factor TAP)	NXF1
+P53621	1314	COPA_HUMAN	reviewed	Coatomer subunit alpha (Alpha-coat protein) (Alpha-COP) (HEP-COP) (HEPCOP) [Cleaved into: Xenin (Xenopsin-related peptide); Proxenin]	COPA
+P62273	6235	RS29_HUMAN	reviewed	40S ribosomal protein S29	RPS29
+P48444	372	COPD_HUMAN	reviewed	Coatomer subunit delta (Archain) (Delta-coat protein) (Delta-COP)	ARCN1
+Q9Y3U8	25873	RL36_HUMAN	reviewed	60S ribosomal protein L36	RPL36
+P42766	11224	RL35_HUMAN	reviewed	60S ribosomal protein L35	RPL35
+O43290	9092	SNUT1_HUMAN	reviewed	U4/U6.U5 tri-snRNP-associated protein 1 (SNU66 homolog) (hSnu66) (Squamous cell carcinoma antigen recognized by T-cells 1) (SART-1) (hSART-1) (U4/U6.U5 tri-snRNP-associated 110 kDa protein) (allergen Hom s 1)	SART1
+Q14152	8661	EIF3A_HUMAN	reviewed	Eukaryotic translation initiation factor 3 subunit A (eIF3a) (Eukaryotic translation initiation factor 3 subunit 10) (eIF-3-theta) (eIF3 p167) (eIF3 p180) (eIF3 p185)	EIF3A
+O00303	8665	EIF3F_HUMAN	reviewed	Eukaryotic translation initiation factor 3 subunit F (eIF3f) (Deubiquitinating enzyme eIF3f) (EC 3.4.19.12) (Eukaryotic translation initiation factor 3 subunit 5) (eIF-3-epsilon) (eIF3 p47)	EIF3F
+Q15904	537	VAS1_HUMAN	reviewed	V-type proton ATPase subunit S1 (V-ATPase subunit S1) (Protein XAP-3) (V-ATPase Ac45 subunit) (V-ATPase S1 accessory protein) (Vacuolar proton pump subunit S1)	ATP6AP1
+P62318	6634	SMD3_HUMAN	reviewed	Small nuclear ribonucleoprotein Sm D3 (Sm-D3) (snRNP core protein D3)	SNRPD3
+P62857	6234	RS28_HUMAN	reviewed	40S ribosomal protein S28	RPS28
+Q6P2Q9	10594	PRP8_HUMAN	reviewed	Pre-mRNA-processing-splicing factor 8 (220 kDa U5 snRNP-specific protein) (PRP8 homolog) (Splicing factor Prp8) (p220)	PRPF8
+Q9Y678	22820	COPG1_HUMAN	reviewed	Coatomer subunit gamma-1 (Gamma-1-coat protein) (Gamma-1-COP)	COPG1
+P63220	6227	RS21_HUMAN	reviewed	40S ribosomal protein S21	RPS21
+P62888	6156	RL30_HUMAN	reviewed	60S ribosomal protein L30	RPL30
+O75533	23451	SF3B1_HUMAN	reviewed	Splicing factor 3B subunit 1 (Pre-mRNA-splicing factor SF3b 155 kDa subunit) (SF3b155) (Spliceosome-associated protein 155) (SAP 155)	SF3B1
+P35544	2197	UBIM_HUMAN	reviewed	Ubiquitin-like protein FUBI	FAU
+P62979	6233	RS27A_HUMAN	reviewed	Ubiquitin-40S ribosomal protein S27a (Ubiquitin carboxyl extension protein 80) [Cleaved into: Ubiquitin; 40S ribosomal protein S27a]	RPS27A
+P53618	1315	COPB_HUMAN	reviewed	Coatomer subunit beta (Beta-coat protein) (Beta-COP)	COPB1
+P62249	6217	RS16_HUMAN	reviewed	40S ribosomal protein S16	RPS16
+Q8WZ42	7273	TITIN_HUMAN	reviewed	Titin (EC 2.7.11.1) (Connectin) (Rhabdomyosarcoma antigen MU-RMS-40.14)	TTN
+Q16549	9159	PCSK7_HUMAN	reviewed	Proprotein convertase subtilisin/kexin type 7 (EC 3.4.21.-) (Lymphoma proprotein convertase) (Prohormone convertase 7) (Proprotein convertase 7) (PC7) (Proprotein convertase 8) (PC8) (hPC8) (Subtilisin/kexin-like protease PC7)	PCSK7
+P32780	2965	TF2H1_HUMAN	reviewed	General transcription factor IIH subunit 1 (Basic transcription factor 2 62 kDa subunit) (BTF2 p62) (General transcription factor IIH polypeptide 1) (TFIIH basal transcription factor complex p62 subunit)	GTF2H1
+P55769	4809	NH2L1_HUMAN	reviewed	NHP2-like protein 1 (High mobility group-like nuclear protein 2 homolog 1) (OTK27) (SNU13 homolog) (hSNU13) (U4/U6.U5 tri-snRNP 15.5 kDa protein) [Cleaved into: NHP2-like protein 1, N-terminally processed]	NHP2L1
+Q9BUM1	92579	G6PC3_HUMAN	reviewed	Glucose-6-phosphatase 3 (G-6-Pase 3) (G6Pase 3) (EC 3.1.3.9) (Glucose-6-phosphatase beta) (G6Pase-beta) (Ubiquitous glucose-6-phosphatase catalytic subunit-related protein)	G6PC3
+Q13905	2889	RPGF1_HUMAN	reviewed	Rap guanine nucleotide exchange factor 1 (CRK SH3-binding GNRP) (Guanine nucleotide-releasing factor 2) (Protein C3G)	RAPGEF1
+Q13347	8668	EIF3I_HUMAN	reviewed	Eukaryotic translation initiation factor 3 subunit I (eIF3i) (Eukaryotic translation initiation factor 3 subunit 2) (TGF-beta receptor-interacting protein 1) (TRIP-1) (eIF-3-beta) (eIF3 p36)	EIF3I
+P53350	5347	PLK1_HUMAN	reviewed	Serine/threonine-protein kinase PLK1 (EC 2.7.11.21) (Polo-like kinase 1) (PLK-1) (Serine/threonine-protein kinase 13) (STPK13)	PLK1
+P62847	6229	RS24_HUMAN	reviewed	40S ribosomal protein S24	RPS24
+Q96M86	144132	DNHD1_HUMAN	reviewed	Dynein heavy chain domain-containing protein 1 (Dynein heavy chain domain 1-like protein) (Protein CCDC35)	DNHD1
+Q9NZ42	55851	PEN2_HUMAN	reviewed	Gamma-secretase subunit PEN-2 (Presenilin enhancer protein 2)	PSENEN
+P62256	7328	UBE2H_HUMAN	reviewed	Ubiquitin-conjugating enzyme E2 H (EC 6.3.2.19) (UbcH2) (Ubiquitin carrier protein H) (Ubiquitin-conjugating enzyme E2-20K) (Ubiquitin-protein ligase H)	UBE2H
+O95393	27302	BMP10_HUMAN	reviewed	Bone morphogenetic protein 10 (BMP-10)	BMP10
+P61254	6154	RL26_HUMAN	reviewed	60S ribosomal protein L26	RPL26
+Q99437	533	VATO_HUMAN	reviewed	V-type proton ATPase 21 kDa proteolipid subunit (V-ATPase 21 kDa proteolipid subunit) (Vacuolar proton pump 21 kDa proteolipid subunit) (hATPL)	ATP6V0B
+Q13573	22938	SNW1_HUMAN	reviewed	SNW domain-containing protein 1 (Nuclear protein SkiP) (Nuclear receptor coactivator NCoA-62) (Ski-interacting protein)	SNW1
+Q53GG5	27295	PDLI3_HUMAN	reviewed	PDZ and LIM domain protein 3 (Actinin-associated LIM protein) (Alpha-actinin-2-associated LIM protein)	PDLIM3
+O95571	23474	ETHE1_HUMAN	reviewed	Persulfide dioxygenase ETHE1, mitochondrial (EC 1.13.11.18) (Ethylmalonic encephalopathy protein 1) (Hepatoma subtracted clone one protein) (Sulfur dioxygenase ETHE1)	ETHE1
+Q495M3	153201	S36A2_HUMAN	reviewed	Proton-coupled amino acid transporter 2 (Proton/amino acid transporter 2) (Solute carrier family 36 member 2) (Tramdorin-1)	SLC36A2
+O95867	80740	LY66C_HUMAN	reviewed	Lymphocyte antigen 6 complex locus protein G6c	LY6G6C
+Q13123	3550	RED_HUMAN	reviewed	Protein Red (Cytokine IK) (IK factor) (Protein RER)	IK
+Q15459	10291	SF3A1_HUMAN	reviewed	Splicing factor 3A subunit 1 (SF3a120) (Spliceosome-associated protein 114) (SAP 114)	SF3A1
+P49842	8859	STK19_HUMAN	reviewed	Serine/threonine-protein kinase 19 (EC 2.7.11.1) (Protein G11) (Protein RP1)	STK19
+Q16740	8192	CLPP_HUMAN	reviewed	ATP-dependent Clp protease proteolytic subunit, mitochondrial (EC 3.4.21.92) (Endopeptidase Clp)	CLPP
+P61923	22818	COPZ1_HUMAN	reviewed	Coatomer subunit zeta-1 (Zeta-1-coat protein) (Zeta-1 COP)	COPZ1
+Q5TAT6	1305	CODA1_HUMAN	reviewed	Collagen alpha-1(XIII) chain (COLXIIIA1)	COL13A1
+Q6ZVL6	25758	K154L_HUMAN	reviewed	UPF0606 protein KIAA1549L	KIAA1549L
+Q02221	1339	CX6A2_HUMAN	reviewed	Cytochrome c oxidase subunit 6A2, mitochondrial (Cytochrome c oxidase polypeptide VIa-heart) (COXVIAH) (Cytochrome c oxidase subunit VIA-muscle) (COX VIa-M)	COX6A2
+Q6ZTW0	91978	TPGS1_HUMAN	reviewed	Tubulin polyglutamylase complex subunit 1 (PGs1)	TPGS1
+P62487	5436	RPB7_HUMAN	reviewed	DNA-directed RNA polymerase II subunit RPB7 (RNA polymerase II subunit B7) (DNA-directed RNA polymerase II subunit G) (RNA polymerase II 19 kDa subunit) (RPB19)	POLR2G
+Q9BZZ5	8539	API5_HUMAN	reviewed	Apoptosis inhibitor 5 (API-5) (Antiapoptosis clone 11 protein) (AAC-11) (Cell migration-inducing gene 8 protein) (Fibroblast growth factor 2-interacting factor) (FIF) (Protein XAGL)	API5
+P33897	215	ABCD1_HUMAN	reviewed	ATP-binding cassette sub-family D member 1 (Adrenoleukodystrophy protein) (ALDP)	ABCD1
+Q8WTR4	81544	GDPD5_HUMAN	reviewed	Glycerophosphodiester phosphodiesterase domain-containing protein 5 (EC 3.1.-.-) (Glycerophosphodiester phosphodiesterase 2)	GDPD5
+Q9NRX4	29085	PHP14_HUMAN	reviewed	14 kDa phosphohistidine phosphatase (EC 3.1.3.-) (Phosphohistidine phosphatase 1) (Protein janus-A homolog)	PHPT1
+P18583	6651	SON_HUMAN	reviewed	Protein SON (Bax antagonist selected in saccharomyces 1) (BASS1) (Negative regulatory element-binding protein) (NRE-binding protein) (Protein DBP-5) (SON3)	SON
+Q8N8Q3	284131	ENDOV_HUMAN	reviewed	Endonuclease V (hEndoV) (EC 3.1.26.-) (Inosine-specific endoribonuclease)	ENDOV
+Q8IXK0	1912	PHC2_HUMAN	reviewed	Polyhomeotic-like protein 2 (hPH2) (Early development regulatory protein 2)	PHC2
+P52948	4928	NUP98_HUMAN	reviewed	Nuclear pore complex protein Nup98-Nup96 [Cleaved into: Nuclear pore complex protein Nup98 (98 kDa nucleoporin) (Nucleoporin Nup98) (Nup98); Nuclear pore complex protein Nup96 (96 kDa nucleoporin) (Nucleoporin Nup96) (Nup96)]	NUP98
+O76039	6792	CDKL5_HUMAN	reviewed	Cyclin-dependent kinase-like 5 (EC 2.7.11.22) (Serine/threonine-protein kinase 9)	CDKL5
+P35916	2324	VGFR3_HUMAN	reviewed	Vascular endothelial growth factor receptor 3 (VEGFR-3) (EC 2.7.10.1) (Fms-like tyrosine kinase 4) (FLT-4) (Tyrosine-protein kinase receptor FLT4)	FLT4
+Q8WYQ4	150248	CV015_HUMAN	reviewed	Uncharacterized protein C22orf15 (Protein N27C7-3)	C22orf15
+P24539	515	AT5F1_HUMAN	reviewed	ATP synthase F(0) complex subunit B1, mitochondrial (ATP synthase proton-transporting mitochondrial F(0) complex subunit B1) (ATP synthase subunit b) (ATPase subunit b)	ATP5F1
+P62316	6633	SMD2_HUMAN	reviewed	Small nuclear ribonucleoprotein Sm D2 (Sm-D2) (snRNP core protein D2)	SNRPD2
+Q9NZL3	7767	ZN224_HUMAN	reviewed	Zinc finger protein 224 (Bone marrow zinc finger 2) (BMZF-2) (Zinc finger protein 233) (Zinc finger protein 255) (Zinc finger protein 27) (Zinc finger protein KOX22)	ZNF224
+P52732	3832	KIF11_HUMAN	reviewed	Kinesin-like protein KIF11 (Kinesin-like protein 1) (Kinesin-like spindle protein HKSP) (Kinesin-related motor protein Eg5) (Thyroid receptor-interacting protein 5) (TR-interacting protein 5) (TRIP-5)	KIF11
+O00423	2009	EMAL1_HUMAN	reviewed	Echinoderm microtubule-associated protein-like 1 (EMAP-1) (HuEMAP-1)	EML1
+Q8IVD9	23386	NUDC3_HUMAN	reviewed	NudC domain-containing protein 3	NUDCD3
+Q8N8N0	220441	RN152_HUMAN	reviewed	E3 ubiquitin-protein ligase RNF152 (EC 6.3.2.-) (RING finger protein 152)	RNF152
+O15232	4148	MATN3_HUMAN	reviewed	Matrilin-3	MATN3
+Q9BTZ2	10901	DHRS4_HUMAN	reviewed	Dehydrogenase/reductase SDR family member 4 (EC 1.1.1.184) (NADPH-dependent carbonyl reductase/NADP-retinol dehydrogenase) (CR) (PHCR) (NADPH-dependent retinol dehydrogenase/reductase) (NRDR) (humNRDR) (Peroxisomal short-chain alcohol dehydrogenase) (PSCD) (SCAD-SRL) (Short-chain dehydrogenase/reductase family member 4)	DHRS4
+Q07002	5129	CDK18_HUMAN	reviewed	Cyclin-dependent kinase 18 (EC 2.7.11.22) (Cell division protein kinase 18) (PCTAIRE-motif protein kinase 3) (Serine/threonine-protein kinase PCTAIRE-3)	CDK18
+Q86VH5	347731	LRRT3_HUMAN	reviewed	Leucine-rich repeat transmembrane neuronal protein 3	LRRTM3
+Q8WZ73	117584	RFFL_HUMAN	reviewed	E3 ubiquitin-protein ligase rififylin (EC 6.3.2.-) (Caspase regulator CARP2) (Caspases-8 and -10-associated RING finger protein 2) (CARP-2) (FYVE-RING finger protein Sakura) (Fring) (RING finger and FYVE-like domain-containing protein 1) (RING finger protein 189) (RING finger protein 34-like)	RFFL
+P68104	1915	EF1A1_HUMAN	reviewed	Elongation factor 1-alpha 1 (EF-1-alpha-1) (Elongation factor Tu) (EF-Tu) (Eukaryotic elongation factor 1 A-1) (eEF1A-1) (Leukocyte receptor cluster member 7)	EEF1A1
+P98179	5935	RBM3_HUMAN	reviewed	RNA-binding protein 3 (RNA-binding motif protein 3) (RNPL)	RBM3
+P24928	5430	RPB1_HUMAN	reviewed	DNA-directed RNA polymerase II subunit RPB1 (RNA polymerase II subunit B1) (EC 2.7.7.6) (DNA-directed RNA polymerase II subunit A) (DNA-directed RNA polymerase III largest subunit) (RNA-directed RNA polymerase II subunit RPB1) (EC 2.7.7.48)	POLR2A
+O75376	9611	NCOR1_HUMAN	reviewed	Nuclear receptor corepressor 1 (N-CoR) (N-CoR1)	NCOR1
+Q6NUN7	79864	CK063_HUMAN	reviewed	Uncharacterized protein C11orf63	C11orf63
+Q5ST30	57176	SYVM_HUMAN	reviewed	Valine--tRNA ligase, mitochondrial (EC 6.1.1.9) (Valyl-tRNA synthetase) (ValRS) (Valyl-tRNA synthetase-like)	VARS2
+Q8N9I9	196403	DTX3_HUMAN	reviewed	Probable E3 ubiquitin-protein ligase DTX3 (EC 6.3.2.-) (Protein deltex-3) (Deltex3) (RING finger protein 154)	DTX3
+Q7Z7K2	168544	ZN467_HUMAN	reviewed	Zinc finger protein 467	ZNF467
+Q9UHP6	27156	RTDR1_HUMAN	reviewed	Rhabdoid tumor deletion region protein 1	RTDR1
+Q9BQD7	65990	F173A_HUMAN	reviewed	Protein FAM173A	FAM173A
+P35346	6755	SSR5_HUMAN	reviewed	Somatostatin receptor type 5 (SS-5-R) (SS5-R) (SS5R)	SSTR5
+Q9NXE4	55627	NSMA3_HUMAN	reviewed	Sphingomyelin phosphodiesterase 4 (EC 3.1.4.12) (Neutral sphingomyelinase 3) (nSMase-3) (nSMase3) (Neutral sphingomyelinase III)	SMPD4
+Q99698	1130	LYST_HUMAN	reviewed	Lysosomal-trafficking regulator (Beige homolog)	LYST
+O95665	23620	NTR2_HUMAN	reviewed	Neurotensin receptor type 2 (NT-R-2) (NTR2) (Levocabastine-sensitive neurotensin receptor)	NTSR2
+Q9NTN9	57715	SEM4G_HUMAN	reviewed	Semaphorin-4G	SEMA4G
+Q16651	5652	PRSS8_HUMAN	reviewed	Prostasin (EC 3.4.21.-) (Channel-activating protease 1) (CAP1) (Serine protease 8) [Cleaved into: Prostasin light chain; Prostasin heavy chain]	PRSS8
+Q9H244	64805	P2Y12_HUMAN	reviewed	P2Y purinoceptor 12 (P2Y12) (ADP-glucose receptor) (ADPG-R) (P2T(AC)) (P2Y(AC)) (P2Y(cyc)) (P2Y12 platelet ADP receptor) (P2Y(ADP)) (SP1999)	P2RY12
+Q9BZL6	25865	KPCD2_HUMAN	reviewed	Serine/threonine-protein kinase D2 (EC 2.7.11.13) (nPKC-D2)	PRKD2
+P12270	7175	TPR_HUMAN	reviewed	Nucleoprotein TPR (Megator) (NPC-associated intranuclear protein) (Translocated promoter region protein)	TPR
+Q9NPF5	55929	DMAP1_HUMAN	reviewed	DNA methyltransferase 1-associated protein 1 (DNMAP1) (DNMT1-associated protein 1)	DMAP1
+O94916	10725	NFAT5_HUMAN	reviewed	Nuclear factor of activated T-cells 5 (NF-AT5) (T-cell transcription factor NFAT5) (Tonicity-responsive enhancer-binding protein) (TonE-binding protein) (TonEBP)	NFAT5
+Q9H3Z7	140701	ABHGB_HUMAN	reviewed	Abhydrolase domain-containing protein 16B (EC 3.-.-.-)	ABHD16B
+Q9ULT8	25831	HECD1_HUMAN	reviewed	E3 ubiquitin-protein ligase HECTD1 (EC 6.3.2.-) (E3 ligase for inhibin receptor) (EULIR) (HECT domain-containing protein 1)	HECTD1
+Q86XR7	353376	TCAM2_HUMAN	reviewed	TIR domain-containing adapter molecule 2 (TICAM-2) (Putative NF-kappa-B-activating protein 502) (TRIF-related adapter molecule) (Toll-like receptor adaptor protein 3) (Toll/interleukin-1 receptor domain-containing protein) (MyD88-4)	TICAM2
+Q6PJG2	91748	EMSA1_HUMAN	reviewed	ELM2 and SANT domain-containing protein 1	ELMSAN1
+Q8N5J2	55793	FA63A_HUMAN	reviewed	Protein FAM63A	FAM63A
+Q96BA8	90993	CR3L1_HUMAN	reviewed	Cyclic AMP-responsive element-binding protein 3-like protein 1 (cAMP-responsive element-binding protein 3-like protein 1) (Old astrocyte specifically-induced substance) (OASIS) [Cleaved into: Processed cyclic AMP-responsive element-binding protein 3-like protein 1]	CREB3L1
+P62913	6135	RL11_HUMAN	reviewed	60S ribosomal protein L11 (CLL-associated antigen KW-12)	RPL11
+Q9UK08	94235	GBG8_HUMAN	reviewed	Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-8 (Gamma-9)	GNG8
+P48729	1452	KC1A_HUMAN	reviewed	Casein kinase I isoform alpha (CKI-alpha) (EC 2.7.11.1) (CK1)	CSNK1A1
+P41208	1069	CETN2_HUMAN	reviewed	Centrin-2 (Caltractin isoform 1)	CETN2
+Q9C0B2	85452	CFA74_HUMAN	reviewed	Cilia- and flagella-associated protein 74	CFAP74
+Q9Y3B4	51639	SF3B6_HUMAN	reviewed	Splicing factor 3B subunit 6 (Pre-mRNA branch site protein p14) (SF3b 14 kDa subunit) (SF3B14a) (Spliceosome-associated protein, 14-kDa) (Splicing factor 3b, subunit 6, 14kDa)	SF3B6
+O75586	10001	MED6_HUMAN	reviewed	Mediator of RNA polymerase II transcription subunit 6 (Activator-recruited cofactor 33 kDa component) (ARC33) (Mediator complex subunit 6) (hMed6) (Renal carcinoma antigen NY-REN-28)	MED6
+Q2TAC6	124602	KIF19_HUMAN	reviewed	Kinesin-like protein KIF19	KIF19
+Q92743	5654	HTRA1_HUMAN	reviewed	Serine protease HTRA1 (EC 3.4.21.-) (High-temperature requirement A serine peptidase 1) (L56) (Serine protease 11)	HTRA1
+Q9H3H3	83638	CK068_HUMAN	reviewed	UPF0696 protein C11orf68 (Basophilic leukemia-expressed protein Bles03) (Protein p5326)	C11orf68
+P47888	8392	OR3A3_HUMAN	reviewed	Olfactory receptor 3A3 (Olfactory receptor 17-201) (OR17-201) (Olfactory receptor 3A6) (Olfactory receptor 3A7) (Olfactory receptor 3A8) (Olfactory receptor OR17-22)	OR3A3
+P38606	523	VATA_HUMAN	reviewed	V-type proton ATPase catalytic subunit A (V-ATPase subunit A) (EC 3.6.3.14) (V-ATPase 69 kDa subunit) (Vacuolar ATPase isoform VA68) (Vacuolar proton pump subunit alpha)	ATP6V1A
+P49326	2330	FMO5_HUMAN	reviewed	Dimethylaniline monooxygenase [N-oxide-forming] 5 (EC 1.14.13.8) (Dimethylaniline oxidase 5) (Hepatic flavin-containing monooxygenase 5) (FMO 5)	FMO5
+Q6J9G0	55359	STYK1_HUMAN	reviewed	Tyrosine-protein kinase STYK1 (EC 2.7.10.2) (Novel oncogene with kinase domain) (Protein PK-unique) (Serine/threonine/tyrosine kinase 1)	STYK1
+Q86XT4	135892	TRI50_HUMAN	reviewed	E3 ubiquitin-protein ligase TRIM50 (EC 6.3.2.-) (Tripartite motif-containing protein 50)	TRIM50
+P42331	9938	RHG25_HUMAN	reviewed	Rho GTPase-activating protein 25 (Rho-type GTPase-activating protein 25)	ARHGAP25
+P49759	1195	CLK1_HUMAN	reviewed	Dual specificity protein kinase CLK1 (EC 2.7.12.1) (CDC-like kinase 1)	CLK1
+P62987	7311	RL40_HUMAN	reviewed	Ubiquitin-60S ribosomal protein L40 (CEP52) (Ubiquitin A-52 residue ribosomal protein fusion product 1) [Cleaved into: Ubiquitin; 60S ribosomal protein L40]	UBA52
+P00749	5328	UROK_HUMAN	reviewed	Urokinase-type plasminogen activator (U-plasminogen activator) (uPA) (EC 3.4.21.73) [Cleaved into: Urokinase-type plasminogen activator long chain A; Urokinase-type plasminogen activator short chain A; Urokinase-type plasminogen activator chain B]	PLAU
+Q96L96	57538	ALPK3_HUMAN	reviewed	Alpha-protein kinase 3 (EC 2.7.11.-) (Muscle alpha-protein kinase)	ALPK3
+P11802	1019	CDK4_HUMAN	reviewed	Cyclin-dependent kinase 4 (EC 2.7.11.22) (Cell division protein kinase 4) (PSK-J3)	CDK4
+Q9H2X6	28996	HIPK2_HUMAN	reviewed	Homeodomain-interacting protein kinase 2 (hHIPk2) (EC 2.7.11.1)	HIPK2
+Q9BWS9	66005	CHID1_HUMAN	reviewed	Chitinase domain-containing protein 1 (Stabilin-1-interacting chitinase-like protein) (SI-CLP)	CHID1
+O15069	23148	NACAD_HUMAN	reviewed	NAC-alpha domain-containing protein 1	NACAD
+P48556	5714	PSMD8_HUMAN	reviewed	26S proteasome non-ATPase regulatory subunit 8 (26S proteasome regulatory subunit RPN12) (26S proteasome regulatory subunit S14) (p31)	PSMD8
+O00341	6512	EAA5_HUMAN	reviewed	Excitatory amino acid transporter 5 (Retinal glutamate transporter) (Solute carrier family 1 member 7)	SLC1A7
+O60566	701	BUB1B_HUMAN	reviewed	Mitotic checkpoint serine/threonine-protein kinase BUB1 beta (EC 2.7.11.1) (MAD3/BUB1-related protein kinase) (hBUBR1) (Mitotic checkpoint kinase MAD3L) (Protein SSK1)	BUB1B
+Q9NTG7	23410	SIR3_HUMAN	reviewed	NAD-dependent protein deacetylase sirtuin-3, mitochondrial (hSIRT3) (EC 3.5.1.-) (Regulatory protein SIR2 homolog 3) (SIR2-like protein 3)	SIRT3
+Q96KT7	83650	S35G5_HUMAN	reviewed	Solute carrier family 35 member G5 (Acyl-malonyl-condensing enzyme 1-like protein 2)	SLC35G5
+Q07869	5465	PPARA_HUMAN	reviewed	Peroxisome proliferator-activated receptor alpha (PPAR-alpha) (Nuclear receptor subfamily 1 group C member 1)	PPARA
+Q13435	10992	SF3B2_HUMAN	reviewed	Splicing factor 3B subunit 2 (Pre-mRNA-splicing factor SF3b 145 kDa subunit) (SF3b145) (SF3b150) (Spliceosome-associated protein 145) (SAP 145)	SF3B2
+P22234	10606	PUR6_HUMAN	reviewed	Multifunctional protein ADE2 [Includes: Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6) (SAICAR synthetase); Phosphoribosylaminoimidazole carboxylase (EC 4.1.1.21) (AIR carboxylase) (AIRC)]	PAICS
+O43865	10768	SAHH2_HUMAN	reviewed	Putative adenosylhomocysteinase 2 (AdoHcyase 2) (EC 3.3.1.1) (DC-expressed AHCY-like molecule) (IP(3)Rs binding protein released with IP(3)) (IRBIT) (S-adenosyl-L-homocysteine hydrolase 2) (S-adenosylhomocysteine hydrolase-like protein 1)	AHCYL1
+Q99640	9088	PMYT1_HUMAN	reviewed	Membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase (EC 2.7.11.1) (Myt1 kinase)	PKMYT1
+O00142	7084	KITM_HUMAN	reviewed	Thymidine kinase 2, mitochondrial (EC 2.7.1.21) (Mt-TK)	TK2
+Q9Y4G2	9842	PKHM1_HUMAN	reviewed	Pleckstrin homology domain-containing family M member 1 (PH domain-containing family M member 1) (162 kDa adapter protein) (AP162)	PLEKHM1
+Q9NZR2	53353	LRP1B_HUMAN	reviewed	Low-density lipoprotein receptor-related protein 1B (LRP-1B) (Low-density lipoprotein receptor-related protein-deleted in tumor) (LRP-DIT)	LRP1B
+Q96M53	219793	TBATA_HUMAN	reviewed	Protein TBATA (Protein SPATIAL) (Stromal protein associated with thymii and lymph node homolog) (Thymus, brain and testes-associated protein)	TBATA
+Q9UK17	3752	KCND3_HUMAN	reviewed	Potassium voltage-gated channel subfamily D member 3 (Voltage-gated potassium channel subunit Kv4.3)	KCND3
+Q13263	10155	TIF1B_HUMAN	reviewed	Transcription intermediary factor 1-beta (TIF1-beta) (E3 SUMO-protein ligase TRIM28) (EC 6.3.2.-) (KRAB-associated protein 1) (KAP-1) (KRAB-interacting protein 1) (KRIP-1) (Nuclear corepressor KAP-1) (RING finger protein 96) (Tripartite motif-containing protein 28)	TRIM28
+Q9BZL1	59286	UBL5_HUMAN	reviewed	Ubiquitin-like protein 5	UBL5
+Q8N9R6	284040	CDRT4_HUMAN	reviewed	CMT1A duplicated region transcript 4 protein	CDRT4
+Q15011	9709	HERP1_HUMAN	reviewed	Homocysteine-responsive endoplasmic reticulum-resident ubiquitin-like domain member 1 protein (Methyl methanesulfonate (MMF)-inducible fragment protein 1)	HERPUD1
+Q9Y248	51659	PSF2_HUMAN	reviewed	DNA replication complex GINS protein PSF2 (GINS complex subunit 2)	GINS2
+Q92698	8438	RAD54_HUMAN	reviewed	DNA repair and recombination protein RAD54-like (EC 3.6.4.-) (RAD54 homolog) (hHR54) (hRAD54)	RAD54L
+P57740	57122	NU107_HUMAN	reviewed	Nuclear pore complex protein Nup107 (107 kDa nucleoporin) (Nucleoporin Nup107)	NUP107
+Q8NGB6	390538	OR4M2_HUMAN	reviewed	Olfactory receptor 4M2 (Olfactory receptor OR15-3)	OR4M2
+O15371	8664	EIF3D_HUMAN	reviewed	Eukaryotic translation initiation factor 3 subunit D (eIF3d) (Eukaryotic translation initiation factor 3 subunit 7) (eIF-3-zeta) (eIF3 p66)	EIF3D
+Q9BUL9	54913	RPP25_HUMAN	reviewed	Ribonuclease P protein subunit p25 (RNase P protein subunit p25) (EC 3.1.26.5)	RPP25
+O94763	8725	RMP_HUMAN	reviewed	Unconventional prefoldin RPB5 interactor 1 (Protein NNX3) (Protein phosphatase 1 regulatory subunit 19) (RNA polymerase II subunit 5-mediating protein) (RPB5-mediating protein)	URI1
+O00555	773	CAC1A_HUMAN	reviewed	Voltage-dependent P/Q-type calcium channel subunit alpha-1A (Brain calcium channel I) (BI) (Calcium channel, L type, alpha-1 polypeptide isoform 4) (Voltage-gated calcium channel subunit alpha Cav2.1)	CACNA1A
+P55081	4236	MFAP1_HUMAN	reviewed	Microfibrillar-associated protein 1	MFAP1
+Q9BXK5	23786	B2L13_HUMAN	reviewed	Bcl-2-like protein 13 (Bcl2-L-13) (Bcl-rambo) (Protein Mil1)	BCL2L13
+Q9C056	84504	NKX62_HUMAN	reviewed	Homeobox protein Nkx-6.2 (Homeobox protein NK-6 homolog B)	NKX6-2
+Q92508	9780	PIEZ1_HUMAN	reviewed	Piezo-type mechanosensitive ion channel component 1 (Membrane protein induced by beta-amyloid treatment) (Mib) (Protein FAM38A)	PIEZO1
+P61587	390	RND3_HUMAN	reviewed	Rho-related GTP-binding protein RhoE (Protein MemB) (Rho family GTPase 3) (Rho-related GTP-binding protein Rho8) (Rnd3)	RND3
+P03999	611	OPSB_HUMAN	reviewed	Short-wave-sensitive opsin 1 (Blue cone photoreceptor pigment) (Blue-sensitive opsin) (BOP)	OPN1SW
+P57058	30811	HUNK_HUMAN	reviewed	Hormonally up-regulated neu tumor-associated kinase (EC 2.7.11.1) (B19) (Serine/threonine-protein kinase MAK-V)	HUNK
+P01236	5617	PRL_HUMAN	reviewed	Prolactin (PRL)	PRL
+P45983	5599	MK08_HUMAN	reviewed	Mitogen-activated protein kinase 8 (MAP kinase 8) (MAPK 8) (EC 2.7.11.24) (JNK-46) (Stress-activated protein kinase 1c) (SAPK1c) (Stress-activated protein kinase JNK1) (c-Jun N-terminal kinase 1)	MAPK8
+Q99965	2515	ADAM2_HUMAN	reviewed	Disintegrin and metalloproteinase domain-containing protein 2 (ADAM 2) (Cancer/testis antigen 15) (CT15) (Fertilin subunit beta) (PH-30) (PH30) (PH30-beta)	ADAM2
+P23396	6188	RS3_HUMAN	reviewed	40S ribosomal protein S3 (EC 4.2.99.18)	RPS3
+Q99593	6910	TBX5_HUMAN	reviewed	T-box transcription factor TBX5 (T-box protein 5)	TBX5
+Q96D21	23551	RHES_HUMAN	reviewed	GTP-binding protein Rhes (Ras homolog enriched in striatum) (Tumor endothelial marker 2)	RASD2
+P01266	7038	THYG_HUMAN	reviewed	Thyroglobulin (Tg)	TG
+Q8NI60	56997	ADCK3_HUMAN	reviewed	Chaperone activity of bc1 complex-like, mitochondrial (Chaperone-ABC1-like) (EC 2.7.11.-) (aarF domain-containing protein kinase 3)	ADCK3
+P02647	335	APOA1_HUMAN	reviewed	Apolipoprotein A-I (Apo-AI) (ApoA-I) (Apolipoprotein A1) [Cleaved into: Proapolipoprotein A-I (ProapoA-I); Truncated apolipoprotein A-I (Apolipoprotein A-I(1-242))]	APOA1
+Q05823	6041	RN5A_HUMAN	reviewed	2-5A-dependent ribonuclease (2-5A-dependent RNase) (EC 3.1.26.-) (Ribonuclease 4) (Ribonuclease L) (RNase L)	RNASEL
+P41227	8260	NAA10_HUMAN	reviewed	N-alpha-acetyltransferase 10 (EC 2.3.1.-) (EC 2.3.1.88) (N-terminal acetyltransferase complex ARD1 subunit homolog A) (NatA catalytic subunit Naa10)	NAA10
+Q2TAY7	55234	SMU1_HUMAN	reviewed	WD40 repeat-containing protein SMU1 (Smu-1 suppressor of mec-8 and unc-52 protein homolog) [Cleaved into: WD40 repeat-containing protein SMU1, N-terminally processed]	SMU1
+P46782	6193	RS5_HUMAN	reviewed	40S ribosomal protein S5 [Cleaved into: 40S ribosomal protein S5, N-terminally processed]	RPS5
+Q6SZW1	23098	SARM1_HUMAN	reviewed	Sterile alpha and TIR motif-containing protein 1 (Sterile alpha and Armadillo repeat protein) (Sterile alpha motif domain-containing protein 2) (MyD88-5) (SAM domain-containing protein 2) (Tir-1 homolog)	SARM1
+Q8NFD5	57492	ARI1B_HUMAN	reviewed	AT-rich interactive domain-containing protein 1B (ARID domain-containing protein 1B) (BRG1-associated factor 250b) (BAF250B) (BRG1-binding protein hELD/OSA1) (Osa homolog 2) (hOsa2) (p250R)	ARID1B
+Q07325	4283	CXCL9_HUMAN	reviewed	C-X-C motif chemokine 9 (Gamma-interferon-induced monokine) (Monokine induced by interferon-gamma) (HuMIG) (MIG) (Small-inducible cytokine B9)	CXCL9
+Q5W0Q7	10208	USPL1_HUMAN	reviewed	SUMO-specific isopeptidase USPL1 (EC 3.4.22.-) (Ubiquitin-specific peptidase-like protein 1)	USPL1
+P23921	6240	RIR1_HUMAN	reviewed	Ribonucleoside-diphosphate reductase large subunit (EC 1.17.4.1) (Ribonucleoside-diphosphate reductase subunit M1) (Ribonucleotide reductase large subunit)	RRM1
+P05141	292	ADT2_HUMAN	reviewed	ADP/ATP translocase 2 (ADP,ATP carrier protein 2) (ADP,ATP carrier protein, fibroblast isoform) (Adenine nucleotide translocator 2) (ANT 2) (Solute carrier family 25 member 5) [Cleaved into: ADP/ATP translocase 2, N-terminally processed]	SLC25A5
+P0CI25	57093	TRI49_HUMAN	reviewed	Tripartite motif-containing protein 49 (RING finger protein 18) (Testis-specific RING-finger protein)	TRIM49
+Q13835	5317	PKP1_HUMAN	reviewed	Plakophilin-1 (Band 6 protein) (B6P)	PKP1
+Q01094	1869	E2F1_HUMAN	reviewed	Transcription factor E2F1 (E2F-1) (PBR3) (Retinoblastoma-associated protein 1) (RBAP-1) (Retinoblastoma-binding protein 3) (RBBP-3) (pRB-binding protein E2F-1)	E2F1
+Q04844	1145	ACHE_HUMAN	reviewed	Acetylcholine receptor subunit epsilon	CHRNE
+Q96RS0	96764	TGS1_HUMAN	reviewed	Trimethylguanosine synthase (EC 2.1.1.-) (CLL-associated antigen KW-2) (Cap-specific guanine-N2 methyltransferase) (Hepatocellular carcinoma-associated antigen 137) (Nuclear receptor coactivator 6-interacting protein) (PRIP-interacting protein with methyltransferase motif) (PIMT) (PIPMT)	TGS1
+P36402	6932	TCF7_HUMAN	reviewed	Transcription factor 7 (TCF-7) (T-cell-specific transcription factor 1) (T-cell factor 1) (TCF-1)	TCF7
+Q75N03	79872	HAKAI_HUMAN	reviewed	E3 ubiquitin-protein ligase Hakai (EC 6.3.2.-) (Casitas B-lineage lymphoma-transforming sequence-like protein 1) (RING finger protein 188) (c-Cbl-like protein 1)	CBLL1
+Q9H6R4	65083	NOL6_HUMAN	reviewed	Nucleolar protein 6 (Nucleolar RNA-associated protein) (Nrap)	NOL6
+P47897	5859	SYQ_HUMAN	reviewed	Glutamine--tRNA ligase (EC 6.1.1.18) (Glutaminyl-tRNA synthetase) (GlnRS)	QARS
+Q9ULV4	23603	COR1C_HUMAN	reviewed	Coronin-1C (Coronin-3) (hCRNN4)	CORO1C
+P11226	4153	MBL2_HUMAN	reviewed	Mannose-binding protein C (MBP-C) (Collectin-1) (MBP1) (Mannan-binding protein) (Mannose-binding lectin)	MBL2
+Q3KR16	55200	PKHG6_HUMAN	reviewed	Pleckstrin homology domain-containing family G member 6 (PH domain-containing family G member 6) (Myosin-interacting guanine nucleotide exchange factor) (MyoGEF)	PLEKHG6
+O75373	100129842	ZN737_HUMAN	reviewed	Zinc finger protein 737 (Zinc finger protein 102)	ZNF737
+Q9H875	79706	PKRI1_HUMAN	reviewed	PRKR-interacting protein 1	PRKRIP1
+Q8NEA6	169792	GLIS3_HUMAN	reviewed	Zinc finger protein GLIS3 (GLI-similar 3) (Zinc finger protein 515)	GLIS3
+P06493	983	CDK1_HUMAN	reviewed	Cyclin-dependent kinase 1 (CDK1) (EC 2.7.11.22) (EC 2.7.11.23) (Cell division control protein 2 homolog) (Cell division protein kinase 1) (p34 protein kinase)	CDK1
+Q969I3	92292	GLYL1_HUMAN	reviewed	Glycine N-acyltransferase-like protein 1 (EC 2.3.1.68) (Acyl-CoA:glycine N-acyltransferase-like protein 1) (Glutamine N-acyltransferase)	GLYATL1
+P47901	553	V1BR_HUMAN	reviewed	Vasopressin V1b receptor (V1bR) (AVPR V1b) (AVPR V3) (Antidiuretic hormone receptor 1b) (Vasopressin V3 receptor)	AVPR1B
+P17020	7564	ZNF16_HUMAN	reviewed	Zinc finger protein 16 (Zinc finger protein KOX9)	ZNF16
+Q15842	3764	KCNJ8_HUMAN	reviewed	ATP-sensitive inward rectifier potassium channel 8 (Inward rectifier K(+) channel Kir6.1) (Potassium channel, inwardly rectifying subfamily J member 8) (uKATP-1)	KCNJ8
+Q9H9Z2	79727	LN28A_HUMAN	reviewed	Protein lin-28 homolog A (Lin-28A) (Zinc finger CCHC domain-containing protein 1)	LIN28A
+Q07912	10188	ACK1_HUMAN	reviewed	Activated CDC42 kinase 1 (ACK-1) (EC 2.7.10.2) (EC 2.7.11.1) (Tyrosine kinase non-receptor protein 2)	TNK2
+Q8IZM9	145389	S38A6_HUMAN	reviewed	Probable sodium-coupled neutral amino acid transporter 6 (N-system amino acid transporter 1) (NAT-1) (Na(+)-coupled neutral amino acid transporter 6) (Solute carrier family 38 member 6)	SLC38A6
+O00291	3092	HIP1_HUMAN	reviewed	Huntingtin-interacting protein 1 (HIP-1) (Huntingtin-interacting protein I) (HIP-I)	HIP1
+P40313	1506	CTRL_HUMAN	reviewed	Chymotrypsin-like protease CTRL-1 (EC 3.4.21.-)	CTRL
+P41223	8896	BUD31_HUMAN	reviewed	Protein BUD31 homolog (Protein EDG-2) (Protein G10 homolog)	BUD31
+Q13523	8899	PRP4B_HUMAN	reviewed	Serine/threonine-protein kinase PRP4 homolog (EC 2.7.11.1) (PRP4 kinase) (PRP4 pre-mRNA-processing factor 4 homolog)	PRPF4B
+Q5T686	60370	AVPI1_HUMAN	reviewed	Arginine vasopressin-induced protein 1 (AVP-induced protein 1)	AVPI1
+Q05932	2356	FOLC_HUMAN	reviewed	Folylpolyglutamate synthase, mitochondrial (EC 6.3.2.17) (Folylpoly-gamma-glutamate synthetase) (FPGS) (Tetrahydrofolylpolyglutamate synthase) (Tetrahydrofolate synthase)	FPGS
+P09958	5045	FURIN_HUMAN	reviewed	Furin (EC 3.4.21.75) (Dibasic-processing enzyme) (Paired basic amino acid residue-cleaving enzyme) (PACE)	FURIN
+P48751	6508	B3A3_HUMAN	reviewed	Anion exchange protein 3 (AE 3) (Anion exchanger 3) (CAE3/BAE3) (Cardiac/brain band 3-like protein) (Neuronal band 3-like protein) (Solute carrier family 4 member 3)	SLC4A3
+P30291	7465	WEE1_HUMAN	reviewed	Wee1-like protein kinase (WEE1hu) (EC 2.7.10.2) (Wee1A kinase)	WEE1
+P23246	6421	SFPQ_HUMAN	reviewed	Splicing factor, proline- and glutamine-rich (100 kDa DNA-pairing protein) (hPOMp100) (DNA-binding p52/p100 complex, 100 kDa subunit) (Polypyrimidine tract-binding protein-associated-splicing factor) (PSF) (PTB-associated-splicing factor)	SFPQ
+Q6NZI2	284119	PTRF_HUMAN	reviewed	Polymerase I and transcript release factor (Cavin-1)	PTRF
+Q8WTP9	170626	XAGE3_HUMAN	reviewed	X antigen family member 3 (XAGE-3) (Cancer/testis antigen 12.3) (CT12.3) (G antigen family D member 4) (Placenta-specific gene 6 protein)	XAGE3
+Q9BQS6	94086	HSPB9_HUMAN	reviewed	Heat shock protein beta-9 (HspB9) (Cancer/testis antigen 51) (CT51)	HSPB9
+P15880	6187	RS2_HUMAN	reviewed	40S ribosomal protein S2 (40S ribosomal protein S4) (Protein LLRep3)	RPS2
+O15031	23654	PLXB2_HUMAN	reviewed	Plexin-B2 (MM1)	PLXNB2
+P49716	1052	CEBPD_HUMAN	reviewed	CCAAT/enhancer-binding protein delta (C/EBP delta) (Nuclear factor NF-IL6-beta) (NF-IL6-beta)	CEBPD
+Q695T7	340024	S6A19_HUMAN	reviewed	Sodium-dependent neutral amino acid transporter B(0)AT1 (Solute carrier family 6 member 19) (System B(0) neutral amino acid transporter AT1)	SLC6A19
+Q86UD0	89958	SAPC2_HUMAN	reviewed	Suppressor APC domain-containing protein 2 (Tumor specificity and mitosis phase-dependent expression protein) (TS/MDEP) (p42.3)	SAPCD2
+Q7L0J3	9900	SV2A_HUMAN	reviewed	Synaptic vesicle glycoprotein 2A	SV2A
+Q8IYL2	152992	TRM44_HUMAN	reviewed	Probable tRNA (uracil-O(2)-)-methyltransferase (EC 2.1.1.211) (Methyltransferase-like protein 19)	TRMT44
+O75348	9550	VATG1_HUMAN	reviewed	V-type proton ATPase subunit G 1 (V-ATPase subunit G 1) (V-ATPase 13 kDa subunit 1) (Vacuolar proton pump subunit G 1) (Vacuolar proton pump subunit M16)	ATP6V1G1
+Q9Y5Y5	9409	PEX16_HUMAN	reviewed	Peroxisomal membrane protein PEX16 (Peroxin-16) (Peroxisomal biogenesis factor 16)	PEX16
+P39023	6122	RL3_HUMAN	reviewed	60S ribosomal protein L3 (HIV-1 TAR RNA-binding protein B) (TARBP-B)	RPL3
+P46089	2827	GPR3_HUMAN	reviewed	G-protein coupled receptor 3 (ACCA orphan receptor)	GPR3
+Q9NR46	56904	SHLB2_HUMAN	reviewed	Endophilin-B2 (SH3 domain-containing GRB2-like protein B2)	SH3GLB2
+A8MYJ7	100287898	TTC34_HUMAN	reviewed	Tetratricopeptide repeat protein 34 (TPR repeat protein 34)	TTC34
+A1L020	92312	MEX3A_HUMAN	reviewed	RNA-binding protein MEX3A (RING finger and KH domain-containing protein 4)	MEX3A
+O94921	5218	CDK14_HUMAN	reviewed	Cyclin-dependent kinase 14 (EC 2.7.11.22) (Cell division protein kinase 14) (Serine/threonine-protein kinase PFTAIRE-1) (hPFTAIRE1)	CDK14
+Q96DA2	116442	RB39B_HUMAN	reviewed	Ras-related protein Rab-39B	RAB39B
+Q6UW49	246777	SPESP_HUMAN	reviewed	Sperm equatorial segment protein 1 (ESP) (Equatorial segment protein) (SP-ESP) (Glycosylated 38 kDa sperm protein C-7/8)	SPESP1
+Q9UMR7	50856	CLC4A_HUMAN	reviewed	C-type lectin domain family 4 member A (C-type lectin DDB27) (C-type lectin superfamily member 6) (Dendritic cell immunoreceptor) (Lectin-like immunoreceptor)	CLEC4A
+P35658	8021	NU214_HUMAN	reviewed	Nuclear pore complex protein Nup214 (214 kDa nucleoporin) (Nucleoporin Nup214) (Protein CAN)	NUP214
+Q8NFI3	64772	ENASE_HUMAN	reviewed	Cytosolic endo-beta-N-acetylglucosaminidase (ENGase) (EC 3.2.1.96)	ENGASE
+P49915	8833	GUAA_HUMAN	reviewed	GMP synthase [glutamine-hydrolyzing] (EC 6.3.5.2) (GMP synthetase) (Glutamine amidotransferase)	GMPS
+A5D8W1	79846	CFA69_HUMAN	reviewed	Cilia- and flagella-associated protein 69	CFAP69
+O14602	9086	IF1AY_HUMAN	reviewed	Eukaryotic translation initiation factor 1A, Y-chromosomal (eIF-1A Y isoform) (Eukaryotic translation initiation factor 4C) (eIF-4C)	EIF1AY
+Q9P1A6	9228	DLGP2_HUMAN	reviewed	Disks large-associated protein 2 (DAP-2) (PSD-95/SAP90-binding protein 2) (SAP90/PSD-95-associated protein 2) (SAPAP2)	DLGAP2
+Q8N6C5	3547	IGSF1_HUMAN	reviewed	Immunoglobulin superfamily member 1 (IgSF1) (Immunoglobulin-like domain-containing protein 1) (Inhibin-binding protein) (InhBP) (Pituitary gland-specific factor 2) (p120)	IGSF1
+Q9Y6H8	2700	CXA3_HUMAN	reviewed	Gap junction alpha-3 protein (Connexin-46) (Cx46)	GJA3
+P16930	2184	FAAA_HUMAN	reviewed	Fumarylacetoacetase (FAA) (EC 3.7.1.2) (Beta-diketonase) (Fumarylacetoacetate hydrolase)	FAH
+P16066	4881	ANPRA_HUMAN	reviewed	Atrial natriuretic peptide receptor 1 (EC 4.6.1.2) (Atrial natriuretic peptide receptor type A) (ANP-A) (ANPR-A) (NPR-A) (Guanylate cyclase A) (GC-A)	NPR1
+Q86TB3	115701	ALPK2_HUMAN	reviewed	Alpha-protein kinase 2 (EC 2.7.11.-) (Heart alpha-protein kinase)	ALPK2
+Q6UXH0	55908	BETAT_HUMAN	reviewed	Angiopoietin-like protein 8 (Betatrophin) (Lipasin) (Refeeding-induced fat and liver protein)	C19orf80
+Q8N6K7	154075	SAMD3_HUMAN	reviewed	Sterile alpha motif domain-containing protein 3 (SAM domain-containing protein 3)	SAMD3
+Q6PKG0	23367	LARP1_HUMAN	reviewed	La-related protein 1 (La ribonucleoprotein domain family member 1)	LARP1
+P49207	6164	RL34_HUMAN	reviewed	60S ribosomal protein L34	RPL34
+Q99613	8663	EIF3C_HUMAN	reviewed	Eukaryotic translation initiation factor 3 subunit C (eIF3c) (Eukaryotic translation initiation factor 3 subunit 8) (eIF3 p110)	EIF3C
+Q9Y6K8	26289	KAD5_HUMAN	reviewed	Adenylate kinase isoenzyme 5 (AK 5) (EC 2.7.4.3) (EC 2.7.4.6) (ATP-AMP transphosphorylase 5)	AK5
+Q86UF4	339512	CA110_HUMAN	reviewed	Coiled-coil domain-containing protein C1orf110	C1orf110
+Q01973	4919	ROR1_HUMAN	reviewed	Tyrosine-protein kinase transmembrane receptor ROR1 (EC 2.7.10.1) (Neurotrophic tyrosine kinase, receptor-related 1)	ROR1
+Q16775	3029	GLO2_HUMAN	reviewed	Hydroxyacylglutathione hydrolase, mitochondrial (EC 3.1.2.6) (Glyoxalase II) (Glx II)	HAGH
+O14735	10423	CDIPT_HUMAN	reviewed	CDP-diacylglycerol--inositol 3-phosphatidyltransferase (EC 2.7.8.11) (Phosphatidylinositol synthase) (PI synthase) (PtdIns synthase)	CDIPT
+Q02246	6900	CNTN2_HUMAN	reviewed	Contactin-2 (Axonal glycoprotein TAG-1) (Axonin-1) (Transient axonal glycoprotein 1) (TAX-1)	CNTN2
+Q96F46	23765	I17RA_HUMAN	reviewed	Interleukin-17 receptor A (IL-17 receptor A) (IL-17RA) (CDw217) (CD antigen CD217)	IL17RA
+P62917	6132	RL8_HUMAN	reviewed	60S ribosomal protein L8	RPL8
+Q13509	10381	TBB3_HUMAN	reviewed	Tubulin beta-3 chain (Tubulin beta-4 chain) (Tubulin beta-III)	TUBB3
+P05771	5579	KPCB_HUMAN	reviewed	Protein kinase C beta type (PKC-B) (PKC-beta) (EC 2.7.11.13)	PRKCB
+O75600	23464	KBL_HUMAN	reviewed	2-amino-3-ketobutyrate coenzyme A ligase, mitochondrial (AKB ligase) (EC 2.3.1.29) (Aminoacetone synthase) (Glycine acetyltransferase)	GCAT
+Q6ZUU3	401089	FOXNB_HUMAN	reviewed	FOXL2 neighbor protein	FOXL2NB
+Q2Y0W8	9498	S4A8_HUMAN	reviewed	Electroneutral sodium bicarbonate exchanger 1 (Electroneutral Na(+)-driven Cl-HCO3 exchanger) (Solute carrier family 4 member 8) (k-NBC3)	SLC4A8
+Q86X52	22856	CHSS1_HUMAN	reviewed	Chondroitin sulfate synthase 1 (EC 2.4.1.175) (EC 2.4.1.226) (Chondroitin glucuronyltransferase 1) (Chondroitin synthase 1) (ChSy-1) (Glucuronosyl-N-acetylgalactosaminyl-proteoglycan 4-beta-N-acetylgalactosaminyltransferase 1) (N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase 1) (N-acetylgalactosaminyltransferase 1)	CHSY1
+Q8NAV1	84950	PR38A_HUMAN	reviewed	Pre-mRNA-splicing factor 38A	PRPF38A
+Q92621	23165	NU205_HUMAN	reviewed	Nuclear pore complex protein Nup205 (205 kDa nucleoporin) (Nucleoporin Nup205)	NUP205
+Q96JB6	84171	LOXL4_HUMAN	reviewed	Lysyl oxidase homolog 4 (EC 1.4.3.-) (Lysyl oxidase-like protein 4) (Lysyl oxidase-related protein C)	LOXL4
+P32942	3385	ICAM3_HUMAN	reviewed	Intercellular adhesion molecule 3 (ICAM-3) (CDw50) (ICAM-R) (CD antigen CD50)	ICAM3
+Q96M43	148545	NBPF4_HUMAN	reviewed	Neuroblastoma breakpoint family member 4	NBPF4
+Q08380	3959	LG3BP_HUMAN	reviewed	Galectin-3-binding protein (Basement membrane autoantigen p105) (Lectin galactoside-binding soluble 3-binding protein) (Mac-2-binding protein) (MAC2BP) (Mac-2 BP) (Tumor-associated antigen 90K)	LGALS3BP
+Q96AC6	90990	KIFC2_HUMAN	reviewed	Kinesin-like protein KIFC2	KIFC2
+P33765	140	AA3R_HUMAN	reviewed	Adenosine receptor A3	ADORA3
+Q9C0K7	55437	STRAB_HUMAN	reviewed	STE20-related kinase adapter protein beta (STRAD beta) (Amyotrophic lateral sclerosis 2 chromosomal region candidate gene 2 protein) (CALS-21) (ILP-interacting protein) (Pseudokinase ALS2CR2)	STRADB
+P62851	6230	RS25_HUMAN	reviewed	40S ribosomal protein S25	RPS25
+Q8N1B3	92002	FA58A_HUMAN	reviewed	Cyclin-related protein FAM58A (CDK10-activating cyclin) (Cyclin-M)	FAM58A
+Q9H0Q3	53826	FXYD6_HUMAN	reviewed	FXYD domain-containing ion transport regulator 6 (Phosphohippolin)	FXYD6
+Q8WW59	283377	SPRY4_HUMAN	reviewed	SPRY domain-containing protein 4	SPRYD4
+P04553	5619	HSP1_HUMAN	reviewed	Sperm protamine P1 (Cysteine-rich protamine)	PRM1
+P20042	8894	IF2B_HUMAN	reviewed	Eukaryotic translation initiation factor 2 subunit 2 (Eukaryotic translation initiation factor 2 subunit beta) (eIF-2-beta)	EIF2S2
+O95292	9217	VAPB_HUMAN	reviewed	Vesicle-associated membrane protein-associated protein B/C (VAMP-B/VAMP-C) (VAMP-associated protein B/C) (VAP-B/VAP-C)	VAPB
+Q96DU9	140886	PABP5_HUMAN	reviewed	Polyadenylate-binding protein 5 (PABP-5) (Poly(A)-binding protein 5)	PABPC5
+Q15029	9343	U5S1_HUMAN	reviewed	116 kDa U5 small nuclear ribonucleoprotein component (Elongation factor Tu GTP-binding domain-containing protein 2) (SNU114 homolog) (hSNU114) (U5 snRNP-specific protein, 116 kDa) (U5-116 kDa)	EFTUD2
+O15397	10526	IPO8_HUMAN	reviewed	Importin-8 (Imp8) (Ran-binding protein 8) (RanBP8)	IPO8
+P55107	2662	BMP3B_HUMAN	reviewed	Bone morphogenetic protein 3B (BMP-3B) (Bone-inducing protein) (BIP) (Growth/differentiation factor 10) (GDF-10)	GDF10
+Q9Y6M7	9497	S4A7_HUMAN	reviewed	Sodium bicarbonate cotransporter 3 (Electroneutral Na/HCO(3) cotransporter) (Sodium bicarbonate cotransporter 2) (Sodium bicarbonate cotransporter 2b) (Bicarbonate transporter) (Solute carrier family 4 member 7)	SLC4A7
+O15198	4093	SMAD9_HUMAN	reviewed	Mothers against decapentaplegic homolog 9 (MAD homolog 9) (Mothers against DPP homolog 9) (Madh6) (SMAD family member 9) (SMAD 9) (Smad9)	SMAD9
+Q7Z3Y7	162605	K1C28_HUMAN	reviewed	Keratin, type I cytoskeletal 28 (Cytokeratin-28) (CK-28) (Keratin-25D) (K25D) (Keratin-28) (K28) (Type I inner root sheath-specific keratin-K25irs4)	KRT28
+Q04759	5588	KPCT_HUMAN	reviewed	Protein kinase C theta type (EC 2.7.11.13) (nPKC-theta)	PRKCQ
+P01112	3265	RASH_HUMAN	reviewed	GTPase HRas (H-Ras-1) (Ha-Ras) (Transforming protein p21) (c-H-ras) (p21ras) [Cleaved into: GTPase HRas, N-terminally processed]	HRAS
+Q8NFD2	255239	ANKK1_HUMAN	reviewed	Ankyrin repeat and protein kinase domain-containing protein 1 (EC 2.7.11.1) (Protein kinase PKK2) (Sugen kinase 288) (SgK288) (X-kinase)	ANKK1
+Q8N3D4	254102	EH1L1_HUMAN	reviewed	EH domain-binding protein 1-like protein 1	EHBP1L1
+Q5SYB0	22844	FRPD1_HUMAN	reviewed	FERM and PDZ domain-containing protein 1 (FERM domain-containing protein 2)	FRMPD1
+O95391	10569	SLU7_HUMAN	reviewed	Pre-mRNA-splicing factor SLU7 (hSlu7)	SLU7
+Q9NSY2	80765	STAR5_HUMAN	reviewed	StAR-related lipid transfer protein 5 (START domain-containing protein 5) (StARD5)	STARD5
+P54849	2012	EMP1_HUMAN	reviewed	Epithelial membrane protein 1 (EMP-1) (CL-20) (Protein B4B) (Tumor-associated membrane protein)	EMP1
+Q96IQ9	84330	ZN414_HUMAN	reviewed	Zinc finger protein 414	ZNF414
+Q96ST3	25942	SIN3A_HUMAN	reviewed	Paired amphipathic helix protein Sin3a (Histone deacetylase complex subunit Sin3a) (Transcriptional corepressor Sin3a)	SIN3A
+Q6P9A1	348327	ZN530_HUMAN	reviewed	Zinc finger protein 530	ZNF530
+Q96HB5	90060	CC120_HUMAN	reviewed	Coiled-coil domain-containing protein 120	CCDC120
+P04279	6406	SEMG1_HUMAN	reviewed	Semenogelin-1 (Semenogelin I) (SGI) [Cleaved into: Alpha-inhibin-92; Alpha-inhibin-31; Seminal basic protein]	SEMG1
+P29323	2048	EPHB2_HUMAN	reviewed	Ephrin type-B receptor 2 (EC 2.7.10.1) (Developmentally-regulated Eph-related tyrosine kinase) (ELK-related tyrosine kinase) (EPH tyrosine kinase 3) (EPH-like kinase 5) (EK5) (hEK5) (Renal carcinoma antigen NY-REN-47) (Tyrosine-protein kinase TYRO5) (Tyrosine-protein kinase receptor EPH-3)	EPHB2
+Q9NXA8	23408	SIR5_HUMAN	reviewed	NAD-dependent protein deacylase sirtuin-5, mitochondrial (EC 3.5.1.-) (Regulatory protein SIR2 homolog 5) (SIR2-like protein 5)	SIRT5
+Q9BVA0	10300	KTNB1_HUMAN	reviewed	Katanin p80 WD40 repeat-containing subunit B1 (Katanin p80 subunit B1) (p80 katanin)	KATNB1
+Q9Y6F7	203611	CDY2_HUMAN	reviewed	Testis-specific chromodomain protein Y 2 (EC 2.3.1.48)	CDY2A; CDY2B
+Q9H008	64077	LHPP_HUMAN	reviewed	Phospholysine phosphohistidine inorganic pyrophosphate phosphatase (hLHPP) (EC 3.1.3.-) (EC 3.6.1.1)	LHPP
+Q8TF76	83903	HASP_HUMAN	reviewed	Serine/threonine-protein kinase haspin (EC 2.7.11.1) (Germ cell-specific gene 2 protein) (H-haspin) (Haploid germ cell-specific nuclear protein kinase)	GSG2
+P51172	6339	SCNND_HUMAN	reviewed	Amiloride-sensitive sodium channel subunit delta (Delta-NaCH) (Epithelial Na(+) channel subunit delta) (Delta-ENaC) (ENaCD) (Nonvoltage-gated sodium channel 1 subunit delta) (SCNED)	SCNN1D
+Q92185	6489	SIA8A_HUMAN	reviewed	Alpha-N-acetylneuraminide alpha-2,8-sialyltransferase (EC 2.4.99.8) (Alpha-2,8-sialyltransferase 8A) (Ganglioside GD3 synthase) (Ganglioside GT3 synthase) (Sialyltransferase 8A) (SIAT8-A) (Sialyltransferase St8Sia I) (ST8SiaI)	ST8SIA1
+Q8NGI3	387748	O56B1_HUMAN	reviewed	Olfactory receptor 56B1 (Olfactory receptor OR11-65)	OR56B1
+Q9BR10	128497	SPT25_HUMAN	reviewed	Spermatogenesis-associated protein 25 (Testis-specific gene 23 protein)	SPATA25
+Q2M1K9	23090	ZN423_HUMAN	reviewed	Zinc finger protein 423 (Olf1/EBF-associated zinc finger protein) (hOAZ) (Smad- and Olf-interacting zinc finger protein)	ZNF423
+P35626	157	ARBK2_HUMAN	reviewed	Beta-adrenergic receptor kinase 2 (Beta-ARK-2) (EC 2.7.11.15) (G-protein-coupled receptor kinase 3)	ADRBK2
+Q9Y224	51637	CN166_HUMAN	reviewed	UPF0568 protein C14orf166 (CLE7 homolog) (CLE)	C14orf166
+Q9NQU5	56924	PAK6_HUMAN	reviewed	Serine/threonine-protein kinase PAK 6 (EC 2.7.11.1) (PAK-5) (p21-activated kinase 6) (PAK-6)	PAK6
+P28482	5594	MK01_HUMAN	reviewed	Mitogen-activated protein kinase 1 (MAP kinase 1) (MAPK 1) (EC 2.7.11.24) (ERT1) (Extracellular signal-regulated kinase 2) (ERK-2) (MAP kinase isoform p42) (p42-MAPK) (Mitogen-activated protein kinase 2) (MAP kinase 2) (MAPK 2)	MAPK1
+A8MXK1	387804	VSTM5_HUMAN	reviewed	V-set and transmembrane domain-containing protein 5	VSTM5
+Q01113	3581	IL9R_HUMAN	reviewed	Interleukin-9 receptor (IL-9 receptor) (IL-9R) (CD antigen CD129)	IL9R
+Q5T8R8	157983	CI066_HUMAN	reviewed	Uncharacterized protein C9orf66	C9orf66
+P17301	3673	ITA2_HUMAN	reviewed	Integrin alpha-2 (CD49 antigen-like family member B) (Collagen receptor) (Platelet membrane glycoprotein Ia) (GPIa) (VLA-2 subunit alpha) (CD antigen CD49b)	ITGA2
+Q96CN5	201255	LRC45_HUMAN	reviewed	Leucine-rich repeat-containing protein 45	LRRC45
+P27986	5295	P85A_HUMAN	reviewed	Phosphatidylinositol 3-kinase regulatory subunit alpha (PI3-kinase regulatory subunit alpha) (PI3K regulatory subunit alpha) (PtdIns-3-kinase regulatory subunit alpha) (Phosphatidylinositol 3-kinase 85 kDa regulatory subunit alpha) (PI3-kinase subunit p85-alpha) (PtdIns-3-kinase regulatory subunit p85-alpha)	PIK3R1
+P04062	2629	GLCM_HUMAN	reviewed	Glucosylceramidase (EC 3.2.1.45) (Acid beta-glucosidase) (Alglucerase) (Beta-glucocerebrosidase) (Beta-GC) (D-glucosyl-N-acylsphingosine glucohydrolase) (Imiglucerase)	GBA
+O00198	8739	HRK_HUMAN	reviewed	Activator of apoptosis harakiri (BH3-interacting domain-containing protein 3) (Neuronal death protein DP5)	HRK
+Q8N8R5	205327	CB069_HUMAN	reviewed	UPF0565 protein C2orf69	C2orf69
+Q8N165	149420	PDK1L_HUMAN	reviewed	Serine/threonine-protein kinase PDIK1L (EC 2.7.11.1) (PDLIM1-interacting kinase 1-like)	PDIK1L
+Q7Z2Y5	203447	NRK_HUMAN	reviewed	Nik-related protein kinase (EC 2.7.11.1)	NRK
+Q6DHV7	161823	ADAL_HUMAN	reviewed	Adenosine deaminase-like protein (EC 3.5.4.-)	ADAL
+Q8N3Z0	167681	PRS35_HUMAN	reviewed	Inactive serine protease 35	PRSS35
+P07996	7057	TSP1_HUMAN	reviewed	Thrombospondin-1	THBS1
+Q9Y6X6	23026	MYO16_HUMAN	reviewed	Unconventional myosin-XVI (Neuronal tyrosine-phosphorylated phosphoinositide-3-kinase adapter 3) (Unconventional myosin-16)	MYO16
+P39019	6223	RS19_HUMAN	reviewed	40S ribosomal protein S19	RPS19
+O43555	2797	GON2_HUMAN	reviewed	Progonadoliberin-2 (Progonadoliberin II) [Cleaved into: Gonadoliberin-2 (Gonadoliberin II) (Gonadotropin-releasing hormone II) (GnRH II) (Luliberin II) (Luteinizing hormone-releasing hormone II) (LH-RH II); GnRH-associated peptide 2 (GnRH-associated peptide II)]	GNRH2
+Q6J272	401565	F166A_HUMAN	reviewed	Protein FAM166A	FAM166A
+Q9BWN1	78994	PRR14_HUMAN	reviewed	Proline-rich protein 14	PRR14
+Q9BU20	79363	RSG1_HUMAN	reviewed	REM2- and Rab-like small GTPase 1	RSG1
+Q96NL3	148103	ZN599_HUMAN	reviewed	Zinc finger protein 599	ZNF599
+Q9BRT3	84299	MIEN1_HUMAN	reviewed	Migration and invasion enhancer 1 (HBV X-transactivated gene 4 protein) (HBV XAg-transactivated protein 4) (Protein C35)	MIEN1
+Q8TEC5	153769	SH3R2_HUMAN	reviewed	Putative E3 ubiquitin-protein ligase SH3RF2 (EC 6.3.2.-) (Heart protein phosphatase 1-binding protein) (HEPP1) (Protein phosphatase 1 regulatory subunit 39) (RING finger protein 158) (SH3 domain-containing RING finger protein 2)	SH3RF2
+Q6ZUJ4	375341	CC062_HUMAN	reviewed	Uncharacterized protein C3orf62	C3orf62
+O75676	8986	KS6A4_HUMAN	reviewed	Ribosomal protein S6 kinase alpha-4 (S6K-alpha-4) (EC 2.7.11.1) (90 kDa ribosomal protein S6 kinase 4) (Nuclear mitogen- and stress-activated protein kinase 2) (Ribosomal protein kinase B) (RSKB)	RPS6KA4
+P25398	6206	RS12_HUMAN	reviewed	40S ribosomal protein S12	RPS12
+Q6ZS86	256356	GLPK5_HUMAN	reviewed	Putative glycerol kinase 5 (GK 5) (Glycerokinase 5) (EC 2.7.1.30) (ATP:glycerol 3-phosphotransferase 5)	GK5
+Q9H4M3	93611	FBX44_HUMAN	reviewed	F-box only protein 44 (F-box protein FBX30) (F-box/G-domain protein 3)	FBXO44
+O14967	1047	CLGN_HUMAN	reviewed	Calmegin	CLGN
+P61011	6729	SRP54_HUMAN	reviewed	Signal recognition particle 54 kDa protein (SRP54)	SRP54
+Q03519	6891	TAP2_HUMAN	reviewed	Antigen peptide transporter 2 (APT2) (ATP-binding cassette sub-family B member 3) (Peptide supply factor 2) (Peptide transporter PSF2) (PSF-2) (Peptide transporter TAP2) (Peptide transporter involved in antigen processing 2) (Really interesting new gene 11 protein)	TAP2
+P38435	2677	VKGC_HUMAN	reviewed	Vitamin K-dependent gamma-carboxylase (EC 4.1.1.90) (Gamma-glutamyl carboxylase) (Peptidyl-glutamate 4-carboxylase) (Vitamin K gamma glutamyl carboxylase)	GGCX
+Q96GF1	91445	RN185_HUMAN	reviewed	E3 ubiquitin-protein ligase RNF185 (EC 6.3.2.-) (RING finger protein 185)	RNF185
+O15551	1365	CLD3_HUMAN	reviewed	Claudin-3 (Clostridium perfringens enterotoxin receptor 2) (CPE-R 2) (CPE-receptor 2) (Rat ventral prostate.1 protein homolog) (hRVP1)	CLDN3
+Q96EV2	155435	RBM33_HUMAN	reviewed	RNA-binding protein 33 (Proline-rich protein 8) (RNA-binding motif protein 33)	RBM33
+Q8IUY3	196996	GRAM2_HUMAN	reviewed	GRAM domain-containing protein 2	GRAMD2
+O14717	1787	TRDMT_HUMAN	reviewed	tRNA (cytosine(38)-C(5))-methyltransferase (EC 2.1.1.204) (DNA (cytosine-5)-methyltransferase-like protein 2) (Dnmt2) (DNA methyltransferase homolog HsaIIP) (DNA MTase homolog HsaIIP) (M.HsaIIP) (PuMet)	TRDMT1
+Q8NG31	57082	CASC5_HUMAN	reviewed	Protein CASC5 (ALL1-fused gene from chromosome 15q14 protein) (AF15q14) (Bub-linking kinetochore protein) (Blinkin) (Cancer susceptibility candidate gene 5 protein) (Cancer/testis antigen 29) (CT29) (Kinetochore-null protein 1) (Protein D40/AF15q14)	CASC5
+Q9Y266	10726	NUDC_HUMAN	reviewed	Nuclear migration protein nudC (Nuclear distribution protein C homolog)	NUDC
+O00476	10786	NPT4_HUMAN	reviewed	Sodium-dependent phosphate transport protein 4 (Na(+)/PI cotransporter 4) (Sodium/phosphate cotransporter 4) (Solute carrier family 17 member 3)	SLC17A3
+Q9BXA6	83983	TSSK6_HUMAN	reviewed	Testis-specific serine/threonine-protein kinase 6 (TSK-6) (TSSK-6) (Testis-specific kinase 6) (EC 2.7.11.1) (Cancer/testis antigen 72) (CT72) (Serine/threonine-protein kinase SSTK) (Small serine/threonine kinase)	TSSK6
+Q86TW2	57143	ADCK1_HUMAN	reviewed	Uncharacterized aarF domain-containing protein kinase 1 (EC 2.7.11.-)	ADCK1
+P62263	6208	RS14_HUMAN	reviewed	40S ribosomal protein S14	RPS14
+Q9P232	5067	CNTN3_HUMAN	reviewed	Contactin-3 (Brain-derived immunoglobulin superfamily protein 1) (BIG-1) (Plasmacytoma-associated neuronal glycoprotein)	CNTN3
+P59190	376267	RAB15_HUMAN	reviewed	Ras-related protein Rab-15	RAB15
+O95153	9256	RIMB1_HUMAN	reviewed	Peripheral-type benzodiazepine receptor-associated protein 1 (PRAX-1) (Peripheral benzodiazepine receptor-interacting protein) (PBR-IP) (RIMS-binding protein 1) (RIM-BP1)	BZRAP1
+Q8NDZ6	153396	T161B_HUMAN	reviewed	Transmembrane protein 161B	TMEM161B
+Q9NXR1	54820	NDE1_HUMAN	reviewed	Nuclear distribution protein nudE homolog 1 (NudE)	NDE1
+O00587	4242	MFNG_HUMAN	reviewed	Beta-1,3-N-acetylglucosaminyltransferase manic fringe (EC 2.4.1.222) (O-fucosylpeptide 3-beta-N-acetylglucosaminyltransferase)	MFNG
+Q5SNV9	284498	CA167_HUMAN	reviewed	Uncharacterized protein C1orf167	C1orf167
+Q15599	9351	NHRF2_HUMAN	reviewed	Na(+)/H(+) exchange regulatory cofactor NHE-RF2 (NHERF-2) (NHE3 kinase A regulatory protein E3KARP) (SRY-interacting protein 1) (SIP-1) (Sodium-hydrogen exchanger regulatory factor 2) (Solute carrier family 9 isoform A3 regulatory factor 2) (Tyrosine kinase activator protein 1) (TKA-1)	SLC9A3R2
+O60353	8323	FZD6_HUMAN	reviewed	Frizzled-6 (Fz-6) (hFz6)	FZD6
+O75715	2880	GPX5_HUMAN	reviewed	Epididymal secretory glutathione peroxidase (EC 1.11.1.9) (Epididymis-specific glutathione peroxidase-like protein) (EGLP) (Glutathione peroxidase 5) (GPx-5) (GSHPx-5)	GPX5
+Q6PI98	125476	IN80C_HUMAN	reviewed	INO80 complex subunit C (IES6 homolog) (hIes6)	INO80C
+P49841	2932	GSK3B_HUMAN	reviewed	Glycogen synthase kinase-3 beta (GSK-3 beta) (EC 2.7.11.26) (Serine/threonine-protein kinase GSK3B) (EC 2.7.11.1)	GSK3B
+P03928	4509	ATP8_HUMAN	reviewed	ATP synthase protein 8 (A6L) (F-ATPase subunit 8)	MT-ATP8
+O75400	55660	PR40A_HUMAN	reviewed	Pre-mRNA-processing factor 40 homolog A (Fas ligand-associated factor 1) (Formin-binding protein 11) (Formin-binding protein 3) (Huntingtin yeast partner A) (Huntingtin-interacting protein 10) (HIP-10) (Huntingtin-interacting protein A) (Renal carcinoma antigen NY-REN-6)	PRPF40A
+Q9UHR5	29115	S30BP_HUMAN	reviewed	SAP30-binding protein (Transcriptional regulator protein HCNGP)	SAP30BP
+Q96JN0	84458	LCOR_HUMAN	reviewed	Ligand-dependent corepressor (LCoR) (Mblk1-related protein 2)	LCOR
+Q4VC05	605	BCL7A_HUMAN	reviewed	B-cell CLL/lymphoma 7 protein family member A	BCL7A
+Q9P0L2	4139	MARK1_HUMAN	reviewed	Serine/threonine-protein kinase MARK1 (EC 2.7.11.1) (EC 2.7.11.26) (MAP/microtubule affinity-regulating kinase 1) (PAR1 homolog c) (Par-1c) (Par1c)	MARK1
+Q70EK9	158880	UBP51_HUMAN	reviewed	Ubiquitin carboxyl-terminal hydrolase 51 (EC 3.4.19.12) (Deubiquitinating enzyme 51) (Ubiquitin thioesterase 51) (Ubiquitin-specific-processing protease 51)	USP51
+A2VDF0	282969	FUCM_HUMAN	reviewed	Fucose mutarotase (EC 5.1.3.29)	FUOM
+Q96R28	391194	OR2M2_HUMAN	reviewed	Olfactory receptor 2M2 (OST423)	OR2M2
+Q8NF91	23345	SYNE1_HUMAN	reviewed	Nesprin-1 (Enaptin) (Myocyte nuclear envelope protein 1) (Myne-1) (Nuclear envelope spectrin repeat protein 1) (Synaptic nuclear envelope protein 1) (Syne-1)	SYNE1
+P31513	2328	FMO3_HUMAN	reviewed	Dimethylaniline monooxygenase [N-oxide-forming] 3 (EC 1.14.13.8) (Dimethylaniline oxidase 3) (FMO II) (FMO form 2) (Hepatic flavin-containing monooxygenase 3) (FMO 3) (Trimethylamine monooxygenase) (EC 1.14.13.148)	FMO3
+Q6VAB6	283455	KSR2_HUMAN	reviewed	Kinase suppressor of Ras 2 (hKSR2) (EC 2.7.11.1)	KSR2
+P00533	1956	EGFR_HUMAN	reviewed	Epidermal growth factor receptor (EC 2.7.10.1) (Proto-oncogene c-ErbB-1) (Receptor tyrosine-protein kinase erbB-1)	EGFR
+Q5VZI3	203197	CI091_HUMAN	reviewed	Transmembrane protein C9orf91	C9orf91
+P05386	6176	RLA1_HUMAN	reviewed	60S acidic ribosomal protein P1	RPLP1
+Q13232	4832	NDK3_HUMAN	reviewed	Nucleoside diphosphate kinase 3 (NDK 3) (NDP kinase 3) (EC 2.7.4.6) (DR-nm23) (Nucleoside diphosphate kinase C) (NDPKC) (nm23-H3)	NME3
+P56202	1521	CATW_HUMAN	reviewed	Cathepsin W (EC 3.4.22.-) (Lymphopain)	CTSW
+Q12965	4643	MYO1E_HUMAN	reviewed	Unconventional myosin-Ie (Myosin-Ic) (Unconventional myosin 1E)	MYO1E
+Q9H3D4	8626	P63_HUMAN	reviewed	Tumor protein 63 (p63) (Chronic ulcerative stomatitis protein) (CUSP) (Keratinocyte transcription factor KET) (Transformation-related protein 63) (TP63) (Tumor protein p73-like) (p73L) (p40) (p51)	TP63
+O43151	200424	TET3_HUMAN	reviewed	Methylcytosine dioxygenase TET3 (EC 1.14.11.n2)	TET3
+Q01628	10410	IFM3_HUMAN	reviewed	Interferon-induced transmembrane protein 3 (Dispanin subfamily A member 2b) (DSPA2b) (Interferon-inducible protein 1-8U)	IFITM3
+Q99570	30849	PI3R4_HUMAN	reviewed	Phosphoinositide 3-kinase regulatory subunit 4 (PI3-kinase regulatory subunit 4) (EC 2.7.11.1) (PI3-kinase p150 subunit) (Phosphoinositide 3-kinase adaptor protein)	PIK3R4
+P43405	6850	KSYK_HUMAN	reviewed	Tyrosine-protein kinase SYK (EC 2.7.10.2) (Spleen tyrosine kinase) (p72-Syk)	SYK
+Q8IVB5	128077	LIX1L_HUMAN	reviewed	LIX1-like protein	LIX1L
+P84095	391	RHOG_HUMAN	reviewed	Rho-related GTP-binding protein RhoG	RHOG
+Q9H161	60529	ALX4_HUMAN	reviewed	Homeobox protein aristaless-like 4	ALX4
+Q86Z02	204851	HIPK1_HUMAN	reviewed	Homeodomain-interacting protein kinase 1 (EC 2.7.11.1) (Nuclear body-associated kinase 2)	HIPK1
+P18077	6165	RL35A_HUMAN	reviewed	60S ribosomal protein L35a (Cell growth-inhibiting gene 33 protein)	RPL35A
+P46783	6204	RS10_HUMAN	reviewed	40S ribosomal protein S10	RPS10
+P19525	5610	E2AK2_HUMAN	reviewed	Interferon-induced, double-stranded RNA-activated protein kinase (EC 2.7.11.1) (Eukaryotic translation initiation factor 2-alpha kinase 2) (eIF-2A protein kinase 2) (Interferon-inducible RNA-dependent protein kinase) (P1/eIF-2A protein kinase) (Protein kinase RNA-activated) (PKR) (Protein kinase R) (Tyrosine-protein kinase EIF2AK2) (EC 2.7.10.2) (p68 kinase)	EIF2AK2
+Q13219	5069	PAPP1_HUMAN	reviewed	Pappalysin-1 (EC 3.4.24.79) (Insulin-like growth factor-dependent IGF-binding protein 4 protease) (IGF-dependent IGFBP-4 protease) (IGFBP-4ase) (Pregnancy-associated plasma protein A) (PAPP-A)	PAPPA
+Q8TCT7	56928	SPP2B_HUMAN	reviewed	Signal peptide peptidase-like 2B (SPP-like 2B) (SPPL2b) (EC 3.4.23.-) (Intramembrane protease 4) (IMP-4) (Presenilin homologous protein 4) (PSH4) (Presenilin-like protein 1)	SPPL2B
+Q13153	5058	PAK1_HUMAN	reviewed	Serine/threonine-protein kinase PAK 1 (EC 2.7.11.1) (Alpha-PAK) (p21-activated kinase 1) (PAK-1) (p65-PAK)	PAK1
+Q8N653	8216	LZTR1_HUMAN	reviewed	Leucine-zipper-like transcriptional regulator 1 (LZTR-1)	LZTR1
+P02790	3263	HEMO_HUMAN	reviewed	Hemopexin (Beta-1B-glycoprotein)	HPX
+Q13227	2874	GPS2_HUMAN	reviewed	G protein pathway suppressor 2 (GPS-2)	GPS2
+P81534	55894	D103A_HUMAN	reviewed	Beta-defensin 103 (Beta-defensin 3) (BD-3) (DEFB-3) (HBD3) (hBD-3) (Defensin, beta 103) (Defensin-like protein)	DEFB103A; DEFB103B
+P61421	9114	VA0D1_HUMAN	reviewed	V-type proton ATPase subunit d 1 (V-ATPase subunit d 1) (32 kDa accessory protein) (V-ATPase 40 kDa accessory protein) (V-ATPase AC39 subunit) (p39) (Vacuolar proton pump subunit d 1)	ATP6V0D1
+O75821	8666	EIF3G_HUMAN	reviewed	Eukaryotic translation initiation factor 3 subunit G (eIF3g) (Eukaryotic translation initiation factor 3 RNA-binding subunit) (eIF-3 RNA-binding subunit) (Eukaryotic translation initiation factor 3 subunit 4) (eIF-3-delta) (eIF3 p42) (eIF3 p44)	EIF3G
+Q9HC97	2859	GPR35_HUMAN	reviewed	G-protein coupled receptor 35 (Kynurenic acid receptor) (KYNA receptor)	GPR35
+Q9NR48	55870	ASH1L_HUMAN	reviewed	Histone-lysine N-methyltransferase ASH1L (EC 2.1.1.43) (ASH1-like protein) (huASH1) (Absent small and homeotic disks protein 1 homolog) (Lysine N-methyltransferase 2H)	ASH1L
+O14980	7514	XPO1_HUMAN	reviewed	Exportin-1 (Exp1) (Chromosome region maintenance 1 protein homolog)	XPO1
+Q6ZTR6	400658	CR065_HUMAN	reviewed	Putative uncharacterized protein C18orf65	C18orf65
+Q08117	166	AES_HUMAN	reviewed	Amino-terminal enhancer of split (Amino enhancer of split) (Gp130-associated protein GAM) (Grg-5) (Groucho-related protein 5) (Protein ESP1) (Protein GRG)	AES
+Q8NGH5	120796	O56A1_HUMAN	reviewed	Olfactory receptor 56A1 (Olfactory receptor OR11-75)	OR56A1
+O75056	9672	SDC3_HUMAN	reviewed	Syndecan-3 (SYND3)	SDC3
+Q96AM1	116535	MRGRF_HUMAN	reviewed	Mas-related G-protein coupled receptor member F (Mas-related gene F protein) (G-protein coupled receptor 140) (G-protein coupled receptor 168)	MRGPRF
+Q13106	7710	ZN154_HUMAN	reviewed	Zinc finger protein 154	ZNF154
+Q9BZM2	64600	PA2GF_HUMAN	reviewed	Group IIF secretory phospholipase A2 (GIIF sPLA2) (sPLA2-IIF) (EC 3.1.1.4) (Phosphatidylcholine 2-acylhydrolase 2F)	PLA2G2F
+P51148	5878	RAB5C_HUMAN	reviewed	Ras-related protein Rab-5C (L1880) (RAB5L)	RAB5C
+Q9H981	93973	ARP8_HUMAN	reviewed	Actin-related protein 8 (hArp8) (INO80 complex subunit N)	ACTR8
+P15814	3543	IGLL1_HUMAN	reviewed	Immunoglobulin lambda-like polypeptide 1 (CD179 antigen-like family member B) (Ig lambda-5) (Immunoglobulin omega polypeptide) (Immunoglobulin-related protein 14.1) (CD antigen CD179b)	IGLL1
+O14965	6790	AURKA_HUMAN	reviewed	Aurora kinase A (EC 2.7.11.1) (Aurora 2) (Aurora/IPL1-related kinase 1) (ARK-1) (Aurora-related kinase 1) (hARK1) (Breast tumor-amplified kinase) (Serine/threonine-protein kinase 15) (Serine/threonine-protein kinase 6) (Serine/threonine-protein kinase aurora-A)	AURKA
+E9PAV3	4666	NACAM_HUMAN	reviewed	Nascent polypeptide-associated complex subunit alpha, muscle-specific form (Alpha-NAC, muscle-specific form) (skNAC)	NACA
+Q13765	4666	NACA_HUMAN	reviewed	Nascent polypeptide-associated complex subunit alpha (NAC-alpha) (Alpha-NAC) (allergen Hom s 2)	NACA
+Q96PV0	8831	SYGP1_HUMAN	reviewed	Ras/Rap GTPase-activating protein SynGAP (Neuronal RasGAP) (Synaptic Ras GTPase-activating protein 1) (Synaptic Ras-GAP 1)	SYNGAP1
+P19957	5266	ELAF_HUMAN	reviewed	Elafin (Elastase-specific inhibitor) (ESI) (Peptidase inhibitor 3) (PI-3) (Protease inhibitor WAP3) (Skin-derived antileukoproteinase) (SKALP) (WAP four-disulfide core domain protein 14)	PI3
+Q5T4S7	23352	UBR4_HUMAN	reviewed	E3 ubiquitin-protein ligase UBR4 (EC 6.3.2.-) (600 kDa retinoblastoma protein-associated factor) (N-recognin-4) (Retinoblastoma-associated factor of 600 kDa) (RBAF600) (p600) (Zinc finger UBR1-type protein 1)	UBR4
+Q8TEQ0	92017	SNX29_HUMAN	reviewed	Sorting nexin-29 (RUN domain-containing protein 2A)	SNX29
+P11229	1128	ACM1_HUMAN	reviewed	Muscarinic acetylcholine receptor M1	CHRM1
+Q5THK1	253143	PR14L_HUMAN	reviewed	Protein PRR14L (Proline rich 14-like protein)	PRR14L
+P02750	116844	A2GL_HUMAN	reviewed	Leucine-rich alpha-2-glycoprotein (LRG)	LRG1
+Q9H999	79646	PANK3_HUMAN	reviewed	Pantothenate kinase 3 (hPanK3) (EC 2.7.1.33) (Pantothenic acid kinase 3)	PANK3
+Q9NP79	51534	VTA1_HUMAN	reviewed	Vacuolar protein sorting-associated protein VTA1 homolog (Dopamine-responsive gene 1 protein) (DRG-1) (LYST-interacting protein 5) (LIP5) (SKD1-binding protein 1) (SBP1)	VTA1
+P46781	6203	RS9_HUMAN	reviewed	40S ribosomal protein S9	RPS9
+P27635	6134	RL10_HUMAN	reviewed	60S ribosomal protein L10 (Laminin receptor homolog) (Protein QM) (Tumor suppressor QM)	RPL10
+Q9Y4K0	4017	LOXL2_HUMAN	reviewed	Lysyl oxidase homolog 2 (EC 1.4.3.13) (Lysyl oxidase-like protein 2) (Lysyl oxidase-related protein 2) (Lysyl oxidase-related protein WS9-14)	LOXL2
+Q4ZIN3	91304	MBRL_HUMAN	reviewed	Membralin (Transmembrane protein 259)	TMEM259
+Q6ZMD2	201305	SPNS3_HUMAN	reviewed	Protein spinster homolog 3	SPNS3
+Q8IZE3	57147	PACE1_HUMAN	reviewed	Protein-associating with the carboxyl-terminal domain of ezrin (Ezrin-binding protein PACE-1) (SCY1-like protein 3)	SCYL3
+Q15198	5157	PGFRL_HUMAN	reviewed	Platelet-derived growth factor receptor-like protein (PDGFR-like protein) (PDGF receptor beta-like tumor suppressor)	PDGFRL
+P35790	1119	CHKA_HUMAN	reviewed	Choline kinase alpha (CK) (EC 2.7.1.32) (CHETK-alpha) (Ethanolamine kinase) (EK) (EC 2.7.1.82)	CHKA
+Q13177	5062	PAK2_HUMAN	reviewed	Serine/threonine-protein kinase PAK 2 (EC 2.7.11.1) (Gamma-PAK) (PAK65) (S6/H4 kinase) (p21-activated kinase 2) (PAK-2) (p58) [Cleaved into: PAK-2p27 (p27); PAK-2p34 (p34) (C-t-PAK2)]	PAK2
+O95677	2070	EYA4_HUMAN	reviewed	Eyes absent homolog 4 (EC 3.1.3.48)	EYA4
+P18405	6715	S5A1_HUMAN	reviewed	3-oxo-5-alpha-steroid 4-dehydrogenase 1 (EC 1.3.1.22) (SR type 1) (Steroid 5-alpha-reductase 1) (S5AR 1)	SRD5A1
+Q3YBM2	28959	T176B_HUMAN	reviewed	Transmembrane protein 176B (Protein LR8)	TMEM176B
+Q6UXY1	80115	BI2L2_HUMAN	reviewed	Brain-specific angiogenesis inhibitor 1-associated protein 2-like protein 2 (BAI1-associated protein 2-like protein 2) (Planar intestinal- and kidney-specific BAR domain protein) (Pinkbar)	BAIAP2L2
+Q02543	6142	RL18A_HUMAN	reviewed	60S ribosomal protein L18a	RPL18A
+O94906	24148	PRP6_HUMAN	reviewed	Pre-mRNA-processing factor 6 (Androgen receptor N-terminal domain-transactivating protein 1) (ANT-1) (PRP6 homolog) (U5 snRNP-associated 102 kDa protein) (U5-102 kDa protein)	PRPF6
+Q6P9A3	256051	ZN549_HUMAN	reviewed	Zinc finger protein 549	ZNF549
+Q9BZF2	114881	OSBL7_HUMAN	reviewed	Oxysterol-binding protein-related protein 7 (ORP-7) (OSBP-related protein 7)	OSBPL7
+A2RRL7	155006	TM213_HUMAN	reviewed	Transmembrane protein 213	TMEM213
+P78504	182	JAG1_HUMAN	reviewed	Protein jagged-1 (Jagged1) (hJ1) (CD antigen CD339)	JAG1
+P49019	8843	HCAR3_HUMAN	reviewed	Hydroxycarboxylic acid receptor 3 (G-protein coupled receptor 109B) (G-protein coupled receptor HM74) (G-protein coupled receptor HM74B) (Niacin receptor 2) (Nicotinic acid receptor 2)	HCAR3
+Q96P66	83550	GP101_HUMAN	reviewed	Probable G-protein coupled receptor 101	GPR101

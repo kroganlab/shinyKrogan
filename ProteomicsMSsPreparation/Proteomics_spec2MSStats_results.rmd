@@ -1,0 +1,236 @@
+---
+title: "Compute Log2FC with MS Stats for AB and PH Spectronaut Output"
+output: html_notebook
+---
+
+
+```{r, Dependencies}
+library (data.table)
+rotate.x.axis.text <- theme(axis.text.x = element_text(angle = 90))
+library (magrittr)
+
+# Change filepath below to location of bp_utils folder
+# "~bp_utils\\" will work if this notebook is in the same directory as bp_utils folder-- IF YOU'RE ON MAC, make sure to use "/" file separator, not "\\"
+utils <- "~bp_utils\\"
+source(paste0(utils,"ManageScriptData.R"))
+WriteSessionInfo()
+WriteInstalledPackages()
+
+```
+
+### Assign these for your data file, name, and type (ab or ph) and then run the whole rmd top to bottom.
+```{r, Params}
+###
+###  REQUIRED PARAMETERS  ###
+### (DO NOT SKIP any of these if you don't know why you're skipping it, ask someone from the computational group for help)
+###
+
+# FOR PHOSPHO - If your spectronaut report file has EG.ProteinPTMLocations and probabilities, use that file, otherwise, you can prepare with prepMSSInput_wsitify.rmd
+#               It's probably easier to just export from spectronaut in the "MSStats PTMS" format that includes locations and probabilities though.
+
+specOutFile <- ""    # This should be a spectronaut output formatted for MS stats or the ouput of prepMSSInput_wSitify.rmd
+specRawCol <- "RawFile"   # column name for raw files in spectronaut output file
+
+keysFile <- ""  # location of keys file if relevant, otherwise, leave NULL ()
+keyConditionCol <- "Condition"    # keys file condition column (map on)
+keyRawCol <- "Run Label"          # keys file Raw file source column (map to)
+keyBioRepCol <- "Replicate"       # keys file Replicate column name
+
+dataName <- ""        # Short descriptive name to be prepended to filenames
+dataType <- "PH"        # AB or PH (only, for this version)
+
+regexContrasts <- c()   # names of all possible contrasts will be generated from Condition names (formatted "ConditionName1-ConditionName2") -- this list should be strings that regex match desired contrasts. 
+# Examples: 
+# To calculate contrasts for all conditions compared to a condition named "CTL_2h", include the string "-CTL_2h". 
+# To compare conditions  named "INF_2h", "INF_KO_2h", and "INF_strain2_2h" to "CTL_2h", but not compare "INF_8h", etc. , use the string "2h-CTL_2h" (to compare the 8h timepoints to "CTL_8h", use "8h-CTL_8h").
+# If you want specific contrasts or aren't comfortable using regex terms, naming exact contrasts as "INF_2h-CTL_2h", "INF_KO_2h-CTL_2h", etc. will also work.
+
+
+###
+### OPTIONAL PARAMETERS ###
+###
+
+magnitudeFilter <- 5     # Log value to filter out marginal intensities 
+ptmsFilter <- 0.75      # for filtering features by ptm location confidence. Good value to use is 0.75, set to NULL to skip ptms filtering for ph data.
+
+wideResultsOption <- FALSE  # Will always save "long" results format, set to TRUE to also save wide results format
+
+rawFiles2Exclude <- c()    # If you have any bad runs in your spectronaut data that you want to exclude from your mean log2 fold change calculations, list them here ex: c("lu110884.raw","lu110902.raw")
+
+```
+
+
+```{r, Load Spectronaut outfile and prepare with keys}
+specFile <- fread(specOutFile)
+setnames(specFile, c(specRawCol), c("Run"),skip_absent = T )
+
+
+# if keys file is provided, map Conditions from rawfile names in Run col
+if (!is.null(keysFile)){
+  keys <- fread(keysFile)
+  setnames(keys, c(keyConditionCol, keyRawCol, keyBioRepCol), c("Sample", "Raw", "BioReplicate"))
+  keys[, Raw :=as.character(Raw)]
+  
+  specFile [, Run := tstrsplit(specFile$Run, "\\.", keep = 1) ] [keys, c("BioReplicate", "Condition") := .(i.BioReplicate, i.Sample), on = .(Run = Raw)]
+} else{ specFile[, Condition := Run]}
+
+# make sure bioreplicate is unique across conditions otherwise mss will treat different conditions with the same bioreplicate number as being associated w each other
+
+specFile[, BioReplicate := paste0(Condition, ".", BioReplicate)]
+```
+
+
+```{r}
+hist(log2(specFile$Intensity))
+```
+
+
+```{r, Filter by intensity and check}
+
+filteredSpecFile <- ScriptAndDatedFileName(paste(dataName,dataType, "SpectronautFeatures_log2Filtered.csv", sep = "_"))
+
+filtered <- specFile[log2(Intensity) > magnitudeFilter ]
+fwrite(filtered,  filteredSpecFile)
+specFile <- fread(filteredSpecFile)
+
+
+hist(log2(specFile$Intensity) )
+```
+
+```{r, If Phospho, check ptms distribution}
+if (dataType == "PH" & !is.null(ptmsFilter)){
+  hist(specFile$EG.PTMAssayProbability) 
+  }
+```
+
+
+```{r, If Phospho, threshold ptms and check}
+if (dataType == "PH" & !is.null(ptmsFilter)){
+  filteredSpecFile <- ScriptAndDatedFileName(paste(dataName,dataType,"SpectronautFeaturesPTMProbFiltered.csv", sep = "_"))
+  if(!file.exists(filteredSpecFile)){
+    # mark frequnetly observed features (default >10 observations) as halfcomplete or not.
+    freqFeatureNum <- 10
+    # halfComplete == when observed, it must be prob>0.75 more than half the time
+    halfCompleteSet <- specFile[, .(totalObs = .N, numPass0.75 = sum(EG.PTMAssayProbability > ptmsFilter)), by = .(ProteinName, PeptideSequence, PrecursorCharge)][numPass0.75 > totalObs/2 & totalObs > freqFeatureNum]
+    
+    specFile[halfCompleteSet, halfComplete := TRUE, on = c("ProteinName", "PeptideSequence", "PrecursorCharge")]
+    # we accept all things with prob > 0.75 but additionally those that are "halfComplete" regardless of prob 
+    filtered <- specFile[EG.PTMAssayProbability > ptmsFilter | halfComplete == TRUE]
+    fwrite (filtered,  filteredSpecFile)
+    specFile <- fread(filteredSpecFile)
+
+  }
+  
+  hist(specFile$EG.PTMAssayProbability )
+}
+
+```
+
+
+```{r, If Phospho and not already sitified, append site to ProteinNames}
+
+stopifnot(`No variable EG.ProteinPTMLocations in specFile, rerun spectronaut to output site locations or run sitifyProteins_SpectronautFile() from ~bp_utils\\LocatePeptidePtmInProteins.R to append phospho sites` = "EG.ProteinPTMLocations" %in% colnames(specFile) | sum(grep("_",specFile$ProteinName)) > 0 )
+
+if (dataType == "PH" & sum(grep("_",specFile$ProteinName)) == 0 ){
+  specPTMLocation2artmsStyleSingleProtein <- function (ProteinName, ptmLocations, ptmRE = "^(S|T|Y)"){
+    stopifnot (substr(ptmLocations[1], 1, 1) == "(")
+    stopifnot (!any(grepl(";", ProteinName)))
+    stopifnot (!any(grepl(";", ptmLocations)))
+    
+    noEdgeParens <- substr(ptmLocations ,2, nchar(ptmLocations)-1 ) # remove the parentheses
+    
+    if(any(grepl("\\)\\(", noEdgeParens))){
+      message ("Some proteins with PTMs in duplicated peptides. Choosing the first peptide/positions reported")
+      noEdgeParens <- tstrsplit(noEdgeParens, "\\)\\(")[[1]]
+    }
+    
+    listOfSingleMods <- strsplit(noEdgeParens,",")
+    # remove those that don't match ptmRE, C123 as the usual example
+    listOfSingleMods <- lapply(listOfSingleMods, function(v)grep(ptmRE, v, value = TRUE) )
+    listOfProteinNames <- lapply(1:length(listOfSingleMods),
+                                 function (i) ifelse(length(listOfSingleMods[[i]]) > 0,  # can happen when mods are all Cys_CAM etc.
+                                                     paste0(ProteinName[i], "_", listOfSingleMods[[i]], collapse = ";"),
+                                                     ""))
+    #result <- sapply(listOfProteinNames, paste0, collapse = ";")
+    return (listOfProteinNames)
+  }
+  
+  
+  specPTMLocation2ProteinNames <- function(specFile){
+    multiProtMapper <- unique(specFile[EG.ProteinPTMLocations != "", .(ProteinName, EG.ProteinPTMLocations)])
+    singleProtMapper <- multiProtMapper[, .(singleProtein = unlist(strsplit(ProteinName, ";")), singlePTMset = unlist(strsplit(EG.ProteinPTMLocations, ";"))), by = .(ProteinName, EG.ProteinPTMLocations) ]
+    singleProtMapper[, artMSName := specPTMLocation2artmsStyleSingleProtein(singleProtein, singlePTMset)]
+    
+    # collapse back to multiProts
+    multiProtMapper <- singleProtMapper[artMSName != "", .(artMSName = paste0(artMSName, collapse = ";")), by = .(ProteinName, EG.ProteinPTMLocations)]
+    
+    multiProtMapper[specFile, artMSName, on = c ("ProteinName", "EG.ProteinPTMLocations")]
+  }
+  
+  specFile[, artMSProteinName := specPTMLocation2ProteinNames (specFile)]
+  # remove the non-STY modified
+  specFile <- specFile[artMSProteinName != ""]
+  specFile[, ProteinName := artMSProteinName] 
+  
+}
+```
+
+
+```{r, PLACE TO OPTIONALLY REMOVE UNWANTED CONDITIONS}
+
+print(paste("Number of Runs before exclusion -", length(unique(specFile$Run))))
+specFile <- specFile[!Run %in% rawFiles2Exclude,]
+cat("Number of Runs after exclusion - ", length(unique(specFile$Run)), "\n(Should be the same as before if no runs were specified in arguments)")
+
+```
+
+
+```{r, Prepare MSS input, run MSS, and save}
+source (paste0(utils,"MSstats_Helper_Functions.R"))
+
+msinput<- specFileToCompleteMSstats(specFile)
+
+msinput[, IsotopeLabelType := 'L']
+dp.out <- MSstats::dataProcess(setDF(msinput),
+                               MBimpute = FALSE#,
+                               #featureSubset = "highQuality",
+                               #remove_uninformative_feature_outlier = TRUE
+                               #,
+                               #cluster = 8
+)
+# Save feature and Protein -level data from mss out
+fwrite (dp.out$FeatureLevelData, ScriptAndDatedFileName(paste(dataName,dataType,"FeatureLevelData.csv.gz",sep = "_")))
+fwrite (dp.out$ProteinLevelData, ScriptAndDatedFileName(paste(dataName,dataType,"ProteinLevelData.csv.gz", sep = "_")))
+```
+
+
+```{r, Run MSS Group Comparison on defined contrastsand save}
+
+source (paste0(utils,"MSstats_V4_Functions.R"))
+contrastMat <- makeContrast.regEx ( regEx = regexContrasts,
+                                    mssQ = dp.out)
+
+resultsFile <- ScriptAndDatedFileName(paste(dataName,dataType,"GroupComparisonResult.csv", sep = "_"))
+#optional if not running as job
+save ( "dp.out", "contrastMat", "resultsFile", file = ScriptAndDatedFileName(paste(dataName,dataType, "inputGroupComparison.Rdata", sep = "_")))
+
+gc.out.peptide <- MSstats::groupComparison(contrastMat, dp.out)
+gc.out.peptide.results <- gc.out.peptide$ComparisonResult
+data.table::fwrite(gc.out.peptide$ComparisonResult, resultsFile)
+  
+```
+
+
+``` {r, Optional Save Wide Formatted Data}
+
+if (wideResultsOption == T){
+  phResults <- data.table(gc.out.peptide$ComparisonResult)
+  phResultsWide <- dcast(phResults, Protein ~ Label, value.var = c("adj.pvalue","log2FC"))
+  fwrite(phResultsWide, file.path(ScriptAndDatedFileName(paste("wide",dataName,dataType,"GroupComparisonResult.csv", sep = "_"))))
+  }
+
+```
+
+
+
+

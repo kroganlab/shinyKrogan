@@ -22,6 +22,8 @@ Link to app server: http://higgs2.ucsf.edu:3838/bpolacco/shinyKrogan/ProteomicsS
 This app is for creating volcano plots, bar charts, PCA plots, and heatmaps from proteomics data (abundance or PTMs) that has already been run through MSstats. Labels, colors, thresholds, and common labelling/formatting schemes for the figures are all configurable. Files are downloadable individually as .PDFs.  
 - Requires the "GroupComparison" and "ProteinLevelData" .csv files from MSstats (a .gz zipped .csv is also acceptable).
 
+*You can easily generate MSstats results files yourself using [artMS](https://github.com/biodavidjm/artMS) or the  Proteomics_spec2MSStats_results.rmd  file in shinyKrogan/ProteomicsMSsPreparation---or ask someone from the computational corner for help!*
+
 ### PPI Data Scoring
 Link to app server: http://higgs2.ucsf.edu:3838/yzhou5/R_shiny_for_PPI/PPI_scoring
 

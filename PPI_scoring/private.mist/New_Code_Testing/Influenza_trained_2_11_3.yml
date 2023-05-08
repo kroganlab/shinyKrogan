@@ -1,0 +1,45 @@
+files:
+  data : /Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/input_3/Influenza_hip52_1_26.txt
+  keys : /Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/input_3/Influenza_keys.txt
+  remove : /Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/input_3/Influenza_remove.txt
+  collapse : /Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/input_3/Influenza_collapse.txt
+  specificity_exclusions : /Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/input_3/Influenza_exclusions.txt
+  output_dir : /Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/processed_20150211_trained/
+preprocess:
+  enabled : 1
+  remove_carryover : 1
+  filter_contaminants : 1
+  contaminants_file :  ~/Box Sync/Doug/projects/mist/files/contaminants.txt
+  pepcount_colname : Num_Unique
+  id_colname : IP_Sample_ID
+  prey_colname : uniprot_ac
+  mw_colname : Protein_MW
+qc:
+  enabled : 1
+  matrix_file :
+  cluster : 1
+  cluster_font_scale : 5
+  ip_distributions : 1
+mist:
+  enabled : 1
+  matrix_file : /Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/processed_20150211_trained/preprocessed_MAT.txt
+  # possible weights values:trained (using training_file), PCA, fixed (using weights below)
+  weights : training
+  training_file : /Users/dsanders/Source_Tree_Github/Private_Mist/New_Code_Testing/input_3/Gold_Pairs_2_11.txt
+  training_steps : 0.05
+  reproducibility : 0.30853 
+  specificity : 0.68551
+  abundance : 0.00596
+comppass:
+  enabled : 1
+annotate:
+  enabled : 1
+  species : HUMAN
+  uniprot_dir : ~/Box Sync/Doug/projects/mist/files/
+enrichment:
+  enabled : 1
+  hyperg : 1
+  resampling : 1
+  enrichment_p_cutoff : 0.05
+  score_threshold : 0.6
+  id_type : UNIPROT

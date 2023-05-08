@@ -1,0 +1,327 @@
+	HA	M1	M2	NAp	negative	NEP	NP	NS1	PA	PB1	PB1F2	PB2
+14-3-3 protein	0	0	0	0	0	0	0	0	0	0	60.7885772788597	0
+2-oxoacid dehydrogenases acyltransferase (catalytic domain)	0	0	0	0	8.91466285048852	0	0	0	0	0	10.7771869941931	0
+2OG-Fe(II) oxygenase superfamily	0	0	0	0	0	0	19.8768657734741	0	0	0	0	0
+5' nucleotidase family	0	0	3.38298519055899	0	0	0	0	0	0	0	0	0
+50S ribosome-binding GTPase	0	0	0	0	0	0	17.3329767684957	0	0	0	0	0
+AAA domain (dynein-related subfamily)	0	0	17.7650827584659	0	0	0	0	0	0	0	0	0
+ABC1 family	0	0	7.81552851852008	0	0	0	0	0	0	0	0	0
+Acyl-CoA dehydrogenase, C-terminal domain	0	0	17.9311603998216	0	0	0	0	0	0	0	0	0
+Acyl-CoA dehydrogenase, middle domain	0	0	17.9311603998216	0	0	0	0	0	0	0	0	0
+Acyl-CoA dehydrogenase, N-terminal domain	0	0	17.9311603998216	0	0	0	0	0	0	0	0	0
+Acyltransferase	33.1355453038403	0	0	0	0	0	0	0	0	0	0	0
+Adenosine deaminase z-alpha domain	0	0	0	0	0	0	0	53.5271087921644	0	0	0	0
+Adenosine-deaminase (editase) domain	0	0	0	0	0	0	0	53.5271087921644	0	0	0	0
+ADP-ribosylation factor family	85.7145426497631	0	0	0	0	0	0	0	0	0	0	0
+AhpC/TSA family	0	0	0	0	0	0	0	0	0	0	35.4258746313305	0
+AIR carboxylase	0	0	0	0	0	0	0	0	0	0	9.64624149508167	0
+Aldehyde dehydrogenase family	0	0	0	23.0704525941217	0	0	0	0	0	0	0	0
+Amino acid permease	41.9401396316849	0	0	0	0	0	0	0	0	0	0	0
+Aminotransferase class I and II	0	0	19.7758483958283	0	0	0	0	0	0	0	0	0
+Aminotransferase class-III	0	0	13.2196501203071	0	0	0	0	0	0	0	0	0
+AMP-binding enzyme	43.609875533786	0	0	0	0	0	0	0	0	0	0	0
+Anticodon binding domain	0	0	12.0902602353643	0	0	0	0	0	0	0	0	0
+Anticodon-binding domain of tRNA	0	0	24.4228047323978	0	0	0	0	0	0	0	0	0
+Apoptosis regulator proteins, Bcl-2 family	0	0	0	0	0	0	0	0	0	0	98.4102766194625	0
+Arginyl tRNA synthetase N terminal domain	0	0	8.73688049796877	0	0	0	0	0	0	0	0	0
+Armadillo/beta-catenin-like repeat	0	0	0	0	0	0	6.99042478907563	0	0	0	0	26.6204780255588
+Ataxin-2 C-terminal region	0	0	0	0	0	0	6.14493216338945	0	0	0	0	0
+ATP synthase (C/AC39) subunit	40.9898638058235	0	0	0	0	0	0	0	0	0	0	0
+ATP synthase alpha/beta chain, C terminal domain	0	0	30.2615818704486	0	0	23.7104829754484	0	0	0	0	0	0
+ATP synthase alpha/beta family, beta-barrel domain	0	0	30.2615818704486	0	0	23.7104829754484	0	0	0	0	0	0
+ATP synthase alpha/beta family, nucleotide-binding domain	0	0	30.2615818704486	0	0	23.7104829754484	0	0	0	0	0	0
+ATP synthase D chain, mitochondrial (ATP5H)	0	0	0	0	0	21.5923861978267	0	0	0	0	0	0
+ATP synthase delta (OSCP) subunit	0	0	0	0	0	23.7187765677507	0	0	0	0	0	0
+ATP synthase E chain	0	0	0	0	0	18.7576024220615	0	0	0	0	0	0
+ATP synthase, Delta/Epsilon chain, beta-sandwich domain	0	0	0	0	0	31.4936390797206	0	0	0	0	0	0
+ATPase family associated with various cellular activities (AAA)	0	0	28.3418882850921	0	0	0	0	0	0	0	0	0
+Autophagy protein Apg9	25.6824784437218	0	0	0	0	0	0	0	0	0	0	0
+Bacterial transferase hexapeptide (six repeats)	0	0	46.614901948585	0	0	0	0	0	0	0	0	0
+BAG domain	0	0	0	0	0	0	0	0	0	22.8960972721404	0	0
+Bicoid-interacting protein 3 (Bin3)	0	0	0	0	0	0	8.49607843212359	0	0	0	0	0
+Biotin-requiring enzyme	0	0	0	0	8.91466285048852	0	0	0	0	0	10.7771869941931	0
+BP28CT (NUC211) domain	0	0	0	5.53223179577401	0	0	0	0	0	0	0	0
+Breast carcinoma amplified sequence 2 (BCAS2)	0	0	0	0	0	0	0	10.6430963252271	0	0	0	0
+C-terminal domain of 1-Cys peroxiredoxin	0	0	0	0	0	0	0	0	0	0	35.4258746313305	0
+C-terminus of AA_permease	9.94588886137226	0	0	0	0	0	0	0	0	0	0	0
+C2 domain	19.6731281596661	0	0	0	0	0	0	0	0	0	0	0
+Calcineurin-like phosphoesterase	0	0	0	0	0	0	0	0	0	0	44.2464189633406	0
+CAS/CSE protein, C-terminus	0	0	10.2240098092459	0	0	0	0	0	0	0	0	0
+CBFNT (NUC161) domain	0	0	0	0	0	0	0	13.5692766381103	0	0	0	0
+Centromere/kinetochore Zw10	0	0	16.2115980864474	0	0	0	0	0	0	0	0	0
+Ceroid-lipofuscinosis neuronal protein 6	0	0	26.6853653179875	0	0	0	0	0	0	0	0	0
+CHCH domain	0	0	0	0	0	0	0	0	10.802347536995	0	0	0
+Class I Histocompatibility antigen, domains alpha 1 and 2	79.6271456945661	0	0	0	0	0	0	0	0	0	0	0
+COG (conserved oligomeric Golgi) complex component, COG2	0	0	18.6101545170881	0	0	0	0	0	0	0	0	0
+COG4 transport protein	0	0	8.69665279354254	0	0	0	0	0	0	0	0	0
+Conserved protein (DUF2356)	0	0	12.7412569323394	0	0	0	0	0	0	0	0	0
+CPSF A subunit region	0	0	0	0	0	0	0	0	0	16.6735087411312	0	0
+CRM1 C terminal	0	0	29.3517505208462	0	0	0	0	0	0	0	0	0
+CS domain	0	0	0	0	0	0	0	0	0	0	0	13.2289025458286
+Cse1	0	0	32.7809244868496	0	0	0	0	0	0	0	0	0
+CTP synthase N-terminus	0	0	14.362944453528	0	0	0	0	0	0	0	0	0
+Cwf15/Cwc15 cell cycle control protein	0	0	0	0	0	0	0	10.017792549707	0	0	0	0
+Cytochrome b5-like Heme/Steroid binding domain	0	0	0	0	0	0	0	0	0	0	14.4361152785958	0
+Cytochrome c/c1 heme lyase	0	0	0	0	0	0	0	0	0	0	6.7486436872789	0
+Cytochrome C1 family	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+DALR anticodon binding domain	0	0	8.73688049796877	0	0	0	0	0	0	0	0	0
+DEAD/DEAH box helicase	0	0	44.317633809439	0	0	0	0	16.234770896193	0	0	0	0
+Death domain	0	0	51.6136525983171	0	0	0	0	0	0	0	0	0
+Der1-like family	17.9379094465993	0	0	0	0	0	0	0	0	0	0	0
+Di-glucose binding within endoplasmic reticulum	0	0	0	0	0	0	0	0	0	0	10.2706039212957	0
+DnaJ domain	0	0	0	3.26200403881931	0	0	0	0	0	11.948117265087	13.0201483113425	0
+Domain of unknown function (DUF1897)	0	0	0	0	0	0	0	0	0	0	17.9118102920363	0
+Domain of unknown function (DUF1981)	0	0	7.62022997867012	0	0	0	0	0	0	0	0	0
+Domain of unknown function (DUF3401)	0	0	0	0	0	0	0	0	0	4.65952904470853	0	0
+Domain of unknown function (DUF3510)	0	0	18.6101545170881	0	0	0	0	0	0	0	0	0
+Domain of unknown function (DUF3523)	0	0	1.92770295643379	0	0	0	0	0	0	0	0	0
+Domain of unknown function (DUF3535)	0	0	11.7441518428928	0	0	0	0	0	0	0	0	0
+Domain of unknown function (DUF3548)	0	0	0	0	0	0	0	0	0	0	8.26713869156595	0
+Domain of unknown function (DUF3554)	0	0	11.8257934353532	0	0	0	0	0	0	0	0	0
+Domain of unknown function DUF59	0	0	12.2210958236974	0	0	0	0	0	0	0	0	0
+Double-stranded RNA binding motif	0	0	0	0	0	0	0	53.5271087921644	0	0	0	0
+Dynein heavy chain and region D6 of dynein motor	0	0	0	12.0708293979257	0	0	0	0	0	0	0	0
+Dynein heavy chain, N-terminal region 2	0	0	0	12.0708293979257	0	0	0	0	0	0	0	0
+e3 binding domain	0	0	0	0	8.91466285048852	0	0	0	0	0	0	0
+E3 ubiquitin-protein ligase UBR4	0	0	17.4538148697836	0	0	0	0	0	0	0	0	0
+EF-hand domain	33.1355453038403	0	0	0	0	0	0	0	0	0	11.8584271872313	4.42584188946209
+EF-hand domain pair	0	0	0	0	0	0	0	0	0	0	0	4.42584188946209
+eIF4-gamma/eIF5/eIF2-epsilon	0	0	57.2249738601127	0	0	0	0	0	0	0	0	0
+ERAP1-like C-terminal domain	0	0	14.3457169740926	0	0	0	0	0	0	0	0	0
+Eukaryotic elongation factor 5A hypusine, DNA-binding OB fold	0	0	0	0	0	0	0	0	0	0	23.2828221648501	0
+Exportin 1-like protein	0	0	53.6044815468004	0	0	0	0	0	0	0	0	0
+F-actin capping protein, beta subunit	0	0	0	0	0	0	0	0	0	0	23.2828221648501	0
+FAD binding domain	0	0	0	0	0	0	0	0	0	0	16.6081497826764	0
+FANCI helical domain 1	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+FANCI helical domain 2	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+FANCI solenoid 1	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+FANCI solenoid 1 cap	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+FANCI solenoid 2	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+FANCI solenoid 3	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+FANCI solenoid 4	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+Fanconi anaemia protein FancD2 nuclease	0	0	14.0832078661644	0	0	0	0	0	0	0	0	0
+FAT domain	0	0	30.9466498913661	0	0	0	0	0	0	0	0	0
+FATC domain	0	0	30.9466498913661	0	0	0	0	0	0	0	0	0
+FHA domain	0	0	30.6945064276435	0	0	0	0	0	0	0	0	0
+Fibronectin type II domain	0	0	0	7.11577070253664	0	0	0	0	0	0	0	0
+Fibronectin type III domain	0	0	0	0	0	0	0	10.8112628947393	0	0	0	0
+Fip1 motif	0	0	0	0	0	0	0	3.3601624117165	0	0	0	0
+FtsH Extracellular	0	0	27.5497980081925	0	0	0	0	0	0	0	0	0
+Fumarate reductase flavoprotein C-term	0	0	0	0	0	0	0	0	0	0	16.6081497826764	0
+Galactokinase galactose-binding signature	0	0	0	0	0	0	0	0	18.8572355726372	0	0	0
+Gem-associated protein 7 (Gemin7)	0	0	16.6793702826446	0	0	0	0	0	0	0	0	0
+Gemin6 protein	0	0	24.4228047323978	0	0	0	0	0	0	0	0	0
+GHMP kinases C terminal	0	0	0	0	0	0	0	0	18.8572355726372	0	0	0
+GHMP kinases N terminal domain	0	0	0	0	0	0	0	0	18.8572355726372	0	0	0
+Glucosidase II beta subunit-like protein	0	0	0	5.93270158885439	0	0	0	0	0	0	0	0
+Glutamine amidotransferase class-I	0	0	14.362944453528	0	0	0	0	0	0	0	0	0
+Glutaminyl-tRNA synthetase, non-specific RNA binding region part 1	0	0	9.88932605898822	0	0	0	0	0	0	0	0	0
+Glutaminyl-tRNA synthetase, non-specific RNA binding region part 2	0	0	9.88932605898822	0	0	0	0	0	0	0	0	0
+Glutathione S-transferase, C-terminal domain	0	0	23.3744443962784	5.7826119504231	0	0	0	0	0	0	0	0
+Golgi complex component 7 (COG7)	0	0	14.3457169740926	0	0	0	0	0	0	0	0	0
+Golgi phosphoprotein 3 (GPP34)	0	0	0	0	0	0	0	0	0	0	26.6651871458587	0
+Granulin	0	0	18.6101545170881	0	0	0	0	0	0	0	0	0
+Haloacid dehalogenase-like hydrolase	0	0	8.40479121703972	0	0	0	0	0	0	0	0	0
+HEAT repeat	0	0	9.92359743180058	0	0	0	0	0	0	0	31.5874574883675	0
+HEAT repeat associated with sister chromatid cohesion	0	0	12.846731461145	0	0	0	0	0	0	0	0	0
+HECT-domain (ubiquitin-transferase)	0	0	13.3972201370396	0	0	0	0	0	0	0	0	0
+Helicase associated domain (HA2)	0	0	0	0	0	0	0	16.234770896193	0	0	0	0
+Helicase conserved C-terminal domain	0	0	50.5838724336194	0	0	0	0	16.234770896193	0	0	0	0
+Heme oxygenase	0	0	0	0	0	0	0	0	0	0	14.6243894236034	0
+Histone chaperone Rttp106-like	0	0	0	0	0	0	0	0	0	13.3444943780389	0	0
+Histone deacetylase domain	0	0	0	0	0	0	0	0	0	0	0	102.016909722529
+HMG (high mobility group) box	0	0	0	0	0	0	0	0	0	13.3444943780389	0	0
+Homeobox domain	0	0	0	17.3030728180478	0	0	0	0	0	0	0	0
+Hsp70 protein	0	5.97508367629756	0	0	0	0	0	0	0	0	0	0
+Hsp90 protein	0	0	0	23.9271541216732	0	0	0	0	0	0	0	0
+Immunoglobulin C1-set domain	79.6271456945661	0	0	0	0	0	0	0	0	0	0	0
+Immunoglobulin I-set domain	0	0	0	0	0	0	0	10.8112628947393	0	0	0	0
+Importin beta binding domain	0	0	0	0	0	0	6.99042478907563	0	0	0	0	26.6204780255588
+Importin-beta N-terminal domain	0	0	107.129186962345	0	0	0	0	0	0	0	0	0
+Initiation factor 2 subunit family	0	0	115.790432107006	0	0	0	0	0	0	0	0	0
+Insulinase (Peptidase family M16)	0	0	0	0	0	0	0	0	0	0	21.1192785448526	0
+Isochorismatase family	10.0254247466796	0	0	0	0	0	0	0	0	0	0	0
+Isy1-like splicing family	0	0	0	0	0	0	0	7.6857617275109	0	0	0	0
+KH domain	0	0	0	0	0	0	0	37.3920581047156	0	0	17.9118102920363	0
+Kinesin motor domain	0	0	30.6945064276435	0	0	0	0	0	0	0	0	0
+KOW motif	0	0	0	0	0	0	6.40640404744728	0	0	0	0	0
+La domain	0	0	0	0	0	0	23.2834324006459	0	0	0	0	0
+Las1-like	0	0	0	0	0	0	0	0	0	9.85556014890111	0	0
+Late endosomal/lysosomal adaptor and MAPK and MTOR activator	35.857032832829	0	0	0	0	0	0	0	0	0	0	0
+LBP / BPI / CETP family, C-terminal domain	0	0	0	0	0	0	0	0	0	0	0	9.88089610824381
+LBP / BPI / CETP family, N-terminal domain	0	0	0	0	0	0	0	0	0	0	0	9.88089610824381
+linker between RRM2 and RRM3 domains in RBM39 protein	0	0	0	0	0	0	0	0	0	0	0	7.9192813103477
+Low temperature viability protein	0	0	0	0	0	0	0	0	0	3.6906521942518	0	0
+LSM domain	0	0	26.2662613900516	0	0	0	0	0	0	0	0	0
+MA3 domain	0	0	7.38079623212102	0	0	0	0	0	0	0	0	0
+Mannose-6-phosphate receptor	17.6523137738374	0	0	0	0	0	0	0	0	0	0	0
+MARCKS family	0	0	0	0	0	0	0	0	0	0	6.7486436872789	0
+MHC_I C-terminus	79.6271456945661	0	0	0	0	0	0	0	0	0	0	0
+Microtubule-binding stalk of dynein motor	0	0	0	12.0708293979257	0	0	0	0	0	0	0	0
+MIF4G domain	0	0	7.38079623212102	0	0	0	34.1954642667671	0	0	0	0	0
+MIF4G like	0	0	0	0	0	0	67.3509258785488	0	0	0	0	0
+MIR domain	0	0	0	1.98933202926501	0	0	0	0	0	0	0	0
+Mitochondrial 28S ribosomal protein S22	0	0	0	0	0	0	6.75414594925063	0	0	0	0	0
+Mitochondrial 28S ribosomal protein S27	0	0	0	0	0	0	4.50982665620587	0	0	0	0	0
+Mitochondrial ATP synthase coupling factor 6	0	0	0	0	0	21.7430897159508	0	0	0	0	0	0
+Mitochondrial ATP synthase epsilon chain	0	0	0	0	0	18.7576024220615	0	0	0	0	0	0
+Mitochondrial carrier protein	9.97257767130643	0	0	0	0	0	0	0	0	0	0	0
+Mitochondrial F1F0-ATP synthase, subunit f	0	0	0	0	0	13.9624136812653	0	0	0	0	0	0
+Mitochondrial inner membrane protein	0	0	0	11.6493198776137	0	0	0	0	0	0	0	0
+Mitochondrial ribosomal death-associated protein 3	0	0	0	0	0	0	6.46597130287593	0	0	0	0	0
+Mitochondrial ribosomal protein S23	0	0	0	0	0	0	9.66327006388433	0	0	0	0	0
+Mitochondrial ribosomal subunit protein	0	0	0	0	0	0	9.66327006388433	0	0	0	0	0
+Mitochondrial ribosome subunit S26	0	0	0	0	0	0	9.06761000719951	0	0	0	0	0
+Modifier of rudimentary (Mod(r)) protein	0	0	0	0	0	0	0	0	0	0	14.5966183168165	0
+MutS domain I	0	0	51.6136525983171	0	0	0	0	0	0	0	0	0
+MutS domain II	0	0	51.6136525983171	0	0	0	0	0	0	0	0	0
+MutS domain III	0	0	51.6136525983171	0	0	0	0	0	0	0	0	0
+MutS domain V	0	0	51.6136525983171	0	0	0	0	0	0	0	0	0
+MutS family domain IV	0	0	51.6136525983171	0	0	0	0	0	0	0	0	0
+Myosin-binding striated muscle assembly central	0	0	11.6468214573927	0	0	0	0	0	0	0	0	0
+NHL repeat	0	0	0	0	0	0	0	0	0	52.7703261492372	0	0
+NocA-like zinc-finger protein 1	0	0	0	0	0	9.13583606846043	0	0	0	0	0	0
+Nucleosome assembly protein (NAP)	0	0	0	0	0	0	0	0	0	15.2893516267459	0	0
+Nucleotidyl transferase	0	0	32.3481216460283	0	0	0	0	0	0	0	0	0
+Nup93/Nic96	0	0	14.3539662900751	0	0	0	0	0	0	0	0	0
+OB-fold nucleic acid binding domain	0	0	19.7722111622138	0	0	0	11.9355231693085	0	0	0	0	0
+Oligonucleotide/oligosaccharide-binding (OB)-fold	0	0	0	0	0	0	0	16.234770896193	0	0	0	0
+Oligosaccharyltransferase subunit Ribophorin II	0	0	29.0367030932111	0	0	0	0	0	0	0	0	0
+Outer mitochondrial membrane transport complex protein	0	0	0	5.7826119504231	0	0	0	0	0	0	0	0
+Ovarian carcinoma immunoreactive antigen (OCIA)	0	0	0	0	0	3.88720744342834	0	0	0	0	0	0
+P-loop containing dynein motor region D4	0	0	0	12.0708293979257	0	0	0	0	0	0	0	0
+P53 DNA-binding domain	0	0	0	0	82.2646153043761	0	0	0	0	0	0	0
+P53 tetramerisation motif	0	0	0	0	82.2646153043761	0	0	0	0	0	0	0
+P53 transactivation motif	0	0	0	0	82.2646153043761	0	0	0	0	0	0	0
+Patched family	0	0	0	0	0	0	0	0	0	0	34.2734210511065	0
+PCI domain	0	0	0	0	0	0	0	10.0248402309336	0	0	0	0
+PDZ domain (Also known as DHR or GLGF)	53.2440469206511	0	0	0	0	0	0	0	0	4.65952904470853	0	0
+Pentatricopeptide repeat domain	0	0	0	0	0	0	6.93795414083271	0	0	0	0	0
+Peptidase family M1	0	0	14.3457169740926	0	0	0	0	0	0	0	0	0
+Peptidase family M41	0	0	27.5497980081925	0	0	0	0	0	0	0	0	0
+Peptidase M16 inactive domain	0	0	0	0	0	0	0	0	0	0	21.1192785448526	0
+PHAX RNA-binding domain	0	0	0	0	0	0	14.5852280191137	0	0	0	0	0
+Phosphatidylinositol 3- and 4-kinase	0	0	30.9466498913661	0	0	0	0	0	0	0	0	0
+Phosphofructokinase	0	0	49.6951494967929	0	0	0	0	0	0	0	0	0
+Phosphomannose isomerase type I	0	0	13.5256777651689	0	0	0	0	0	0	0	0	0
+Phosphotransferase enzyme family	0	0	8.40479121703972	0	0	0	0	0	0	0	0	0
+Poly-adenylate binding protein, unique domain	0	0	7.32428683099412	0	0	0	0	0	0	0	0	0
+PPR repeat	0	0	18.6889516921584	0	0	0	0	0	0	0	0	0
+PPR repeat family	0	0	0	0	0	0	6.93795414083271	0	0	0	0	0
+Prenylcysteine lyase	0	0	0	0	0	0	0	0	0	0	12.1660085666537	0
+Prolyl-tRNA synthetase, C-terminal	0	0	12.0902602353643	0	0	0	0	0	0	0	0	0
+Proteasome stabiliser	0	0	16.8099637586905	0	0	0	0	0	0	0	0	0
+Proteasome subunit	0	0	0	0	0	0	0	0	0	0	0	38.2589791691866
+Proteasome subunit A N-terminal signature	0	0	0	0	0	0	0	0	0	0	0	22.9120804606107
+Protein kinase domain	0	0	142.457274085923	0	0	0	0	0	0	0	0	0
+Protein of unknown function (DUF3414)	0	0	16.5457810923321	0	0	0	0	0	0	0	0	0
+Protein of unknown function (DUF737)	0	0	0	14.1554551306926	0	0	0	0	0	0	0	0
+Protein of unknown function (DUF933)	0	0	0	0	0	0	17.3329767684957	0	0	0	0	0
+Protein phosphatase 2C	0	0	0	0	0	0	0	0	0	9.24920446352134	0	0
+Protein-tyrosine phosphatase	0	0	0	0	0	0	0	0	0	0	34.7136280510529	0
+Prp19/Pso4-like	0	0	0	0	0	0	0	15.8779949871403	0	0	0	0
+Putative carnitine deficiency-associated protein	0	0	0	0	0	0	0	10.0630476458225	0	0	0	0
+Putative GTPase activating protein for Arf	0	0	0	0	0	0	0	0	0	0	16.1918178201855	0
+Putative tRNA binding domain	0	0	34.4165321429996	0	0	0	0	0	0	0	0	0
+Putative zinc finger in N-recognin (UBR box)	0	0	17.4538148697836	0	0	0	0	0	0	0	0	0
+PWWP domain	0	0	51.6136525983171	0	0	0	0	0	0	0	0	0
+Rab-GTPase-TBC domain	0	0	0	0	0	0	0	0	0	0	8.26713869156595	0
+Rap/ran-GAP	0	0	0	0	0	0	0	0	0	4.65952904470853	0	0
+Rap1-interacting factor 1 N terminal	0	0	10.8497005951563	0	0	0	0	0	0	0	0	0
+Ras family	0	0	0	0	0	0	0	0	0	0	36.4259069203071	0
+RecF/RecN/SMC N terminal domain	0	0	42.0070146686749	0	0	0	0	0	0	0	0	0
+Regulated-SNARE-like domain	0	0	13.3972201370396	0	0	0	0	0	0	0	0	0
+Ribophorin I	0	0	0	0	0	0	0	0	0	0	13.5720082598189	0
+Ribosomal L22e protein family	0	0	0	0	0	0	0	0	0	4.65952904470853	0	0
+Ribosomal protein L17	0	0	0	0	0	0	0	0	0	6.84772702893754	0	0
+Ribosomal protein L18e/L15	0	0	0	0	0	0	6.99042478907563	0	0	0	0	0
+Ribosomal protein L23	0	0	0	0	0	0	0	16.234770896193	0	0	0	0
+Ribosomal protein L23, N-terminal domain	0	0	0	0	0	0	0	16.234770896193	0	0	0	0
+Ribosomal protein S10p/S20e	0	0	0	0	0	0	6.40640404744728	0	0	0	0	0
+Ribosomal protein S11	0	0	0	0	0	0	9.61690855061348	0	0	0	0	0
+Ribosomal protein S16	0	0	0	0	0	0	6.01458647664383	0	0	0	0	0
+Ribosomal protein S17	0	0	0	0	0	0	6.3722419514009	0	0	0	0	0
+Ribosomal protein S18	0	0	0	0	0	0	12.4150720524784	0	0	0	0	0
+Ribosomal protein S21	0	0	0	0	0	0	6.01458647664383	0	0	0	0	0
+Ribosomal protein S21e	0	0	0	0	0	0	0	16.234770896193	0	0	0	0
+Ribosomal protein S27	0	0	0	0	0	0	0	0	0	0	0	21.6749516379697
+Ribosomal protein S5, C-terminal domain	0	0	0	0	0	0	6.68589399103777	0	0	0	0	0
+Ribosomal protein S5, N-terminal domain	0	0	0	0	0	0	6.68589399103777	0	0	0	0	0
+Ribosomal protein S6	0	0	0	0	0	0	7.47089367263637	0	0	0	0	0
+Ribosomal protein S7p/S5e	0	0	0	0	0	0	9.26389275578781	0	0	0	0	0
+Ribosomal protein S9/S16	0	0	0	0	0	0	6.60403593505532	0	0	0	0	0
+Ring finger domain	0	0	0	0	0	0	0	0	0	21.1130972278725	0	0
+RING-type zinc-finger	0	0	0	0	0	0	0	0	0	52.7703261492372	0	0
+RINT-1 / TIP-1 family	0	0	0	5.792430227363	0	0	0	0	0	0	0	0
+RNA binding motif	0	0	0	0	0	0	13.0695401693422	0	0	0	0	0
+RNA recognition motif. (a.k.a. RRM, RBD, or RNP domain)	0	0	21.1722194238765	0	0	0	211.403061701377	67.8610986719747	0	0	0	7.9192813103477
+RNAPII transcription regulator C-terminal	0	0	20.7673321490753	0	0	0	0	0	0	0	0	0
+Roadblock/LC7 domain	13.5164047905809	0	0	0	0	0	0	0	0	0	0	0
+Rough deal protein C-terminal region	0	0	16.7308616789982	0	0	0	0	0	0	0	0	0
+S-adenosyl-L-homocysteine hydrolase	0	0	0	0	0	0	0	0	0	0	21.5253000929309	0
+S-adenosyl-L-homocysteine hydrolase, NAD binding domain	0	0	0	0	0	0	0	0	0	0	21.5253000929309	0
+S-adenosylmethionine synthetase, C-terminal domain	0	0	0	0	0	0	0	0	21.2875067647628	0	0	0
+S-adenosylmethionine synthetase, central domain	0	0	0	0	0	0	0	0	21.2875067647628	0	0	0
+S-adenosylmethionine synthetase, N-terminal domain	0	0	0	0	0	0	0	0	21.2875067647628	0	0	0
+SAICAR synthetase	0	0	0	0	0	0	0	0	0	0	9.64624149508167	0
+Sec34-like family	0	0	22.3149297759524	0	0	0	0	0	0	0	0	0
+Sec63 Brl domain	0	0	0	0	0	0	0	0	0	0	13.0201483113425	0
+Sec7 domain	0	0	25.1492719645704	0	0	0	0	0	0	0	0	0
+Sel1 repeat	0	0	0	7.11577070253664	0	0	0	0	0	0	0	0
+SH2 domain	0	0	0	0	0	0	0	0	0	0	45.5066827697519	0
+SH3 domain	0	0	0	0	0	0	0	0	0	0	45.5066827697519	0
+short chain dehydrogenase	12.6896281166077	0	0	0	0	0	0	0	0	0	0	0
+Signal recognition particle 14kD protein	0	0	0	0	0	0	14.7647833803879	0	0	0	0	0
+SIT4 phosphatase-associated protein	0	0	0	0	0	0	0	0	0	4.65952904470853	0	0
+SKIP/SNW domain	0	0	0	0	0	0	0	42.3707572047639	0	0	0	0
+SMC proteins Flexible Hinge Domain	0	0	42.0070146686749	0	0	0	0	0	0	0	0	0
+SNF2 family N-terminal domain	0	0	11.7441518428928	0	0	0	0	0	0	0	0	0
+Spc97 / Spc98 family	0	0	14.0832078661644	0	0	0	0	0	0	0	0	0
+SPFH domain / Band 7 family	48.9520265405922	0	58.4728041760013	0	0	0	0	0	0	0	23.2828221648501	0
+SpoU rRNA Methylase family	0	0	5.23556089009806	0	0	0	0	0	0	0	0	0
+Striatin family	0	48.0411256273245	0	0	0	0	0	0	0	0	0	0
+Structure-specific recognition protein (SSRP1)	0	0	0	0	0	0	0	0	0	13.3444943780389	0	0
+Surface antigen	0	0	0	13.2410894124935	0	0	0	0	0	0	0	0
+Survival motor neuron protein (SMN)	0	0	24.3948739858673	0	0	0	0	0	0	0	0	0
+Sybindin-like family	0	0	14.7866945537344	0	0	0	0	0	0	0	0	0
+Synaptobrevin	0	0	13.3972201370396	0	0	0	0	0	0	0	0	0
+TATA-binding protein interacting (TIP20)	0	0	25.0099894479325	0	0	0	0	0	0	0	0	0
+TCP-1/cpn60 chaperonin family	0	0	0	0	0	0	0	0	0	0	22.302486444623	0
+Telomere length regulation protein	0	0	14.0832078661644	0	0	0	0	0	0	0	0	0
+Tetratricopeptide repeat	0	0	12.1684432742514	0	0	0	0	0	0	86.1697414733345	4.23648730313412	0
+Thioredoxin	0	0	12.1557129611993	3.26200403881931	0	0	0	0	0	0	19.1003940122287	0
+TIP49 C-terminus	0	0	0	0	0	0	0	0	0	21.2958651627371	0	0
+TLC domain	0	0	0	17.3030728180478	0	0	0	0	0	0	0	0
+Trafficking protein particle complex subunit 10, TRAPPC10	0	0	9.89561388830066	0	0	0	0	0	0	0	0	0
+Transcription factor/nuclear export subunit protein 2	0	0	10.2489382050026	0	0	0	0	0	0	0	0	0
+Transcription- and export-related complex subunit	0	0	10.2489382050026	0	0	0	0	0	0	0	0	0
+Transcriptional repressor TCF25	0	0	0	0	0	0	0	0	0	0	0	9.88089610824381
+Transport protein particle (TRAPP) component	0	0	21.2780372011354	0	0	0	0	0	0	0	0	0
+Transport protein Trs120 or TRAPPC9, TRAPP II complex subunit	0	0	4.68098868137139	0	0	0	0	0	0	0	0	0
+tRNA synthetase class II core domain (G, H, P, S and T)	0	0	12.0902602353643	0	0	0	0	0	0	0	0	0
+tRNA synthetases class I (E and Q), anti-codon binding domain	0	0	21.9462011807946	0	0	0	0	0	0	0	0	0
+tRNA synthetases class I (E and Q), catalytic domain	0	0	31.2187907607043	0	0	0	0	0	0	0	0	0
+tRNA synthetases class I (I, L, M and V)	0	0	24.4228047323978	0	0	0	0	0	0	0	0	0
+tRNA synthetases class I (M)	0	0	10.3235645162734	0	0	0	0	0	0	0	0	0
+tRNA synthetases class I (R)	0	0	8.73688049796877	0	0	0	0	0	0	0	0	0
+tRNA synthetases class II (D, K and N)	0	0	19.7722111622138	0	0	0	11.9355231693085	0	0	0	0	0
+tRNA-splicing ligase RtcB	0	0	0	0	0	0	0	17.5595549594917	0	0	0	0
+TROVE domain	0	0	0	0	0	0	14.5117115869318	0	0	0	0	0
+Tubulin C-terminal domain	0	0	0	0	0	0	0	0	0	0	0	5.12505954180155
+Tubulin folding cofactor D C terminal	0	0	31.5449848395583	0	0	0	0	0	0	0	0	0
+Tubulin/FtsZ family, GTPase domain	0	0	0	0	0	0	0	0	0	0	0	5.12505954180155
+U-box domain	0	0	0	0	0	0	0	15.8779949871403	0	64.1714366304259	0	0
+U1 zinc finger	0	0	0	0	0	0	11.3547789057278	0	0	0	0	0
+U3 small nucleolar RNA-associated protein 10	0	0	0	5.53223179577401	0	0	0	0	0	0	0	0
+Ubiquitin carboxyl-terminal hydrolase	0	0	3.85871028311741	0	0	0	0	0	0	0	0	0
+Ubiquitin family	0	0	0	0	0	0	0	0	0	0	6.98282442234926	0
+UDP-glucose:Glycoprotein Glucosyltransferase	0	0	0	15.6448265498111	0	0	0	0	0	0	0	0
+UME (NUC010) domain	0	0	30.9466498913661	0	0	0	0	0	0	0	0	0
+Uncharacterised protein family, YAP/Alf4/glomulin	0	0	26.6853653179875	0	0	0	0	0	0	0	0	0
+Uncharacterized conserved protein (DUF2352)	0	0	9.95610816461867	0	0	0	0	0	0	0	0	0
+VPS28 protein	0	0	0	0	0	0	0	0	0	0	19.739502101009	0
+VWA-like domain (DUF2201)	0	0	0	0	0	0	14.5117115869318	0	0	0	0	0
+WD domain, G-beta repeat	0	48.0411256273245	21.6090434816579	0	0	0	0	30.6438370619921	0	0	16.6230612667605	44.4770473413835
+WD40-like Beta Propeller Repeat	0	0	12.2210958236974	0	0	0	0	0	0	0	0	0
+WHEP-TRS domain	0	0	24.0575417846286	0	0	0	0	0	0	0	0	0
+Zinc knuckle	0	0	0	0	0	0	2.3875252318327	0	0	0	0	0

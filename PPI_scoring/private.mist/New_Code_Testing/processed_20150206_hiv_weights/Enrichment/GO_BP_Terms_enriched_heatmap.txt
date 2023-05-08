@@ -1,0 +1,655 @@
+	HA	M1	M2	NAp	negative	NEP	NP	NS1	PA	PB1	PB1F2	PB2
+'de novo' CTP biosynthetic process	0	0	2.67694603558496	0	0	0	0	0	0	0	0	0
+'de novo' IMP biosynthetic process	0	0	0	0	0	0	0	0	0	0	1.98481740015487	0
+'de novo' posttranslational protein folding	0	0	0	0	0	0	0	0	0	0	2.09273323753056	0
+3'-UTR-mediated mRNA stabilization	0	0	0	0	0	0	3.59355445520035	0	0	0	0	0
+7-methylguanosine mRNA capping	0	0	0	0	0	0	8.90778244858871	0	0	0	0	0
+actin cytoskeleton organization	0	0	0	0	0	0	0	0	0	0	2.30987510107917	0
+activation of cysteine-type endopeptidase activity involved in apoptotic process	0	0	0	0	0	0	0	0	0	0	3.45505020525335	0
+activation of cysteine-type endopeptidase activity involved in apoptotic process by cytochrome c	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+activation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+activation of MAPK activity	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+activation of NF-kappaB-inducing kinase activity	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+activation of signaling protein activity involved in unfolded protein response	0	0	0	0	0	0	0	0	0	0	2.5956216639085	0
+adenosine to inosine editing	0	0	0	0	0	0	0	11.2841648200102	0	0	0	0
+aerobic respiration	0	0	0	0	0	0	0	0	0	0	2.51756103252622	0
+aging	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+amino acid transmembrane transport	2.6486529001683	0	0	0	0	0	0	0	0	0	0	0
+amino acid transport	3.73007799313125	0	0	0	0	0	0	0	0	0	0	0
+anaphase-promoting complex-dependent proteasomal ubiquitin-dependent protein catabolic process	0	0	0	0	0	0	0	0	0	0	0	2.74365202530803
+anatomical structure formation involved in morphogenesis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+anatomical structure morphogenesis	0	0	0	0	0	0	0	4.65544795393954	0	0	0	0
+angiogenesis	0	0	0	0	0	2.84714893595463	0	0	0	0	0	0
+antigen processing and presentation of endogenous peptide antigen via MHC class I via ER pathway, TAP-independent	5.97600047557035	0	0	0	0	0	0	0	0	0	0	0
+antigen processing and presentation of exogenous peptide antigen via MHC class I	5.97600047557035	0	0	0	0	0	0	0	0	0	0	2.74365202530803
+antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-dependent	5.97600047557035	0	0	0	0	0	0	0	0	0	0	2.74365202530803
+antigen processing and presentation of exogenous peptide antigen via MHC class I, TAP-independent	5.97600047557035	0	0	0	0	0	0	0	0	0	0	0
+antigen processing and presentation of peptide antigen via MHC class I	5.97600047557035	0	3.44791274526107	0	0	0	0	0	0	0	0	3.00158451102945
+apoptotic mitochondrial changes	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+apoptotic process	0	0	6.09173186461191	0	2.40350583683833	0	0	0	0	0	6.318554922937	2.74365202530803
+apoptotic process involved in embryonic digit morphogenesis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+apoptotic process involved in patterning of blood vessels	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+apoptotic signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+arginine transport	2.6486529001683	0	0	0	0	0	0	0	0	0	0	0
+arginyl-tRNA aminoacylation	0	0	2.31099487622758	0	0	0	0	0	0	0	0	0
+asparaginyl-tRNA aminoacylation	0	0	0	0	0	0	3.59355445520035	0	0	0	0	0
+aspartyl-tRNA aminoacylation	0	0	3.38776978528335	0	0	0	0	0	0	0	0	0
+astrocyte development	0	0	3.52723105761029	0	0	0	0	0	0	0	0	0
+astrocyte differentiation	0	0	3.52723105761029	0	0	0	0	0	0	0	0	0
+ATP biosynthetic process	0	0	0	0	0	5.10680618483247	0	0	0	0	0	0
+ATP catabolic process	0	0	23.1092875648628	0	0	10.7049580931074	3.59355445520035	5.80723121761133	0	0	0	0
+ATP hydrolysis coupled proton transport	0	0	4.53098475074447	0	0	2.84714893595463	0	0	0	0	0	0
+ATP metabolic process	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+axon guidance	0	0	0	0	0	0	0	0	0	0	2.78822523665746	0
+axonogenesis	0	0	4.53098475074447	0	0	0	0	2.11639354683503	0	0	0	0
+B cell apoptotic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+B cell homeostasis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+B cell homeostatic proliferation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+B cell lineage commitment	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+B cell negative selection	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+B cell receptor apoptotic signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+base conversion or substitution editing	0	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+base-excision repair	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+binding of sperm to zona pellucida	0	0	0	0	0	0	0	0	0	0	2.09273323753056	0
+biological_process	0	0	3.88109735759607	0	0	0	3.45740750790333	0	0	0	0	0
+blood coagulation	0	0	0	0	2.40350583683833	0	0	0	0	0	4.39847396273661	0
+blood vessel remodeling	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+brain development	3.13183064306573	0	4.03833673037863	0	0	0	0	2.11639354683503	0	0	0	0
+branched-chain amino acid catabolic process	0	0	0	0	2.75201441979168	0	0	0	0	0	0	0
+branching involved in labyrinthine layer morphogenesis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+camera-type eye development	0	0	0	0	0	0	0	0	0	0	0	1.86598253156073
+carbohydrate metabolic process	0	0	4.09261623156776	2.89413568105066	0	0	0	0	5.07093178339343	0	0	0
+carbohydrate phosphorylation	0	0	6.4739161977168	0	0	0	0	0	5.07093178339343	0	0	0
+cell aging	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+cell cycle	0	0	13.129136562999	0	0	0	0	0	0	0	0	0
+cell cycle arrest	0	0	0	0	2.75201441979168	0	0	0	0	0	0	0
+cell death	0	0	8.48732257495983	0	0	0	0	0	0	0	0	0
+cell differentiation	0	0	6.88170263512722	0	2.40350583683833	0	0	0	0	0	0	0
+cell fate determination	0	0	0	0	0	0	0	2.11639354683503	0	0	0	0
+cell proliferation	0	0	3.42897095209507	0	2.40350583683833	0	2.94038859715278	2.03690771534306	0	0	3.24120908949742	0
+cell redox homeostasis	0	0	0	3.14083443724035	0	0	0	0	0	0	0	0
+cell-cell signaling	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+cellular component movement	0	0	0	0	0	0	0	0	0	0	2.38295857583509	0
+cellular iron ion homeostasis	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+cellular lipid metabolic process	4.70907504493504	0	0	0	0	0	0	0	0	0	0	0
+cellular metabolic process	0	0	0	0	0	10.7049580931074	0	0	0	0	4.39847396273661	0
+cellular nitrogen compound metabolic process	0	0	4.49609581932715	0	2.75201441979168	0	0	0	5.07093178339343	0	3.24860267626665	2.74365202530803
+cellular protein localization	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+cellular protein metabolic process	0	0	12.8476144430641	5.71366846648637	0	0	2.9555570677584	2.55453072528375	0	0	6.318554922937	2.67108310697093
+cellular protein modification process	0	0	0	0	0	0	0	0	0	0	2.50210023388338	0
+cellular response to amino acid stimulus	3.32538739598581	0	0	0	0	0	0	0	0	0	0	0
+cellular response to DNA damage stimulus	0	0	7.84656765552023	0	2.40350583683833	0	0	0	0	0	0	0
+cellular response to drug	0	0	3.52723105761029	0	2.40350583683833	0	0	0	0	0	0	0
+cellular response to gamma radiation	0	0	5.33851991127753	0	0	0	0	0	0	0	0	0
+cellular response to glucose starvation	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+cellular response to hypoxia	0	0	4.5957332116716	0	2.40350583683833	0	0	0	0	0	0	0
+cellular response to interferon-gamma	0	0	4.87530289323089	0	0	0	0	0	0	0	0	0
+cellular response to ionizing radiation	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+cellular response to misfolded protein	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+cellular response to organic substance	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+cellular response to oxidative stress	0	0	0	0	0	0	0	0	0	0	2.37313118552341	0
+cellular response to stimulus	0	0	7.24466907783308	0	0	0	0	0	0	0	0	0
+cellular response to UV	0	0	5.33851991127753	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+central nervous system development	0	0	0	0	0	0	0	2.11639354683503	0	0	0	0
+ceramide biosynthetic process	0	0	0	3.43199490088325	0	0	0	0	0	0	0	0
+ceramide metabolic process	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+cerebellum development	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+cerebral cortex development	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+chaperone cofactor-dependent protein refolding	0	0	0	0	0	0	0	0	0	3.81592129687404	0	0
+chaperone-mediated protein folding	0	0	3.44520917313228	0	0	0	0	0	0	0	0	0
+cholesterol homeostasis	0	0	0	0	0	0	0	0	0	0	2.57294058352589	0
+chromatin assembly	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+chromosome segregation	0	0	4.1450304708632	0	0	0	0	0	0	0	0	0
+chronic inflammatory response to antigenic stimulus	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+cilium morphogenesis	0	0	0	0	0	0	3.59355445520035	0	0	0	0	0
+cilium or flagellum-dependent cell motility	0	0	0	5.71366846648637	0	0	0	0	0	0	0	0
+circadian regulation of translation	0	0	0	0	0	0	0	1.82150764635597	0	0	0	0
+circadian sleep/wake cycle	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+CRD-mediated mRNA stabilization	0	0	0	0	0	0	0	1.82150764635597	0	0	0	0
+cristae formation	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+CTP biosynthetic process	0	0	2.67694603558496	0	0	0	0	0	0	0	0	0
+cytokine-mediated signaling pathway	5.97600047557035	0	2.26349089043913	0	0	0	0	4.68741797745367	0	0	0	5.04062738817854
+cytoskeleton-dependent intracellular transport	0	0	3.47645961567769	0	0	0	0	0	0	0	0	0
+defense response to virus	0	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+dendrite development	0	2.99488310539523	0	0	0	0	0	0	0	0	0	0
+dendrite self-avoidance	0	0	0	0	0	0	0	2.11639354683503	0	0	0	0
+detection of bacterium	4.03223486651555	0	0	0	0	0	0	0	0	0	0	0
+determination of adult lifespan	0	0	6.48248018557805	0	2.40350583683833	0	0	0	0	0	0	0
+development of secondary sexual characteristics	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+DNA damage checkpoint	0	0	5.33851991127753	0	0	0	0	0	0	0	0	0
+DNA damage response, detection of DNA damage	0	0	0	0	0	0	4.94569085800424	0	0	0	0	0
+DNA damage response, signal transduction by p53 class mediator	0	0	0	0	2.75201441979168	0	0	0	0	0	0	0
+DNA damage response, signal transduction by p53 class mediator resulting in cell cycle arrest	0	0	0	0	2.40350583683833	0	0	0	0	0	0	2.74365202530803
+DNA damage response, signal transduction by p53 class mediator resulting in transcription of p21 class mediator	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+DNA duplex unwinding	0	0	0	0	0	0	0	0	0	2.06132951878919	0	0
+DNA repair	0	0	22.1471102096796	0	0	0	0	3.21778029861999	0	5.37528671443819	0	0
+DNA replication	0	0	6.96153726303013	0	0	0	0	0	0	3.5554837873784	0	0
+DNA replication-dependent nucleosome assembly	0	0	3.06377587858939	0	0	0	0	0	0	0	0	0
+DNA replication-independent nucleosome assembly	0	0	3.06377587858939	0	0	0	0	0	0	0	0	0
+DNA strand renaturation	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+dorsal/ventral pattern formation	0	0	0	0	0	0	0	2.11639354683503	0	0	0	0
+double-strand break repair	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+ectopic germ cell programmed cell death	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+embryonic organ development	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+embryonic skeletal system morphogenesis	0	0	0	0	0	0	0	2.11639354683503	0	0	0	0
+endoplasmic reticulum calcium ion homeostasis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+endoplasmic reticulum unfolded protein response	3.49303693929966	0	0	0	0	0	0	0	0	0	2.79859067973267	0
+endosomal transport	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+epidermal growth factor receptor signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+epidermis development	0	0	0	0	0	0	3.4788232112527	0	0	0	0	0
+ER overload response	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+ER to Golgi vesicle-mediated transport	0	0	7.24466907783308	0	0	0	0	0	0	0	0	0
+ER-associated ubiquitin-dependent protein catabolic process	0	0	0	2.69380443300632	0	0	0	0	0	0	0	0
+erythrocyte homeostasis	0	0	0	0	0	0	0	0	0	0	2.57702186615118	0
+establishment of protein localization	0	0	3.47645961567769	0	0	0	0	0	0	0	0	0
+establishment of protein localization to plasma membrane	3.33579806490595	0	0	0	0	0	0	0	0	0	0	0
+establishment or maintenance of transmembrane electrochemical gradient	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+ethanol catabolic process	0	0	0	2.89413568105066	0	0	0	0	0	0	0	0
+extrinsic apoptotic signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+extrinsic apoptotic signaling pathway in absence of ligand	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+extrinsic apoptotic signaling pathway via death domain receptors	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+fat cell differentiation	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+fatty acid oxidation	0	0	3.44791274526107	0	0	0	0	0	0	0	0	0
+fatty-acyl-CoA biosynthetic process	0	0	3.44791274526107	0	0	0	0	0	0	0	0	0
+Fc-epsilon receptor signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+Fc-gamma receptor signaling pathway involved in phagocytosis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+fertilization	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+fibroblast growth factor receptor signaling pathway	0	0	0	0	0	0	0	0	0	0	3.3685245100854	0
+fructose 6-phosphate metabolic process	0	0	3.90987602150883	0	0	0	0	0	0	0	0	0
+G1/S transition of mitotic cell cycle	0	0	0	0	0	0	0	0	0	0	0	2.74365202530803
+G2/M transition of mitotic cell cycle	0	0	3.1626189546555	0	0	0	0	0	0	0	2.60770237096548	0
+galactitol metabolic process	0	0	0	0	0	0	0	0	5.07093178339343	0	0	0
+galactose catabolic process	0	0	0	0	0	0	0	0	5.07093178339343	0	0	0
+galactose metabolic process	0	0	0	0	0	0	0	0	5.07093178339343	0	0	0
+gastrulation	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+GDP-mannose biosynthetic process	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+gene expression	0	0	43.1932193836881	0	0	0	15.0166174681459	14.4718123704128	0	3.02211869198932	6.318554922937	3.33120291432525
+gene silencing by RNA	0	0	0	0	0	0	4.52952506877465	0	0	0	0	0
+generation of precursor metabolites and energy	0	0	0	0	0	2.84714893595463	0	0	0	0	2.37313118552341	0
+germ cell development	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+glucose metabolic process	0	0	4.16519346335803	0	0	0	0	0	0	0	0	0
+glucose transport	0	0	2.26349089043913	0	0	0	0	0	0	0	0	0
+glutamine metabolic process	0	0	2.67694603558496	0	0	0	0	0	0	0	0	0
+glutaminyl-tRNA aminoacylation	0	0	4.03833673037863	0	0	0	0	0	0	0	0	0
+glutamyl-tRNA aminoacylation	0	0	6.3262988918887	0	0	0	0	0	0	0	0	0
+glycerophospholipid biosynthetic process	3.13183064306573	0	0	0	0	0	0	0	0	0	0	0
+glycolytic process	0	0	5.97086887049448	0	0	0	0	0	0	0	0	0
+glycosphingolipid metabolic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+Golgi organization	0	0	4.53098475074447	0	0	0	0	0	0	0	2.39584622211479	0
+GTP catabolic process	4.03223486651555	0	0	0	0	0	0	0	0	0	2.30987510107917	1.84325982223878
+hexose transport	0	0	2.26349089043913	0	0	0	0	0	0	0	0	0
+histone mRNA metabolic process	0	0	0	0	0	0	4.52952506877465	0	0	0	0	0
+homeostasis of number of cells within a tissue	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+homocysteine biosynthetic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+homophilic cell adhesion	0	0	0	0	0	0	0	2.11639354683503	0	0	0	0
+hydrogen ion transmembrane transport	0	0	0	0	0	0	0	0	0	0	2.51756103252622	0
+hydrogen peroxide catabolic process	0	0	0	0	0	0	0	0	0	0	3.24120908949742	0
+hypothalamus development	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+immune response	8.46518830755068	0	0	0	0	0	0	0	0	0	0	0
+immune system development	0	0	0	0	0	0	3.59355445520035	0	0	0	0	0
+in utero embryonic development	0	0	0	0	2.40350583683833	0	0	5.59145469741958	0	0	0	1.86598253156073
+inactivation of MAPK activity	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+innate immune response	3.32538739598581	0	5.66672149156809	0	0	0	0	4.68741797745367	0	5.08392570581292	2.60770237096548	0
+insulin receptor signaling pathway	0	0	5.32431248717385	0	0	0	0	0	0	0	4.39847396273661	0
+interaction with host	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+interferon-gamma-mediated signaling pathway	5.97600047557035	0	0	0	0	0	0	0	0	0	0	0
+interleukin-1-mediated signaling pathway	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+intra-Golgi vesicle-mediated transport	0	0	4.64895783456685	0	0	0	0	0	0	0	0	0
+intracellular protein transport	0	0	12.9022111961211	0	0	0	0	0	0	0	0	0
+intracellular transport of virus	0	0	3.0549189033044	0	0	0	0	0	0	0	2.60770237096548	0
+intrinsic apoptotic signaling pathway	0	0	6.48248018557805	0	2.40350583683833	0	0	0	0	0	4.39847396273661	0
+intrinsic apoptotic signaling pathway by p53 class mediator	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+intrinsic apoptotic signaling pathway in response to DNA damage	0	0	12.8476144430641	0	0	0	0	0	0	0	2.60770237096548	0
+intrinsic apoptotic signaling pathway in response to DNA damage by p53 class mediator	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+ion transport	4.03891376699105	0	0	0	0	0	0	0	0	0	0	0
+iron-sulfur cluster assembly	0	0	3.03930874980853	0	0	0	0	0	0	0	0	0
+isoleucyl-tRNA aminoacylation	0	0	3.95914722311332	0	0	0	0	0	0	0	0	0
+isotype switching	0	0	12.8476144430641	0	0	0	0	0	0	0	0	0
+JNK cascade	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+kidney development	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+kinetochore organization	0	0	3.99373803901657	0	0	0	0	0	0	0	0	0
+L-lysine catabolic process to acetyl-CoA via saccharopine	0	0	0	0	0	0	0	0	0	0	2.37313118552341	0
+lamellipodium assembly	0	0	0	0	0	0	0	0	0	0	2.5956216639085	0
+leucyl-tRNA aminoacylation	0	0	2.63050003809413	0	0	0	0	0	0	0	0	0
+leukocyte migration	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+lipid metabolic process	0	0	0	0	0	2.84714893595463	0	0	0	0	0	3.33120291432525
+lipid transport	0	0	0	0	0	0	0	0	0	0	0	3.33120291432525
+lipopolysaccharide-mediated signaling pathway	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+liver development	0	0	0	0	0	0	0	0	0	0	2.39584622211479	0
+locomotory behavior	0	2.99488310539523	0	0	0	0	0	0	0	0	0	0
+long-chain fatty acid metabolic process	3.57672582243612	0	0	0	0	0	0	0	0	0	0	0
+long-chain fatty-acyl-CoA biosynthetic process	2.92323662854813	0	0	0	0	0	0	0	0	0	0	0
+lysine catabolic process	0	0	3.44791274526107	0	0	0	0	0	0	0	2.37313118552341	0
+maternal process involved in female pregnancy	0	0	0	0	0	0	2.78648084042293	0	0	0	0	0
+meiotic chromosome condensation	0	0	3.99373803901657	0	0	0	0	0	0	0	0	0
+meiotic chromosome segregation	0	0	3.99373803901657	0	0	0	0	0	0	0	0	0
+meiotic mismatch repair	0	0	12.8476144430641	0	0	0	0	0	0	0	0	0
+meiotic nuclear division	0	0	2.76077341760224	0	0	0	0	0	0	0	0	0
+membrane organization	0	0	0	0	0	0	0	0	0	0	4.39847396273661	0
+metabolic process	4.70907504493504	0	7.2723268030444	11.604267502159	0	0	0	0	0	0	0	0
+methionyl-tRNA aminoacylation	0	0	2.71427127064768	0	0	0	0	0	0	0	0	0
+methylation	0	0	0	0	0	0	0	0	5.07093178339343	0	2.60770237096548	0
+microtubule-based movement	0	0	3.47645961567769	5.71366846648637	0	0	0	0	0	0	0	0
+microtubule-based process	0	0	0	0	0	0	0	0	0	0	0	1.84325982223878
+miRNA loading onto RISC involved in gene silencing by miRNA	0	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+misfolded or incompletely synthesized protein catabolic process	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+mismatch repair	0	0	19.3567846446907	0	0	0	0	0	0	0	0	0
+mitochondrial ATP synthesis coupled proton transport	0	0	0	0	0	21.4825209948147	0	0	0	0	0	0
+mitochondrial electron transport, ubiquinol to cytochrome c	0	0	0	0	0	0	0	0	0	0	2.51756103252622	0
+mitochondrial fragmentation involved in apoptotic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+mitochondrial fusion	0	0	4.53098475074447	0	0	0	0	0	0	0	2.60770237096548	0
+mitochondrial protein processing	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+mitochondrial translation	0	0	0	0	0	0	2.81600796773486	0	0	0	0	0
+mitochondrial transport	0	0	0	3.24717351028607	0	0	0	0	0	0	0	0
+mitochondrion morphogenesis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+mitotic cell cycle	0	0	15.3887195886754	0	0	0	0	0	0	0	3.12811592480401	3.00158451102945
+mitotic cell cycle arrest	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+mitotic cell cycle checkpoint	0	0	4.76986342818255	0	0	0	0	0	0	0	0	0
+mitotic chromosome condensation	0	0	4.71598148531995	0	0	0	0	0	0	0	0	0
+mitotic G1 DNA damage checkpoint	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+mitotic nuclear division	0	0	5.28436993770014	0	0	0	0	0	0	0	0	0
+mitotic nuclear envelope disassembly	0	0	3.14072577504589	0	0	0	0	0	0	0	0	0
+mitotic nuclear envelope reassembly	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+mitotic sister chromatid cohesion	0	0	3.33555750793029	0	0	0	0	0	0	0	0	0
+mitotic sister chromatid segregation	0	0	2.49257467375441	0	0	0	0	0	0	0	0	0
+mitotic spindle organization	0	0	2.17872055536667	0	0	0	0	0	0	0	0	0
+mRNA 3'-end processing	0	0	0	0	0	0	8.90778244858871	0	0	0	0	0
+mRNA 5'-splice site recognition	0	0	0	0	0	0	2.38467015296544	0	0	0	0	0
+mRNA catabolic process	0	0	0	0	0	0	0	0	0	0	2.5956216639085	0
+mRNA cis splicing, via spliceosome	0	0	0	0	0	0	4.52952506877465	0	0	0	0	0
+mRNA cleavage	0	0	0	0	0	0	3.45740750790333	0	0	0	0	0
+mRNA export from nucleus	0	0	4.96080412168335	0	0	0	11.1212139543288	0	0	0	0	0
+mRNA metabolic process	0	0	3.71962380463762	0	0	0	5.38316323808841	3.53100664448896	0	0	4.32908964001155	2.74365202530803
+mRNA modification	0	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+mRNA polyadenylation	0	0	3.44520917313228	0	0	0	0	0	0	0	0	0
+mRNA processing	0	0	5.78247210444266	0	0	0	5.51011523327798	10.4405765683641	0	0	2.5956216639085	1.86473049732199
+mRNA splice site selection	0	0	0	0	0	0	2.28130775455765	0	0	0	0	0
+mRNA splicing, via spliceosome	0	0	4.53098475074447	0	0	0	13.7617474321045	14.9662800880165	0	0	0	0
+mRNA transport	0	0	5.8494075582455	0	0	0	0	5.2516884471984	0	0	2.5956216639085	0
+multicellular organism growth	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+multicellular organismal aging	0	0	0	0	0	0	0	0	0	0	2.39584622211479	0
+multicellular organismal development	0	0	5.33851991127753	0	2.40350583683833	0	0	0	0	0	0	0
+muscle fiber development	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+muscle organ development	0	0	3.44520917313228	0	0	0	0	0	0	0	0	0
+MyD88-dependent toll-like receptor signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+MyD88-independent toll-like receptor signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+myelination	0	0	9.13973953512929	0	0	0	0	0	0	0	0	0
+myeloid cell homeostasis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+natural killer cell mediated cytotoxicity	0	0	0	0	0	0	0	0	0	0	2.57702186615118	0
+ncRNA metabolic process	0	0	9.41787764602167	0	0	0	5.46596316706769	0	0	0	0	0
+necroptotic process	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+negative regulation of androgen receptor signaling pathway	0	0	3.26573563552187	0	0	0	0	0	0	0	0	0
+negative regulation of apoptotic process	2.97140107212542	0	3.32804317143602	2.07974930151981	2.75201441979168	0	0	5.59145469741958	0	0	2.60770237096548	3.33120291432525
+negative regulation of apoptotic signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+negative regulation of cell adhesion	0	0	0	0	0	0	0	2.11639354683503	0	0	0	0
+negative regulation of cell adhesion involved in substrate-bound cell migration	0	0	0	0	0	2.84714893595463	0	0	0	0	0	0
+negative regulation of cell growth	0	0	0	0	2.40350583683833	0	0	0	0	0	2.53234660719961	0
+negative regulation of cell proliferation	0	2.99488310539523	3.08009452558101	0	2.40350583683833	0	0	0	0	0	0	0
+negative regulation of chromatin binding	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+negative regulation of DNA endoreduplication	0	0	2.17872055536667	0	0	0	0	0	0	0	0	0
+negative regulation of DNA recombination	0	0	6.48248018557805	0	0	0	0	0	0	0	0	0
+negative regulation of DNA replication	0	0	6.78677334708576	0	2.40350583683833	0	0	0	0	0	0	0
+negative regulation of endoplasmic reticulum calcium ion concentration	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+negative regulation of epidermal growth factor receptor signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+negative regulation of fibroblast proliferation	0	0	0	0	2.40350583683833	0	0	0	0	3.5554837873784	2.60770237096548	0
+negative regulation of helicase activity	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+negative regulation of integrin activation	0	0	3.47645961567769	0	0	0	0	0	0	0	0	0
+negative regulation of intracellular estrogen receptor signaling pathway	0	3.3652759138654	0	0	0	0	0	0	0	0	0	0
+negative regulation of intrinsic apoptotic signaling pathway in response to DNA damage	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+negative regulation of macromitophagy	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+negative regulation of mitochondrial RNA catabolic process	0	0	2.49927075027772	0	0	0	0	0	0	0	0	0
+negative regulation of mRNA splicing, via spliceosome	0	0	0	0	0	0	3.21853416651869	0	0	0	0	0
+negative regulation of neuroblast proliferation	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+negative regulation of neuron apoptotic process	0	0	0	0	0	0	0	0	0	0	3.24860267626665	0
+negative regulation of NF-kappaB transcription factor activity	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+negative regulation of peptidyl-serine phosphorylation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+negative regulation of phosphatidylcholine biosynthetic process	3.13183064306573	0	0	0	0	0	0	0	0	0	0	0
+negative regulation of protein binding	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+negative regulation of protein kinase activity by regulation of protein phosphorylation	0	0	0	0	0	0	0	7.74093455636729	0	0	0	0
+negative regulation of protein ubiquitination	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+negative regulation of reactive oxygen species metabolic process	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+negative regulation of transcription from RNA polymerase II promoter	0	3.3652759138654	7.2070476288245	0	3.74329858932363	0	0	0	0	0	0	3.33120291432525
+negative regulation of transcription, DNA-templated	0	5.20327272063309	7.38340039981362	0	2.40350583683833	0	0	0	0	0	0	3.33120291432525
+negative regulation of transforming growth factor beta receptor signaling pathway	0	0	3.0549189033044	0	2.40350583683833	0	0	0	0	3.5554837873784	0	0
+negative regulation of translation	0	0	9.13973953512929	0	0	0	0	5.2516884471984	0	0	0	0
+negative regulation of translational initiation in response to stress	0	0	7.87243092704184	0	0	0	0	0	0	0	0	0
+negative regulation of tyrosine phosphorylation of Stat3 protein	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+negative regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	0	0	0	0	0	0	0	0	0	0	0	2.74365202530803
+negative regulation of viral genome replication	0	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+negative regulation of viral release from host cell	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+negative regulation of viral transcription	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+nerve development	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+nervous system development	0	0	3.11788814864396	0	0	0	0	0	0	0	2.60770237096548	0
+neuromuscular junction development	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+neuron apoptotic process	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+neuron migration	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+neurotrophin TRK receptor signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	2.60770237096548	0
+nitrogen compound metabolic process	0	0	0	0	0	0	0	0	0	0	2.39584622211479	0
+NLS-bearing protein import into nucleus	0	0	0	0	0	0	2.78648084042293	0	0	0	0	5.04062738817854
+Notch signaling pathway	0	0	0	3.35251235421425	2.40350583683833	0	0	0	0	0	0	0
+nuclear pore complex assembly	0	0	2.26349089043913	0	0	0	0	0	0	0	0	0
+nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	0	0	0	0	0	0	13.2570864943976	2.55453072528375	0	0	2.53234660719961	0
+nucleobase-containing compound metabolic process	0	0	2.67694603558496	0	0	0	0	0	0	0	0	0
+nucleobase-containing small molecule interconversion	0	0	2.67694603558496	0	0	0	0	0	0	0	0	0
+nucleobase-containing small molecule metabolic process	0	0	2.67694603558496	0	0	0	0	0	0	0	2.53234660719961	0
+nucleosome assembly	0	0	0	0	0	0	0	0	0	3.44267587344206	0	0
+nucleotide-binding domain, leucine rich repeat containing receptor signaling pathway	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+nucleotide-binding oligomerization domain containing signaling pathway	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+nucleotide-excision repair	0	0	2.47851918653655	0	2.40350583683833	0	0	0	0	0	0	0
+odontogenesis of dentin-containing tooth	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+oligodendrocyte apoptotic process	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+oligodendrocyte development	0	0	9.26870465894043	0	0	0	0	0	0	0	0	0
+oligosaccharide biosynthetic process	0	0	3.53081703866365	0	0	0	0	0	0	0	0	0
+one-carbon metabolic process	0	0	0	0	0	0	0	0	5.07093178339343	0	2.60770237096548	0
+oocyte maturation	0	0	3.44520917313228	0	0	0	0	0	0	0	0	0
+oogenesis	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+osteoblast differentiation	0	0	4.93327440448731	0	0	2.84714893595463	0	0	0	0	0	0
+ovarian follicle development	0	0	5.80521251338328	0	0	0	0	0	0	0	2.60770237096548	0
+oxidation-reduction process	0	0	6.86482295503535	0	0	0	0	0	0	0	7.77404308557657	0
+oxidative phosphorylation	0	0	0	0	0	0	0	0	0	0	2.51756103252622	0
+oxidative stress-induced premature senescence	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+peptide biosynthetic process	0	0	0	0	0	0	3.82831910559853	0	0	0	0	0
+peptidyl-serine phosphorylation	0	0	6.45921281049894	0	0	0	0	0	0	0	0	0
+peptidyl-tyrosine dephosphorylation	0	0	0	0	0	0	0	0	0	0	2.57750702498463	0
+phagosome maturation	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+phosphatidic acid biosynthetic process	3.13183064306573	0	0	0	0	0	0	0	0	0	0	0
+phosphatidylcholine acyl-chain remodeling	4.82216274945214	0	0	0	0	0	0	0	0	0	0	0
+phosphatidylglycerol acyl-chain remodeling	3.13183064306573	0	0	0	0	0	0	0	0	0	0	0
+phosphatidylinositol biosynthetic process	2.96092916493589	0	0	0	0	0	0	0	0	0	0	0
+phosphatidylinositol-mediated signaling	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+phospholipid biosynthetic process	3.13183064306573	0	0	0	0	0	0	0	0	0	0	0
+phospholipid metabolic process	4.70907504493504	0	0	0	0	0	0	0	0	0	0	0
+platelet activation	0	0	0	0	0	0	0	0	0	0	3.42828089875054	0
+poly(A)+ mRNA export from nucleus	0	0	2.69816780448639	0	0	0	0	0	0	0	0	0
+positive regulation by host of viral transcription	0	0	0	0	0	0	0	2.92192543748773	0	0	0	0
+positive regulation of actin filament polymerization	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of apoptotic DNA fragmentation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of apoptotic process	0	0	7.55107316006988	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+positive regulation of apoptotic process involved in mammary gland involution	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of B cell apoptotic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of cardiac muscle cell apoptotic process	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+positive regulation of cell aging	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+positive regulation of cell cycle	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of cell cycle arrest	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+positive regulation of cell growth	3.57672582243612	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of cell migration	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of cell motility	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of cell proliferation	0	0	0	0	0	0	0	0	0	0	2.81655677993691	0
+positive regulation of chaperone-mediated protein complex assembly	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of developmental pigmentation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of DNA damage response, signal transduction by p53 class mediator	0	0	5.33851991127753	0	0	0	0	0	0	0	0	0
+positive regulation of endoplasmic reticulum unfolded protein response	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of extrinsic apoptotic signaling pathway in absence of ligand	0	0	0	0	0	0	0	0	0	0	2.7350467243511	0
+positive regulation of GTPase activity	3.32538739598581	0	30.4654373491914	0	0	0	0	0	0	4.24604787040836	2.57750702498463	0
+positive regulation of helicase activity	0	0	6.48248018557805	0	0	0	0	0	0	0	0	0
+positive regulation of histone deacetylation	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+positive regulation of I-kappaB kinase/NF-kappaB signaling	0	0	3.73237125308692	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of interferon-gamma production	4.03223486651555	0	0	0	0	0	0	0	0	0	0	0
+positive regulation of intrinsic apoptotic signaling pathway	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+positive regulation of memory T cell activation	4.03223486651555	0	0	0	0	0	0	0	0	0	0	0
+positive regulation of mitochondrial membrane permeability	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+positive regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of mRNA 3'-end processing	0	0	0	0	0	0	3.45740750790333	0	0	0	0	0
+positive regulation of neurogenesis	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of neuron apoptotic process	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+positive regulation of neuron differentiation	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of NF-kappaB transcription factor activity	0	0	3.73237125308692	0	0	0	0	0	0	5.08392570581292	0	0
+positive regulation of peptidyl-tyrosine phosphorylation	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+positive regulation of proteasomal ubiquitin-dependent protein catabolic process	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of protein catabolic process	3.13183064306573	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	0	0	0	0	2.40350583683833	0	0	0	0	0	2.31729767450383	0
+positive regulation of protein oligomerization	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+positive regulation of protein secretion	0	0	0	0	0	0	0	0	0	0	2.39584622211479	0
+positive regulation of protein ubiquitination	0	0	9.40966332432696	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of proteolysis	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of Rab GTPase activity	0	0	0	0	0	0	0	0	0	0	3.38190795754512	0
+positive regulation of reactive oxygen species metabolic process	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+positive regulation of release of cytochrome c from mitochondria	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+positive regulation of release of sequestered calcium ion into cytosol	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of sequence-specific DNA binding transcription factor activity	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of signal transduction	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+positive regulation of smooth muscle cell proliferation	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+positive regulation of T cell mediated cytotoxicity	8.46518830755068	0	0	0	0	0	0	0	0	0	0	0
+positive regulation of thymocyte apoptotic process	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+positive regulation of TOR signaling	3.32538739598581	0	0	0	0	0	0	0	0	0	0	0
+positive regulation of transcription from RNA polymerase II promoter	0	3.3652759138654	2.4510679491606	0	3.74329858932363	0	2.78648084042293	2.41316587921729	0	0	0	0
+positive regulation of transcription, DNA-templated	0	0	5.37443938692057	0	2.75201441979168	0	0	3.48561753830838	0	0	0	0
+positive regulation of translation	0	0	0	0	0	0	0	1.82150764635597	0	0	0	0
+positive regulation of translational initiation	0	0	3.52723105761029	0	0	0	0	0	0	0	0	0
+positive regulation of type I interferon production	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+positive regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	0	0	0	0	0	0	0	0	0	0	0	2.74365202530803
+positive regulation of viral genome replication	0	0	0	0	0	0	0	7.74093455636729	0	0	0	0
+positive regulation of viral transcription	0	0	0	0	0	0	4.52952506877465	0	0	3.02211869198932	0	0
+post-embryonic camera-type eye morphogenesis	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+post-translational protein modification	0	0	3.44520917313228	0	0	0	0	0	0	0	3.35309603444215	0
+posttranslational protein targeting to membrane	0	0	0	0	0	0	0	0	0	0	2.39584622211479	0
+posttranslational protein targeting to membrane, translocation	0	0	0	0	0	0	0	0	0	0	2.39584622211479	0
+pre-miRNA processing	0	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+prenylated protein catabolic process	0	0	0	0	0	0	0	0	0	0	2.60567047830939	0
+prolyl-tRNA aminoacylation	0	0	4.87530289323089	0	0	0	0	0	0	0	0	0
+proteasome-mediated ubiquitin-dependent protein catabolic process	0	0	0	0	0	0	0	0	0	3.56626750294125	0	0
+protection from natural killer cell mediated cytotoxicity	4.03223486651555	0	0	0	0	0	0	0	0	0	0	0
+protein autophosphorylation	0	0	8.73779876499902	0	0	0	0	0	0	0	0	0
+protein autoubiquitination	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+protein complex assembly	0	0	12.0021837207151	0	2.40350583683833	0	0	0	0	0	0	3.33120291432525
+protein dephosphorylation	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+protein export from nucleus	0	0	7.98582025287294	0	0	0	0	4.68741797745367	0	0	2.30987510107917	0
+protein folding	0	0	4.47970303604412	2.666179748823	0	0	0	0	0	4.90752477116171	2.78822523665746	0
+protein glycosylation	0	0	5.78247210444266	0	0	0	0	0	0	0	0	0
+protein heterooligomerization	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+protein homooligomerization	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+protein import into nucleus	0	0	4.20964038515169	0	0	0	0	4.68741797745367	0	0	0	0
+protein import into nucleus, translocation	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+protein insertion into mitochondrial membrane involved in apoptotic signaling pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+protein K63-linked ubiquitination	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+protein localization	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+protein localization to kinetochore	0	0	2.51086569585503	0	0	0	0	0	0	0	0	0
+protein localization to nucleus	0	0	3.0549189033044	0	0	0	0	0	0	0	0	0
+protein localization to organelle	0	0	3.48519486789332	0	0	0	0	0	0	0	0	0
+protein maturation	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+protein N-linked glycosylation via asparagine	0	0	4.53098475074447	0	0	0	0	0	0	0	3.24120908949742	0
+protein oligomerization	0	0	3.37246369353976	0	0	0	0	0	0	0	2.81655677993691	0
+protein phosphorylation	0	0	3.36507583236286	0	0	0	0	0	0	0	0	0
+protein polymerization	0	0	0	0	0	0	0	0	0	0	0	1.84325982223878
+protein polyubiquitination	0	0	4.53925871655207	0	0	0	0	3.21778029861999	0	6.91195747092683	0	2.74365202530803
+protein stabilization	0	0	3.48519486789332	0	0	0	0	0	0	0	0	0
+protein targeting to membrane	0	0	0	0	0	0	0	0	0	0	2.39584622211479	0
+protein targeting to mitochondrion	0	0	0	4.11594235953941	0	0	0	0	0	0	2.81655677993691	0
+protein tetramerization	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+protein transport	5.97600047557035	0	8.96048068638668	2.23879857488876	0	0	0	0	0	0	4.39847396273661	0
+protein ubiquitination	0	0	4.53098475074447	0	0	0	0	0	0	5.08392570581292	0	3.33120291432525
+protein ubiquitination involved in ubiquitin-dependent protein catabolic process	0	0	4.60720469337712	0	0	0	0	0	0	3.5554837873784	0	0
+proteolysis	0	0	6.98319994398742	0	0	0	0	0	0	0	2.81655677993691	0
+proton transport	0	0	0	0	0	4.6674087240667	0	0	0	0	0	0
+purine nucleobase biosynthetic process	0	0	0	0	0	0	0	0	0	0	1.98481740015487	0
+purine nucleobase metabolic process	0	0	0	0	0	0	0	0	0	0	1.98481740015487	0
+purine ribonucleoside monophosphate biosynthetic process	0	0	0	0	0	0	0	0	0	0	1.98481740015487	0
+Ras protein signal transduction	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+receptor internalization	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+reciprocal meiotic recombination	0	0	6.48248018557805	0	0	0	0	0	0	0	0	0
+regulation of apoptotic process	0	0	0	0	2.40350583683833	0	0	0	0	0	2.37313118552341	2.74365202530803
+regulation of catalytic activity	0	0	3.67572554455139	0	0	0	0	0	0	0	0	0
+regulation of cell adhesion	0	0	3.47645961567769	0	0	0	0	0	0	0	2.53234660719961	0
+regulation of cell cycle	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+regulation of cell differentiation	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+regulation of cell migration	0	0	3.47645961567769	0	0	0	0	0	0	0	0	0
+regulation of cellular amino acid metabolic process	0	0	0	0	0	0	0	0	0	0	0	2.74365202530803
+regulation of centrosome duplication	0	0	3.0549189033044	0	0	0	0	0	0	0	0	0
+regulation of circadian rhythm	0	0	0	0	0	0	0	1.82150764635597	0	0	0	0
+regulation of cytokine biosynthetic process	0	0	0	0	0	0	0	5.2516884471984	0	0	0	0
+regulation of cytokine-mediated signaling pathway	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+regulation of defense response to virus by virus	5.10500067886024	0	0	0	0	0	0	0	0	0	0	0
+regulation of DNA replication	0	0	2.17872055536667	0	0	0	0	0	0	0	2.53234660719961	0
+regulation of endocytosis	0	0	0	0	0	0	0	0	0	0	2.5956216639085	0
+regulation of exit from mitosis	0	0	2.57301842514675	0	0	0	0	0	0	0	0	0
+regulation of glucocorticoid metabolic process	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+regulation of glucose transport	0	0	2.26349089043913	0	0	0	0	0	0	0	0	0
+regulation of growth	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+regulation of immune response	5.97600047557035	0	0	0	0	0	0	0	0	0	0	0
+regulation of intracellular pH	0	0	0	0	0	2.84714893595463	0	0	0	0	0	0
+regulation of mammary gland epithelial cell proliferation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+regulation of MAPK cascade	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+regulation of miRNA metabolic process	0	0	0	0	0	0	0	0	0	0	2.5956216639085	0
+regulation of mitochondrial membrane permeability	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+regulation of mitochondrial membrane permeability involved in apoptotic process	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+regulation of mitochondrial membrane permeability involved in programmed necrotic cell death	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+regulation of mitochondrial membrane potential	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+regulation of mRNA stability	0	0	0	0	0	0	0	2.87719897009686	0	0	0	0
+regulation of mRNA stability involved in response to stress	0	0	0	0	0	0	0	1.82150764635597	0	0	0	0
+regulation of multicellular organism growth	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+regulation of NF-kappaB import into nucleus	0	0	0	0	0	0	0	0	0	0	2.57702186615118	0
+regulation of nitrogen utilization	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+regulation of protein binding	0	0	5.33851991127753	0	0	0	0	0	0	0	0	0
+regulation of protein catabolic process	0	0	3.0549189033044	0	0	0	0	0	0	0	0	0
+regulation of protein export from nucleus	0	0	3.0549189033044	0	0	0	0	0	0	0	0	0
+regulation of protein heterodimerization activity	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+regulation of protein homodimerization activity	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+regulation of Rab GTPase activity	0	0	0	0	0	0	0	0	0	0	2.57750702498463	0
+regulation of Rap protein signal transduction	0	0	3.47645961567769	0	0	0	0	0	0	0	0	0
+regulation of small GTPase mediated signal transduction	0	0	0	0	0	0	0	0	0	4.24604787040836	0	0
+regulation of steroid biosynthetic process	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+regulation of stress-activated MAPK cascade	0	0	0	0	0	0	0	0	0	0	2.57702186615118	0
+regulation of tissue remodeling	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+regulation of TOR signaling	0	0	3.44520917313228	0	0	0	0	0	0	0	0	0
+regulation of transcription from RNA polymerase II promoter	0	0	2.87400097461293	0	0	0	0	0	0	0	0	0
+regulation of transcription, DNA-templated	0	0	4.6102659064034	0	2.40350583683833	0	2.3681916310664	1.82150764635597	0	3.02211869198932	4.32908964001155	1.86473049732199
+regulation of translation	0	0	3.48519486789332	0	0	0	3.46675116299633	0	0	0	0	0
+regulation of translational fidelity	0	0	5.63477097099874	0	0	0	0	0	0	0	0	0
+regulation of translational initiation	0	0	5.81210571314359	0	0	0	4.52952506877465	0	0	0	0	0
+regulation of type I interferon production	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+regulation of ubiquitin-protein ligase activity involved in mitotic cell cycle	0	0	0	0	0	0	0	0	0	0	0	2.74365202530803
+regulation of Wnt signaling pathway	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+release of cytochrome c from mitochondria	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+release of matrix enzymes from mitochondria	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+removal of superoxide radicals	0	0	0	0	0	0	0	0	0	0	3.24120908949742	0
+renal system development	0	0	0	0	0	0	0	0	0	0	2.39584622211479	0
+replicative senescence	0	0	5.33851991127753	0	2.40350583683833	0	0	0	0	0	0	0
+respiratory electron transport chain	0	0	0	0	0	10.7049580931074	0	0	0	0	4.45885585583456	0
+response to activity	0	0	0	0	0	0	0	0	0	0	2.51756103252622	0
+response to alkaloid	0	0	0	0	0	0	0	0	0	0	2.51756103252622	0
+response to antibiotic	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+response to axon injury	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+response to drug	0	0	10.8536798822777	0	0	0	0	0	0	0	2.57750702498463	0
+response to endoplasmic reticulum stress	0	0	5.33851991127753	3.35251235421425	0	0	0	0	0	0	0	0
+response to estradiol	0	3.3652759138654	0	0	0	0	0	0	0	0	0	0
+response to gamma radiation	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+response to glucose	0	0	11.4682833084944	0	0	0	0	0	0	0	0	0
+response to heat	0	0	21.5719955863299	0	0	0	0	0	0	0	0	0
+response to hypoxia	0	0	0	0	0	0	0	0	0	0	2.81655677993691	0
+response to interferon-alpha	0	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+response to interleukin-1	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+response to ischemia	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+response to lipopolysaccharide	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+response to nutrient	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+response to organic substance	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+response to oxidative stress	0	0	0	0	0	0	0	0	0	0	3.87271149914403	0
+response to peptide hormone	0	0	9.26870465894043	0	0	0	0	0	0	0	0	0
+response to peptidoglycan	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+response to salt stress	0	0	0	0	2.40350583683833	0	0	0	0	0	2.60770237096548	0
+response to toxic substance	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+response to tumor necrosis factor	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+response to UV	0	0	12.8476144430641	0	0	0	3.59355445520035	0	0	3.5554837873784	0	0
+response to virus	0	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+response to X-ray	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+retina development in camera-type eye	3.13183064306573	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+retina homeostasis	0	0	0	0	0	0	0	0	0	0	2.57702186615118	0
+retinal cell apoptotic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+retinal cell programmed cell death	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+retrograde vesicle-mediated transport, Golgi to ER	0	0	5.40323240914153	0	0	0	0	0	0	0	0	0
+ribosomal large subunit export from nucleus	0	0	3.0549189033044	0	0	0	0	0	0	0	0	0
+ribosomal small subunit export from nucleus	0	0	3.0549189033044	0	0	0	0	0	0	0	0	0
+righting reflex	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+RNA catabolic process	0	0	0	0	0	0	0	1.82150764635597	0	0	0	0
+RNA metabolic process	0	0	13.129136562999	0	0	0	5.70413963715286	3.53100664448896	0	0	4.32908964001155	2.74365202530803
+RNA processing	0	0	4.93574366934891	0	0	0	4.94569085800424	3.48561753830838	0	0	0	1.86473049732199
+RNA splicing	0	0	6.94721442584088	0	0	0	12.5124856652814	6.47382487355568	0	0	3.35523307630585	1.86473049732199
+RNA splicing, via transesterification reactions	0	0	0	0	0	0	0	0	0	0	2.5956216639085	0
+rRNA processing	0	0	0	1.95783638427783	0	0	0	0	0	0	0	0
+rRNA transcription	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+S-adenosylhomocysteine catabolic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+S-adenosylmethionine biosynthetic process	0	0	0	0	0	0	0	0	7.99557151666619	0	0	0
+second-messenger-mediated signaling	0	0	0	0	0	0	0	0	0	0	2.53234660719961	0
+Sertoli cell proliferation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+signal transduction	0	0	12.2181335156014	0	0	0	0	0	0	0	3.7502913746923	0
+signal transduction in response to DNA damage	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+sister chromatid cohesion	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+skeletal system development	0	0	0	0	0	0	0	0	0	0	2.57702186615118	0
+small GTPase mediated signal transduction	4.77829176831244	0	0	0	0	0	0	0	0	0	2.30987510107917	0
+small molecule metabolic process	6.26872057195473	0	13.2341133501517	4.36320614138326	2.75201441979168	10.7049580931074	0	0	7.99557151666619	0	8.89177999109582	3.00158451102945
+smoothened signaling pathway	0	0	0	0	0	0	3.59355445520035	0	0	0	0	0
+snRNA export from nucleus	0	0	0	0	0	0	4.18939287528518	0	0	0	0	0
+somatic hypermutation of immunoglobulin genes	0	0	12.8476144430641	0	0	0	0	0	0	0	0	0
+somatic recombination of immunoglobulin gene segments	0	0	6.48248018557805	0	0	0	0	0	0	0	0	0
+somitogenesis	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+sperm motility	0	0	0	0	0	0	0	0	0	0	0	3.33120291432525
+spermatid differentiation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+spermatogenesis	0	0	0	0	0	0	2.81600796773486	0	0	0	0	0
+sphingolipid biosynthetic process	0	0	0	3.43199490088325	0	0	0	0	0	0	0	0
+sphingolipid metabolic process	0	0	0	3.43199490088325	0	0	0	0	0	0	0	0
+spliceosomal complex assembly	0	0	4.51381924441321	0	0	0	0	3.21778029861999	0	0	0	0
+spliceosomal snRNP assembly	0	0	19.7247974698076	0	0	0	5.61869284317891	0	0	0	0	0
+spliceosomal tri-snRNP complex assembly	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+splicing factor protein import into nucleus	0	0	3.52357638082315	0	0	0	0	0	0	0	0	0
+SRP-dependent cotranslational protein targeting to membrane	0	0	0	0	0	0	2.9555570677584	2.55453072528375	0	0	2.60770237096548	0
+stem cell maintenance	0	0	3.0549189033044	0	0	0	0	0	0	0	0	0
+stress-activated MAPK cascade	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+substrate adhesion-dependent cell spreading	0	0	3.47645961567769	0	0	0	0	0	0	0	0	0
+succinate metabolic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+sulfur amino acid metabolic process	0	0	0	0	0	0	0	0	5.07093178339343	0	2.60770237096548	0
+surfactant homeostasis	3.13183064306573	0	0	0	0	0	0	0	0	0	0	0
+T cell costimulation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+T cell differentiation in thymus	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+T cell homeostatic proliferation	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+T cell lineage commitment	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+T cell proliferation involved in immune response	0	0	0	0	2.40350583683833	0	0	0	0	0	0	0
+termination of RNA polymerase II transcription	0	0	0	0	0	0	8.90778244858871	0	0	0	0	0
+thymocyte apoptotic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+tight junction assembly	0	2.99488310539523	0	0	0	0	0	0	0	0	0	0
+toll-like receptor 10 signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+toll-like receptor 2 signaling pathway	0	0	4.76720460880344	0	0	0	0	0	0	0	0	0
+toll-like receptor 3 signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+toll-like receptor 4 signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+toll-like receptor 5 signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+toll-like receptor 9 signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+toll-like receptor signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+toll-like receptor TLR1:TLR2 signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+toll-like receptor TLR6:TLR2 signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+transcription elongation from RNA polymerase II promoter	0	0	0	0	0	0	4.52952506877465	0	0	3.02211869198932	0	0
+transcription from RNA polymerase II promoter	0	0	0	0	0	0	8.90778244858871	0	0	3.02211869198932	0	0
+transcription from RNA polymerase III promoter	0	0	0	0	0	0	3.59355445520035	0	0	0	0	0
+transcription, DNA-templated	0	0	6.31506274011267	0	0	0	2.38467015296544	2.8588131724666	0	0	3.24860267626665	3.43911856481625
+transferrin transport	0	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+transformed cell apoptotic process	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+transforming growth factor beta receptor signaling pathway	0	0	3.0549189033044	0	2.40350583683833	0	0	0	0	3.5554837873784	0	0
+translation	0	0	13.894393221338	0	0	0	18.6303338677041	4.68741797745367	0	3.5554837873784	0	3.33120291432525
+translational elongation	0	0	0	0	0	0	0	2.55453072528375	0	0	0	0
+translational initiation	0	0	18.4513777320797	0	0	0	0	2.55453072528375	0	0	0	3.89829261256795
+translational termination	0	0	0	0	0	0	0	2.55453072528375	0	0	0	0
+transmembrane receptor protein serine/threonine kinase signaling pathway	0	0	2.4510679491606	0	0	0	0	0	0	0	0	0
+transmembrane transport	5.34258910709045	0	5.78247210444266	0	0	0	0	0	0	0	0	0
+transport	4.82216274945214	0	4.53098475074447	0	0	0	0	0	0	0	0	0
+tricarboxylic acid cycle	0	0	0	0	0	0	0	0	0	0	4.39847396273661	0
+TRIF-dependent toll-like receptor signaling pathway	0	0	3.32804317143602	0	0	0	0	0	0	0	0	0
+triglyceride biosynthetic process	4.70907504493504	0	0	0	0	0	0	0	0	0	0	0
+tRNA aminoacylation for protein translation	0	0	20.4781297710993	0	0	0	3.59355445520035	0	0	0	0	0
+tRNA splicing, via endonucleolytic cleavage and ligation	0	0	0	0	0	0	0	2.58671745373778	0	0	0	0
+tryptophan metabolic process	0	0	3.44791274526107	0	0	0	0	0	0	0	0	0
+type I interferon signaling pathway	5.97600047557035	0	0	0	0	0	0	4.68741797745367	0	0	0	0
+ubiquitin-dependent protein catabolic process	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+ubiquitin-dependent protein catabolic process via the multivesicular body sorting pathway	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+ubiquitin-dependent SMAD protein catabolic process	0	0	0	0	0	0	0	0	0	3.5554837873784	0	0
+vagina development	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+vesicle-mediated transport	3.66469583257818	0	6.4739161977168	0	0	0	0	0	0	0	0	0
+viral entry into host cell	0	0	0	0	0	0	0	0	0	0	0	3.33120291432525
+viral life cycle	0	0	3.0549189033044	0	0	0	0	2.55453072528375	0	0	2.60770237096548	0
+viral mRNA export from host cell nucleus	0	0	4.96080412168335	0	0	0	0	0	0	0	0	0
+viral penetration into host nucleus	0	0	0	0	0	0	0	0	0	0	0	3.33120291432525
+viral process	9.50406618790805	0	11.173247276744	0	2.40350583683833	0	4.52952506877465	4.1554463788846	0	3.5554837873784	6.318554922937	2.74365202530803
+viral protein processing	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+viral transcription	0	0	0	0	0	0	0	2.55453072528375	0	0	0	0
+virion assembly	0	0	0	0	0	0	0	0	0	0	2.60770237096548	0
+visual perception	0	0	3.41720085459242	0	0	0	0	0	0	0	0	0
+vitamin E biosynthetic process	0	0	0	0	0	0	0	0	0	0	0	3.33120291432525
+Wnt signaling pathway	0	2.99488310539523	0	0	0	0	0	0	0	0	0	0
+xenobiotic metabolic process	0	0	0	0	0	0	0	0	5.07093178339343	0	2.60770237096548	0

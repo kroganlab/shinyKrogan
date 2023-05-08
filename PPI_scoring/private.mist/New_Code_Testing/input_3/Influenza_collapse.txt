@@ -1,0 +1,15 @@
+none	negative
+vector	negative
+Vector	negative
+Vector_IFN	negative
+M1_IFN	M1
+M2_IFN	M2
+NEP_IFN	NEP
+PB1F2_IFN	PB1F2
+NS1_IFN	NS1
+PB1_IFN	PB1
+PB2_IFN	PB2
+HA_IFN	HA
+NP_IFN	NP
+PA_IFN	PA
+NAp_IFN	NAp

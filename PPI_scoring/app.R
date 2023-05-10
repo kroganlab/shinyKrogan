@@ -218,7 +218,7 @@ ui <- fluidPage(
             checkboxInput("qc_extend", "QC Extend", FALSE),
             
             # Button
-            downloadButton("downloadqc", "Download QC"), 
+            downloadButton("downloadqc", "Run and Download QC"), 
             
             # Horizontal line ----
             tags$hr(),
@@ -235,6 +235,14 @@ ui <- fluidPage(
             # Button
             downloadButton("downloadppi", "Download PPI"), 
             
+            p(strong("RawFile"), ": The name of the RAW-file for which the mass spectral data was derived from."), 
+            p(strong("IsotopeLabelType"), ": 'L' for label free experiments ('H' will be used for SILAC experiments)"), 
+            p(strong("Condition"), ": The conditions names must follow these rules:"), 
+            p("\t Use only letters (A - Z, both uppercase and lowercase) and numbers (0 - 9). The only special character allowed is underscore (_)."), 
+            p("\t Very important: A condition name cannot begin with a number (R limitation)."), 
+            p(strong("BioReplicate"), ": biological replicate number. It is based on the condition name. Use as prefix the corresponding Condition name, and add as suffix dash (-) plus the biological replicate number. For example, if condition H1N1_06H has too biological replicates, name them H1N1_06H-1 and H1N1_06H-2"), 
+            p(strong("Run"), ": a unique number for all the MS runs (from 1 to the total number of raw files). It will be especially useful when having technical replicates. For example, in the table below, there are 2 technical replicates of the same biological replicate (Cal_33-1, technical replicates 1 and 2). A special case is SILAC experiments (H and L label are run simultaneously)"), 
+            img(src = "keys_sample.png", height = 130, width = 380)
         ),
         
         # Main panel for displaying outputs ----

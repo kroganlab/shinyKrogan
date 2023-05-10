@@ -1,0 +1,54 @@
+---
+title: "Add Sites to Phospho Data"
+output: html_notebook
+---
+
+##### This Notebook is written to parse phosphorylation substrate residues and positions from a spectronaut output and corresponding fasta file and to rewrite this information with the spectronaut data for use with MS Stats
+
+To run, change file locations on lines 30-32 and potentially bp_utils file location on line 18. Make sure your version of the "LocatePeptidePtmInProteins.R" script in bp_utils is from Feb 2023 or newer. 
+
+
+```{r, Dependencies}
+library (data.table)
+rotate.x.axis.text <- theme(axis.text.x = element_text(angle = 90))
+library (magrittr)
+
+# Change filepath below to location of bp_utils folder
+# "~bp_utils\\" will work if this notebook is in the same directory as bp_utils folder-- IF YOU'RE ON MAC, make sure to use "/" file separator, not "\\"
+utils <- "~bp_utils\\"
+source(paste0(utils,"ManageScriptData.R"))
+WriteSessionInfo()
+WriteInstalledPackages()
+
+```
+
+
+##### Name Input and Output Files Here
+
+```{r, Params}
+
+specOutFile <-  ""    # Spectronaut output
+fastaFile <- ""       # fasta file 
+outputFile <- ""      # output file with site information
+
+```
+
+
+```{r, Locate Sites}
+
+specFile <- fread(specOutFile)
+specFile[, ProteinName := gsub(">","",ProteinName)]
+fwrite(specFile,specOutFile)
+
+source (paste0(utils,"LocatePeptidePtmInProteins.R"))
+
+sitifyProteins_SpectronautFile(spec = specFile, fastaFile = fastaFile) # this changes the spec table, no need to catch the return value
+
+# peptides without phospho as well as proteins that are not in FASTA will get an NA in oldProteinName (because their proteinName is not changed)
+# I could handle this better, but this is what you get for now.
+# Best to exclude these
+spec <- spec[!is.na(spec$oldProteinName)]
+
+fwrite(spec, outputFile)
+
+```

@@ -30,4 +30,4 @@ Link to app server: http://higgs2.ucsf.edu:3838/yzhou5/R_shiny_for_PPI/PPI_scori
 This app is for generating artMS quality control figures for AP-MS data, and calculating SAINT, MIST, and CompPASS scores. Figures and the updated data file can be downloaded as zipped .PDF and .txt files, respectively. *To remove a run from the analysis, delete the row with it's rawfile and condition names from the keys.txt file.*
 - Requires evidence.txt, keys.txt, and the .fasta file from MaxQuant. 
 - For examples of properly formatted evidence, keys, and fasta files, see [sample_data](https://github.com/kroganlab/shinyKrogan/blob/main/PPI_scoring/sample_data) in shinyKrogan/PPI_scoring. 
-- For more information on how to use the PPI data scoring app, see the [slide presentation](https://github.com/kroganlab/shinyKrogan/blob/main/PPI_scoring/PPI%20scoring.pptx) in shinyKrogan/Documentation.
+- For more information on how to use the PPI data scoring app, see the [slide presentation](https://github.com/kroganlab/shinyKrogan/blob/main/PPI_scoring/PPI%20scoring.pdf) in shinyKrogan/Documentation.

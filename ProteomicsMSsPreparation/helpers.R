@@ -75,9 +75,3 @@ makePdf <- function(x, file, dimensions = NULL){
 }
 
 
-### Scratch Space to format sample data 
-#results <- fread("sample_data\\2022_12_27_Sample_Phospho_ProteinLevelData.csv")
-#results[, GROUP := moreGsub(c("_A549", "MOI5", "USA", "Mock", "_2h", "_6h"), c("", "", "", "Ctl", "_02h", "_06h" ), results$GROUP) ]
-#results[, SUBJECT := paste0(GROUP, ".", SUBJECT) ]
-#results <- results[!grepl("THP1", GROUP)]
-#fwrite( results,"sample_data\\2022_12_27_Sample_Phospho_ProteinLevelData.csv.gz" )

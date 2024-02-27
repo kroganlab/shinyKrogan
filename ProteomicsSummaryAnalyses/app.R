@@ -150,7 +150,7 @@ server <- function(input, output) {
       if (input$loadSampleData == 0){
         NULL
       } else{
-        list(datapath = "./sample_data/2022_12_27_Sample_Phospho_GroupComparisonResult.csv", name = "2022_12_17_Sample Phospho ")
+        list(datapath = "./sample_data/Phospho_GroupComparisonResult.csv", name = "Sample Phospho ")
       }
     } else {
       input$results
@@ -162,7 +162,7 @@ server <- function(input, output) {
       if (input$loadSampleData == 0){
         NULL
       } else{
-        list(datapath = "./sample_data/2022_12_27_Sample_Phospho_ProteinLevelData.csv.gz", name = "2022_12_17_Sample Phospho ")
+        list(datapath = "./sample_data/Phospho_ProteinLevelData.csv", name = "Sample Phospho ")
       }
     } else {
       input$intensities
@@ -276,9 +276,9 @@ server <- function(input, output) {
       temp_directory <- file.path(tempdir(), as.integer(Sys.time()))
       dir.create(temp_directory)
       
-      write.csv(fread("./sample_data/2022_12_27_Sample_Phospho_ProteinLevelData.csv.gz"),
+      write.csv(fread("./sample_data/Phospho_ProteinLevelData.csv"),
                 file.path(temp_directory, "Sample_Phospho_ProteinLevelData.csv"))
-      write.csv(fread("./sample_data/2022_12_27_Sample_Phospho_GroupComparisonResult.csv"),
+      write.csv(fread("./sample_data/Phospho_GroupComparisonResult.csv"),
                 file.path(temp_directory, "Sample_Phospho_GroupComparisonResult.csv"))
       
       zip::zip(

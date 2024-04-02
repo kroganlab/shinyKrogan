@@ -448,8 +448,8 @@ server <- function(input, output, session) {
       {
         interactions=read.table(file=paste(tempdirectory(), "/msspc/spectral_counts-saint-interactions.txt", sep = ""), header=F,sep="\t",stringsAsFactors = F)
       }else{
-        dir.create("msspc")
-        setwd("msspc")
+        # dir.create("msspc")
+        # setwd("msspc")
         SAINTexpress_spc()
         interactions=read.table(file=paste(tempdirectory(), "/spectral_counts-saint-interactions.txt", sep = ""), header=F,sep="\t",stringsAsFactors = F)
       }
